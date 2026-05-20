@@ -507,25 +507,19 @@ export default function AccountDetail({ account, onClose }) {
             <div className="glean-shortcuts">
               <div className="glean-shortcuts-label">Quick searches</div>
               {[
-                { label: "Gong calls", query: `${name} app:gong` },
-                { label: "Google Drive docs", query: `${name} app:gdrive` },
-                { label: "Salesforce record", query: `${name} app:salescloud` },
-                { label: "Slack mentions", query: `${name} app:slack` },
-                { label: "Emails", query: `${name} app:gmailnative` },
+                { label: "📞 Gong calls", url: `https://cresta-prod-be.glean.com/search?q=${encodeURIComponent(glean_query || name)}&app=gong` },
+                { label: "📁 Google Drive docs", url: `https://cresta-prod-be.glean.com/search?q=${encodeURIComponent(glean_query || name)}&app=gdrive` },
+                { label: "☁️ Salesforce record", url: sfdc },
+                { label: "💬 Slack mentions", url: `https://cresta-prod-be.glean.com/search?q=${encodeURIComponent(glean_query || name)}&app=slack` },
+                { label: "✉️ Emails", url: `https://cresta-prod-be.glean.com/search?q=${encodeURIComponent(glean_query || name)}&app=gmailnative` },
               ].map((s, i) => (
-                <a
-                  key={i}
-                  href={`https://cresta-prod-be.glean.com/search?q=${encodeURIComponent(s.query)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="glean-shortcut"
-                >
+                <a key={i} href={s.url} target="_blank" rel="noopener noreferrer" className="glean-shortcut">
                   {s.label} ↗
                 </a>
               ))}
             </div>
             <div className="glean-note">
-              💡 Glean requires you to be logged in. Opens in a new tab.
+              💡 Glean requires you to be logged in with your Cresta account. Opens in a new tab.
             </div>
           </div>
         )}
