@@ -103,27 +103,20 @@ Keep responses concise — 3-5 sentences max unless a detailed breakdown is requ
     setLoading(true);
 
     try {
-      const response = await fetch("https://api.anthropic.com/v1/messages", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          model: "claude-sonnet-4-20250514",
-          max_tokens: 1000,
-          system: systemPrompt,
-          messages: [
-            ...messages.filter(m => m.role !== "assistant" || messages.indexOf(m) > 0).map(m => ({
-              role: m.role,
-              content: m.content
-            })),
-            { role: "user", content: userMsg }
-          ]
-        })
-      });
-      const data = await response.json();
-      const reply = data.content?.[0]?.text || "Sorry, I couldn't get a response.";
+      // Territory AI requires a backend API key.
+      // For now, show a helpful prompt to use Claude directly.
+      const context = accounts.map(a =>
+        `${a.name} (${a.priority}-priority, ${a.status}): ${a.quick_context} Next step: ${a.next_step}`
+      ).join('\n\n');
+
+      const claudeUrl = `https://claude.ai/new?q=${encodeURIComponent(
+        `You are a territory intelligence assistant for Marcus Nolan, Enterprise AE at Cresta.\n\nHere is his EMEA territory summary:\n\n${context}\n\nQuestion: ${userMsg}`
+      )}`;
+
+      const reply = `**Open this in Claude to get your answer:**\n\n[Click here to ask Claude →](${claudeUrl})\n\n*(Territory AI direct integration coming soon — for now this opens Claude with your full territory context pre-loaded)*`;
       setMessages(prev => [...prev, { role: "assistant", content: reply }]);
     } catch (err) {
-      setMessages(prev => [...prev, { role: "assistant", content: "Error connecting to AI. Please try again." }]);
+      setMessages(prev => [...prev, { role: "assistant", content: "Something went wrong. Please try again." }]);
     } finally {
       setLoading(false);
     }
