@@ -293,7 +293,97 @@
             "note": "Lower-commitment first step."
           }
         ]
-      }
+      },
+      "deal_stage": "Demo Done",
+      "key_quote": "\"12M contacts a year across the group. We're moving into the final year of our three-year strategy. We need to make sure tools align with that before we rush into anything.\" \u2014 Kieran McLoughlin, Apr '26 demo",
+      "glean_query": "Sainsburys",
+      "content": [
+        {
+          "title": "Sainsbury's Drive Folder",
+          "url": "https://drive.google.com/drive/folders/1cJXOtJGytz0qUNfGfvqnaQ7ozHXlYUvp",
+          "type": "folder",
+          "date": "2026-03-19",
+          "owner": "Chris Hudson"
+        },
+        {
+          "title": "Cresta | Sainsbury's \u2014 Demo Deck 16/04/2026",
+          "url": "https://docs.google.com/presentation/d/1qf3cWomVjXXAhGQaiBpDR-c7f5FdKrR9QlGfJdlnBHo",
+          "type": "slides",
+          "date": "2026-04-16",
+          "owner": "Marcus Nolan"
+        },
+        {
+          "title": "Sainsbury's Discovery \u2013 Lessons from Woolworths",
+          "url": "https://docs.google.com/document/d/1SbwI2TpVnEKx8NfFHUesox-nQFIdyFcuVgRX2niEsiA",
+          "type": "doc",
+          "date": "2026-04-14",
+          "owner": "Joe Widing"
+        },
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        },
+        {
+          "title": "Marcus EMEA Pipeline May 2026",
+          "url": "https://docs.google.com/presentation/d/1ww4ZxldWZm9POfvNdvXO4ddOgciOzmq9rlLqH39NhJg",
+          "type": "slides",
+          "date": "2026-05-18",
+          "owner": "Marcus Nolan"
+        },
+        {
+          "title": "Pod Meeting Notes 18 May 2026",
+          "url": "https://docs.google.com/document/d/1LHwQhn7-Rj3wnDfbDZ-6MmKOEXjW_UjQm_j8Kjvf6hc",
+          "type": "doc",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [
+        {
+          "action": "Book Sainsbury's ops team demo with Kieran McLoughlin",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        },
+        {
+          "action": "Send demo brief to Amy + Hala tonight",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        },
+        {
+          "action": "Send Woolworths AU case study to Kieran (awaiting AU sign-off \u2014 union involvement)",
+          "owner": "Alan Ranger",
+          "priority": "HIGH"
+        }
+      ],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        },
+        {
+          "name": "Mark Meghezzi",
+          "role": "Head of EMEA"
+        },
+        {
+          "name": "Hala Agha",
+          "role": "SE"
+        },
+        {
+          "name": "Amy Koh",
+          "role": "SE"
+        },
+        {
+          "name": "Wes Zekari",
+          "role": "SDR"
+        },
+        {
+          "name": "Joe Widing",
+          "role": "Discovery doc author"
+        }
+      ]
     },
     {
       "id": "hargreaves-lansdown",
@@ -576,7 +666,68 @@
             "note": "'I've had good conversations with Charlie Peters and Matthew Streatfield \u2014 I think this is relevant for your CX agenda too.'"
           }
         ]
-      }
+      },
+      "deal_stage": "Discovery",
+      "key_quote": "\"Developing something in-house but it's really interesting \u2014 send me something on email.\" \u2014 Matthew Streatfield, Head of Retention, Apr '26",
+      "glean_query": "Hargreaves Lansdown",
+      "content": [
+        {
+          "title": "Cresta Introduction \u2014 Hargreaves Lansdown",
+          "url": "https://docs.google.com/presentation/d/1HHH6ofQOt1I6AkZQETbrDYNbjbhD2cfPymmW2L9x4Pc",
+          "type": "slides",
+          "date": "2026-04-29",
+          "owner": "Marcus Nolan"
+        },
+        {
+          "title": "HL POV Slide",
+          "url": "https://docs.google.com/presentation/d/1RXKFE2blNefqZqQvel9pi7isusPpWXB2AXsMI8jxxHw",
+          "type": "slides",
+          "date": "2026-04-29",
+          "owner": "Marcus Nolan"
+        },
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [
+        {
+          "action": "Email Charlie Peters \u2014 reference Loberman, FCA Consumer Duty + Forrester Wave vs Agentforce",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        },
+        {
+          "action": "Confirm Matthew Streatfield meeting \u2014 is it still valid post w/c 21 Apr?",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        },
+        {
+          "action": "Connect Ioan Macrae (Sabio/CVC) for HL warm intro",
+          "owner": "Marcus",
+          "priority": "MEDIUM"
+        }
+      ],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        },
+        {
+          "name": "Mark Meghezzi",
+          "role": "Head of EMEA"
+        },
+        {
+          "name": "Haroldas Muralis",
+          "role": "SDR"
+        },
+        {
+          "name": "Ashley Williamson",
+          "role": "Strategic Sales \u2014 introduced Ioan Macrae"
+        }
+      ]
     },
     {
       "id": "hastings-direct",
@@ -799,7 +950,48 @@
             "note": "Different frame \u2014 not a sales call."
           }
         ]
-      }
+      },
+      "deal_stage": "Prospecting",
+      "key_quote": "\"Not right now if that's okay.\" \u2014 Levi Rhodes Suleman, Head of Operational Excellence, Mar '26",
+      "glean_query": "Hastings Direct",
+      "content": [
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        },
+        {
+          "title": "Marcus EMEA Pipeline May 2026",
+          "url": "https://docs.google.com/presentation/d/1ww4ZxldWZm9POfvNdvXO4ddOgciOzmq9rlLqH39NhJg",
+          "type": "slides",
+          "date": "2026-05-18",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [
+        {
+          "action": "LinkedIn research \u2014 identify COO or Head of Customer Operations",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        },
+        {
+          "action": "Cold email to COO once identified \u2014 FCA Consumer Duty + Genesys framing",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        }
+      ],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        },
+        {
+          "name": "Haroldas Muralis",
+          "role": "SDR"
+        }
+      ]
     },
     {
       "id": "hyperoptic",
@@ -1027,7 +1219,41 @@
             "note": "Operational angle: 'With Openreach going live, I'd love to share how Cox handled similar CC scaling challenges.'"
           }
         ]
-      }
+      },
+      "deal_stage": "Prospecting",
+      "key_quote": "\"I'm not interested.\" \u2014 Nadezda Radojcic, Jan '26 (wrong contact \u2014 Emma Dark not yet reached)",
+      "glean_query": "Hyperoptic",
+      "content": [
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [
+        {
+          "action": "Send Challenger email to Emma Dark \u2014 Trustpilot consistency gap + Openreach scaling",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        },
+        {
+          "action": "Attach Cox Communications case study \u2014 no deck",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        }
+      ],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        },
+        {
+          "name": "Haroldas Muralis",
+          "role": "SDR"
+        }
+      ]
     },
     {
       "id": "aib",
@@ -1221,7 +1447,36 @@
             "note": "NPS/CX growth angle."
           }
         ]
-      }
+      },
+      "deal_stage": "Prospecting",
+      "key_quote": "\"Launched Abi, our new AI digital assistant, in our contact centre assisting >130,000 customers to self-serve.\" \u2014 AIB FY24 Annual Report",
+      "glean_query": "AIB",
+      "content": [
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [
+        {
+          "action": "Email Niamh Phillips (COO) \u2014 Irish peer tone, Abi handoff question, CBI compliance",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        }
+      ],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        },
+        {
+          "name": "Haroldas Muralis",
+          "role": "SDR"
+        }
+      ]
     },
     {
       "id": "n-brown",
@@ -1461,7 +1716,52 @@
             "note": "'I've been working with Chris and Simon \u2014 would love to share the FS Consumer Duty angle.'"
           }
         ]
-      }
+      },
+      "deal_stage": "Closing Out",
+      "key_quote": "\"For today \u2014 which is the burning priority: resolving without a human (AI Agent) or helping the human when they are on call (Assist)?\" \u2014 Hala Agha, Apr '26 demo",
+      "glean_query": "N Brown",
+      "content": [
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        },
+        {
+          "title": "Marcus EMEA Pipeline May 2026",
+          "url": "https://docs.google.com/presentation/d/1ww4ZxldWZm9POfvNdvXO4ddOgciOzmq9rlLqH39NhJg",
+          "type": "slides",
+          "date": "2026-05-18",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [
+        {
+          "action": "\u26a0\ufe0f CONSIDER CLOSING: Pod meeting May 18 flagged \"wrong team \u2014 web/digital, not CC.\" Confirm with Mark before investing more time.",
+          "owner": "Marcus + Mark",
+          "priority": "HIGH"
+        },
+        {
+          "action": "If not closing: send JD Sports + Cox case studies to Chris Byron \u2014 weeks overdue",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        }
+      ],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        },
+        {
+          "name": "Hala Agha",
+          "role": "SE"
+        },
+        {
+          "name": "Amy Koh",
+          "role": "SE"
+        }
+      ]
     },
     {
       "id": "fbd-insurance",
@@ -1560,7 +1860,7 @@
       "champions": "Brian Goddard \u2605\u2605 (telephony, attended May 6, asked sharp questions on Cisco WebEx, call routing, vulnerable customer detection) \u00b7 Deborah McCormack \u2605 \u00b7 Linda Heduvan \u2605 \u00b7 Paula Maguire \u2605 \u00b7 Paul Murphy \u2605\u2605 (economic buyer \u2014 missed demo but received personal catchup from Marcus)",
       "blockers": "CBI governance = procurement scrutiny. No CCaaS confirmed \u2014 may complicate integration story. Economic buyer above demo attendees not yet identified.",
       "cc_footprint": "FBD direct insurer = meaningful CC for farm, motor, property claims and policy queries. Specialist farm/rural knowledge = high agent burden.",
-      "regulatory_signals": "No known CBI enforcement actions. CBI Consumer Protection Code applies.",
+      "regulatory_signals": "No known CBI enforcement actions against FBD. CBI Consumer Protection Code applies. 2-minute wrap time is a confirmed pain point \u2014 agents spending excessive post-call time on admin (source: FBD demo notes, May '26).",
       "competitors": "Microsoft Copilot for CC (given Microsoft-first stack).",
       "why_cresta_wins": "Microsoft-first stack = Azure compatible. CEO's AIB background = seen CC AI done well. Mutual of Omaha (insurance CC, 33% uplift, QA -50%) = closest analogue.",
       "gong_history": [
@@ -1620,7 +1920,61 @@
       ],
       "best_case_study": "\u2605\u2605\u2605 Mutual of Omaha \u2014 insurance CC, 33% premium uplift, QA cost -50%.\n\u2605\u2605 Oportun \u2014 50% QM workload reduction, 100% QA coverage (already in FBD deck).",
       "narrative": "FBD's CEO comes from AIB. The demo is done. The deck is built. This is post-demo follow-up \u2014 identify the economic buyer, send Mutual of Omaha, understand the decision process.",
-      "outreach_angle": "Follow up on demo: 'Brian, Deborah, Linda \u2014 attaching the Mutual of Omaha case study. Two questions: What resonated most from last week? What does the decision process look like from here?'"
+      "outreach_angle": "Follow up on demo: 'Brian, Deborah, Linda \u2014 attaching the Mutual of Omaha case study. Two questions: What resonated most from last week? What does the decision process look like from here?'",
+      "deal_stage": "Demo Done",
+      "key_quote": "\"That's very impressive.\" \u2014 Deborah McCormack, May 6 '26 demo (on auto-summarisation)",
+      "glean_query": "FBD Insurance",
+      "content": [
+        {
+          "title": "Marcus EMEA Pipeline May 2026",
+          "url": "https://docs.google.com/presentation/d/1ww4ZxldWZm9POfvNdvXO4ddOgciOzmq9rlLqH39NhJg",
+          "type": "slides",
+          "date": "2026-05-18",
+          "owner": "Marcus Nolan"
+        },
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [
+        {
+          "action": "CALL Paul Murphy TOMORROW \u2014 not email. \"Paul, I know you missed the 6th. I want 10 minutes to understand how this fits FBD's H2 priorities.\"",
+          "owner": "Marcus",
+          "priority": "URGENT"
+        },
+        {
+          "action": "11 days silence since May 7 follow-up emails \u2014 both group email and Paul direct email unanswered",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        },
+        {
+          "action": "Propose deeper Agent Assist + Opera session + technical scoping call with Brian + Mullingar on-site",
+          "owner": "Marcus",
+          "priority": "MEDIUM"
+        }
+      ],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        },
+        {
+          "name": "Amy Koh",
+          "role": "SE"
+        },
+        {
+          "name": "Hala Agha",
+          "role": "SE"
+        },
+        {
+          "name": "Jessie Morkel",
+          "role": "Conversational assessment \u2014 assigned"
+        }
+      ]
     },
     {
       "id": "saga",
@@ -1736,7 +2090,32 @@
       ],
       "best_case_study": "\u2605\u2605\u2605 Mutual of Omaha \u2014 insurance CC, 33% uplift, ramp reduction, QA -50%.\n\u2605\u2605 AAA Life Insurance \u2014 over-50s adjacent, coaching + compliance.",
       "narrative": "Qfiniti gives Saga post-call analytics. Cresta adds the live coaching layer and 100% QM Qfiniti cannot deliver. For an over-50s insurer where trust defines the brand, agent consistency on every call is non-negotiable.",
-      "outreach_angle": "'Lean Six Sigma tells you what happened after the fact. What if you could optimise the conversation in the moment \u2014 for every agent, every call, every Saga brand? Qfiniti tells you what happened. Cresta changes what happens.'"
+      "outreach_angle": "'Lean Six Sigma tells you what happened after the fact. What if you could optimise the conversation in the moment \u2014 for every agent, every call, every Saga brand? Qfiniti tells you what happened. Cresta changes what happens.'",
+      "deal_stage": "Prospecting",
+      "key_quote": "Kate Taphouse gave Marcus candid intel: \"when itineraries changed at speed, there was no mechanism to...\" \u2014 used in Apr 29 cold email to Nigel Blanks",
+      "glean_query": "Saga",
+      "content": [
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [
+        {
+          "action": "No reply from Nigel Blanks to either email (Apr 29 + May 20) \u2014 try phone call",
+          "owner": "Marcus",
+          "priority": "MEDIUM"
+        }
+      ],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        }
+      ]
     },
     {
       "id": "uk-power-networks",
@@ -1912,7 +2291,77 @@
       ],
       "best_case_study": "\u2605\u2605 Utilita Energy (utilities CC) \u00b7 Cox Communications (CC modernisation at scale).",
       "narrative": "UKPN handles the UK's most stressful CC calls \u2014 power outages. Suleman Alli said 'this is an interesting area for us' and offered to have his Head of CS call back. That warm signal needs AE follow-through. Coordinate with Joe first, then email Matthew Webb (new CIO).",
-      "outreach_angle": "'Your agents navigate Salesforce, SAP, and Sage on every call \u2014 at exactly the moment a customer is in the dark (literally). Cresta consolidates all that context onto one screen and ensures Ofgem-compliant QM on 100% of interactions. Suleman Alli suggested I reach out.'"
+      "outreach_angle": "'Your agents navigate Salesforce, SAP, and Sage on every call \u2014 at exactly the moment a customer is in the dark (literally). Cresta consolidates all that context onto one screen and ensures Ofgem-compliant QM on 100% of interactions. Suleman Alli suggested I reach out.'",
+      "deal_stage": "Demo Booked",
+      "key_quote": "\"Only I will be in London and I don't want my guys to travel down for one meeting. So Teams would be better as it stands.\" \u2014 Alex Williams, Head of Customer Contact Centre, May 19 '26",
+      "glean_query": "UK Power Networks",
+      "content": [
+        {
+          "title": "Marcus EMEA Pipeline May 2026",
+          "url": "https://docs.google.com/presentation/d/1ww4ZxldWZm9POfvNdvXO4ddOgciOzmq9rlLqH39NhJg",
+          "type": "slides",
+          "date": "2026-05-18",
+          "owner": "Marcus Nolan"
+        },
+        {
+          "title": "Pod Meeting Notes 18 May 2026",
+          "url": "https://docs.google.com/document/d/1LHwQhn7-Rj3wnDfbDZ-6MmKOEXjW_UjQm_j8Kjvf6hc",
+          "type": "doc",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        },
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [
+        {
+          "action": "DEMO CONFIRMED \u2014 June 3 Teams with Alex Williams, Jenny Carter, Clive Patmore + Amy Koh SE",
+          "owner": "Marcus + Amy",
+          "priority": "URGENT"
+        },
+        {
+          "action": "Send case study pre-reads: United Airlines (misdirected contacts), Alaska Airlines (storm-day), Brinks Home (on-premise)",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        },
+        {
+          "action": "Prep with Amy Koh \u2014 utility/energy context (flagged in pod meeting)",
+          "owner": "Marcus + Amy",
+          "priority": "HIGH"
+        },
+        {
+          "action": "NOTE: Marcus owns UKPN only. Joe owns rest of hierarchy \u2014 coordinate before expanding contacts.",
+          "owner": "Marcus",
+          "priority": "MEDIUM"
+        }
+      ],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        },
+        {
+          "name": "Amy Koh",
+          "role": "SE"
+        },
+        {
+          "name": "Mark Meghezzi",
+          "role": "Head of EMEA (offered to join in-person)"
+        },
+        {
+          "name": "Josh Levin",
+          "role": "Head of Product (offered for in-person \u2014 Alex declined)"
+        },
+        {
+          "name": "Haroldas Muralis",
+          "role": "SDR"
+        }
+      ]
     },
     {
       "id": "asda",
@@ -2020,7 +2469,43 @@
       ],
       "best_case_study": "\u2605\u2605 Cox Communications (large-scale CC modernisation) \u00b7 Sainsbury's (multi-brand retail).",
       "narrative": "Asda's new CIO comes from Microsoft and Barclays. He's seen AI CC done well and done badly. Cresta makes Oracle + Salesforce dramatically more valuable without replacing either.",
-      "outreach_angle": "'You've seen AI contact centre done at scale \u2014 at Microsoft and at Barclays. Here's what the top 10% of CCs are doing with Cresta. It works on Oracle and Salesforce \u2014 without replacing either. 20 minutes?'"
+      "outreach_angle": "'You've seen AI contact centre done at scale \u2014 at Microsoft and at Barclays. Here's what the top 10% of CCs are doing with Cresta. It works on Oracle and Salesforce \u2014 without replacing either. 20 minutes?'",
+      "deal_stage": "Prospecting",
+      "key_quote": "New CIO Cathal Corcoran (ex-Microsoft VP Banking, Barclays CIO, Gatwick CIO) \u2014 joins Jan 2026. Has seen CC AI at scale.",
+      "glean_query": "Asda",
+      "content": [
+        {
+          "title": "Cresta Target Accounts for CCW \u2014 7/5/26",
+          "url": "https://docs.google.com/spreadsheets/d/1ou033pTFMgn8mMWjnWRJ73T_S2K7WSoS3evA6i5EPyU",
+          "type": "sheet",
+          "date": "2026-05-07",
+          "owner": "Marcus Nolan"
+        },
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [
+        {
+          "action": "Continue Asda outreach \u2014 Jay Sheikh SDR refining talk track, researching grocery events",
+          "owner": "Jay Sheikh (SDR)",
+          "priority": "MEDIUM"
+        }
+      ],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        },
+        {
+          "name": "Jay Sheikh",
+          "role": "SDR"
+        }
+      ]
     },
     {
       "id": "utilita",
@@ -2121,10 +2606,18 @@
       "champions": "Louise Walsh \u2605\u2605 (Chief Customer Contact Officer \u2014 original champion, \"keen to keep the momentum\") \u00b7 Lenard Smith \u2605 (operations lead, replied post-demo: \"really engaging... we've had internal discussions\")",
       "blockers": "No CRM confirmed. Budget cycle unknown.",
       "cc_footprint": "Prepayment energy CC. 8x8. High-volume: payment queries, smart meter, debt management. Financially vulnerable customer base. Ofgem Consumer Vulnerability obligations.",
-      "regulatory_signals": "Ofgem Consumer Vulnerability Strategy obligations. Smart meter rollout government compliance.",
+      "regulatory_signals": "Ofgem Consumer Vulnerability Strategy obligations. Smart meter rollout government compliance. CRITICAL: Utilita fined \u00a3830,000 by Ofgem in 2022 for failures in handling vulnerable customers \u2014 a direct and specific precedent for the Cresta pitch. Ofgem CRM system up for renewal at year-end \u2014 key leverage. \u00a34.43bn Ofgem energy debt across UK market = industry-wide regulatory pressure on vulnerability handling.",
       "competitors": "8x8 native AI (if deployed).",
       "why_cresta_wins": "Financially vulnerable customers need the right empathy on every call. Cresta guides human agents in real-time. Brinks Home (vulnerability handling, NPS +30pts) = closest analogue.",
       "gong_history": [
+        {
+          "date": "2026-05-13",
+          "type": "Email \u2014 Outbound",
+          "contact": "Louise Walsh + Lenard Smith + team",
+          "owner": "Marcus Nolan",
+          "summary": "Marcus sent a hard-hitting Challenger reply to Lenard's 'too busy' email. Cited: (1) \u00a34.43bn Ofgem energy debt across the UK market; (2) Utilita's own \u00a3830,000 Ofgem fine in 2022 for failures in handling vulnerable customers; (3) statutory personal executive accountability for senior managers under SM&CR-equivalent energy regulations. 'You've told me two things. You understand the value and you are too busy to act on it.' Hala Agha's internal reaction: 'Love the approach!' No reply received since.",
+          "url": ""
+        },
         {
           "date": "2026-05-13",
           "type": "Email \u2014 Follow Up",
@@ -2206,7 +2699,77 @@
       ],
       "best_case_study": "\u2605\u2605\u2605 Brinks Home \u2014 vulnerability handling, NPS +30pts, transfer rate 30%\u21928%.\n\u2605\u2605 Cox Communications \u2014 high-volume CC operational complexity.",
       "narrative": "Utilita serves the UK's most financially vulnerable energy customers. Every debt conversation is high-stakes. The CCW intro deck is already built.",
-      "outreach_angle": "'Your customers are calling about the most stressful thing in their lives \u2014 keeping the lights on. Here's how service providers handling vulnerable customers at scale use Cresta to ensure every agent responds with the right empathy, every time.'"
+      "outreach_angle": "'Your customers are calling about the most stressful thing in their lives \u2014 keeping the lights on. Here's how service providers handling vulnerable customers at scale use Cresta to ensure every agent responds with the right empathy, every time.'",
+      "deal_stage": "Stalled",
+      "key_quote": "\"It's that latter [too busy]. We have a number of projects that require our full attention and adding to the load both resource and system will not be advisable.\" \u2014 Lenard Smith, May 12 '26",
+      "glean_query": "Utilita",
+      "content": [
+        {
+          "title": "Marcus EMEA Pipeline May 2026",
+          "url": "https://docs.google.com/presentation/d/1ww4ZxldWZm9POfvNdvXO4ddOgciOzmq9rlLqH39NhJg",
+          "type": "slides",
+          "date": "2026-05-18",
+          "owner": "Marcus Nolan"
+        },
+        {
+          "title": "Pod Meeting Notes 18 May 2026",
+          "url": "https://docs.google.com/document/d/1LHwQhn7-Rj3wnDfbDZ-6MmKOEXjW_UjQm_j8Kjvf6hc",
+          "type": "doc",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        },
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [
+        {
+          "action": "Text or call Louise Walsh (CCO) TODAY \u2014 Marcus action from pod meeting 18 May",
+          "owner": "Marcus",
+          "priority": "URGENT"
+        },
+        {
+          "action": "Awaiting reply to May 13 Challenger email (cited \u00a34.43bn Ofgem energy debt + 2022 Utilita \u00a3830K Ofgem fine for vulnerability failures + statutory personal executive accountability)",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        },
+        {
+          "action": "Propose lighter-touch engagement: deferred Q3 start date OR read-only platform access \u2014 no resource drain",
+          "owner": "Marcus",
+          "priority": "MEDIUM"
+        },
+        {
+          "action": "NOTE: Ofgem CRM renewal up at year-end \u2014 key leverage point for urgency conversation",
+          "owner": "Marcus",
+          "priority": "MEDIUM"
+        }
+      ],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        },
+        {
+          "name": "Mark Meghezzi",
+          "role": "Head of EMEA (exec intro Apr 15)"
+        },
+        {
+          "name": "Hala Agha",
+          "role": "SE"
+        },
+        {
+          "name": "Amy Koh",
+          "role": "SE"
+        },
+        {
+          "name": "James Russell",
+          "role": "CS (on demo Apr 29)"
+        }
+      ]
     },
     {
       "id": "john-lewis",
@@ -2270,7 +2833,26 @@
       ],
       "best_case_study": "\u2605\u2605 JD Sports (retail multi-brand CC) \u00b7 Cox Communications (service consistency at scale).",
       "narrative": "JLP's partnership model means every partner interaction is brand integrity. CC consistency isn't just efficiency \u2014 it's identity.",
-      "outreach_angle": "'Every partner interaction is a brand moment for JLP. How do you ensure consistency across thousands of conversations without listening to every single one?'"
+      "outreach_angle": "'Every partner interaction is a brand moment for JLP. How do you ensure consistency across thousands of conversations without listening to every single one?'",
+      "deal_stage": "Prospecting",
+      "key_quote": "",
+      "glean_query": "John Lewis Partnership",
+      "content": [
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        }
+      ]
     },
     {
       "id": "simply-business",
@@ -2326,7 +2908,26 @@
       ],
       "best_case_study": "\u2605\u2605 Propel Holdings (FS automation) \u00b7 AAA Life Insurance (regulated insurance CC).",
       "narrative": "Digital-first FCA-regulated insurer. Consumer Duty = compliance imperative. Qualifying call needed to confirm CC scale.",
-      "outreach_angle": "'FCA Consumer Duty means you must demonstrate fair outcomes on every customer interaction. How are you doing that if you're only reviewing a fraction of calls?'"
+      "outreach_angle": "'FCA Consumer Duty means you must demonstrate fair outcomes on every customer interaction. How are you doing that if you're only reviewing a fraction of calls?'",
+      "deal_stage": "Prospecting",
+      "key_quote": "",
+      "glean_query": "Simply Business",
+      "content": [
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        }
+      ]
     },
     {
       "id": "mercedes-uk",
@@ -2415,7 +3016,36 @@
       ],
       "best_case_study": "\u2605\u2605 Brinks Home (premium brand CX) \u00b7 Cox Communications (high-volume CC).",
       "narrative": "Deck delivered and prep call held. Someone at Mercedes UK has engaged. EV transition creating new CC query types. Follow up this week before momentum is lost.",
-      "outreach_angle": "'Following up on the AI Agent overview from February \u2014 given EV-related query volumes scaling with the EQ range, there are 2-3 specific use cases worth 20 minutes. Are you the right person or should I connect with someone else on your team?'"
+      "outreach_angle": "'Following up on the AI Agent overview from February \u2014 given EV-related query volumes scaling with the EQ range, there are 2-3 specific use cases worth 20 minutes. Are you the right person or should I connect with someone else on your team?'",
+      "deal_stage": "Closing Out",
+      "key_quote": "Pod meeting May 18: \"No real project. Chatbot for car configurator \u2014 not a fit.\" Closing from pipeline.",
+      "glean_query": "Mercedes",
+      "content": [
+        {
+          "title": "Marcus EMEA Pipeline May 2026",
+          "url": "https://docs.google.com/presentation/d/1ww4ZxldWZm9POfvNdvXO4ddOgciOzmq9rlLqH39NhJg",
+          "type": "slides",
+          "date": "2026-05-18",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [
+        {
+          "action": "\u26a0\ufe0f CLOSING: Pod meeting May 18 \u2014 \"No real project. Chatbot for car configurator \u2014 not a fit.\" Close in Salesforce.",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        }
+      ],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        },
+        {
+          "name": "Haroldas Muralis",
+          "role": "SDR"
+        }
+      ]
     },
     {
       "id": "trailfinders",
@@ -2477,7 +3107,26 @@
       ],
       "best_case_study": "\u2605\u2605\u2605 Xanterra \u2014 travel/hospitality, 74% containment, 11+ AI agents.",
       "narrative": "Trailfinders agents need encyclopaedic knowledge across hundreds of destinations. Cresta surfaces the right knowledge in the moment.",
-      "outreach_angle": "'Your agents need to be destination experts across the entire world. How much of that knowledge is instantly accessible when a customer asks about specialist medical requirements for the Galapagos?'"
+      "outreach_angle": "'Your agents need to be destination experts across the entire world. How much of that knowledge is instantly accessible when a customer asks about specialist medical requirements for the Galapagos?'",
+      "deal_stage": "Prospecting",
+      "key_quote": "",
+      "glean_query": "Trailfinders",
+      "content": [
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        }
+      ]
     },
     {
       "id": "informa",
@@ -2543,7 +3192,26 @@
       ],
       "best_case_study": "\u2605\u2605 Cox Communications (conversion + CSAT at scale) \u00b7 Snap Finance (conversion optimisation).",
       "narrative": "Michelle has self-selected twice. The worst thing to do is send more content. The next step is a Challenger discovery call.",
-      "outreach_angle": "'I noticed you've engaged with our CSAT and conversion content twice \u2014 most people in your position tell me one of those is keeping them up more than the other. Which is it for you?'"
+      "outreach_angle": "'I noticed you've engaged with our CSAT and conversion content twice \u2014 most people in your position tell me one of those is keeping them up more than the other. Which is it for you?'",
+      "deal_stage": "Prospecting",
+      "key_quote": "",
+      "glean_query": "Informa",
+      "content": [
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        }
+      ]
     },
     {
       "id": "ikea",
@@ -2601,7 +3269,26 @@
       ],
       "best_case_study": "\u2605\u2605 Cox Communications (large-scale retail/service CC) \u00b7 Snap Finance (containment at scale).",
       "narrative": "IKEA handles tens of millions of WISMO, returns, and assembly queries. The challenge is finding the right internal contact first.",
-      "outreach_angle": "Identify EMEA CC Director first. Then: 'Here's how leading retailers are automating the routine and elevating the complex.'"
+      "outreach_angle": "Identify EMEA CC Director first. Then: 'Here's how leading retailers are automating the routine and elevating the complex.'",
+      "deal_stage": "Prospecting",
+      "key_quote": "",
+      "glean_query": "IKEA",
+      "content": [
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        }
+      ]
     },
     {
       "id": "pentland",
@@ -2651,7 +3338,26 @@
       ],
       "best_case_study": "JD Sports (shared brand via Pentland stake).",
       "narrative": "Route through JD Sports relationship. No entry point without warm intro.",
-      "outreach_angle": "Route through JD Sports engagement only."
+      "outreach_angle": "Route through JD Sports engagement only.",
+      "deal_stage": "Prospecting",
+      "key_quote": "",
+      "glean_query": "Pentland Group",
+      "content": [
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        }
+      ]
     },
     {
       "id": "energia",
@@ -2714,7 +3420,26 @@
       ],
       "best_case_study": "Utilita Energy (energy sector) \u00b7 Cox Communications (utility-adjacent).",
       "narrative": "Salesforce already deployed = technically straightforward. Key question: CC scale. Qualifying call needed.",
-      "outreach_angle": "'You already have Salesforce \u2014 Cresta is the intelligence layer that makes every customer conversation visible, scoreable, and improvable. 20 minutes?'"
+      "outreach_angle": "'You already have Salesforce \u2014 Cresta is the intelligence layer that makes every customer conversation visible, scoreable, and improvable. 20 minutes?'",
+      "deal_stage": "Prospecting",
+      "key_quote": "",
+      "glean_query": "Energia Group",
+      "content": [
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        }
+      ]
     },
     {
       "id": "staysure",
@@ -2770,7 +3495,26 @@
       ],
       "best_case_study": "Saga (over-50s insurance analogue) \u00b7 AAA Life Insurance.",
       "narrative": "Over-50s customers with pre-existing conditions need knowledgeable, empathetic agents. Identify leadership first.",
-      "outreach_angle": "Identify CEO/COO first. FCA Consumer Duty + over-50s empathy framing."
+      "outreach_angle": "Identify CEO/COO first. FCA Consumer Duty + over-50s empathy framing.",
+      "deal_stage": "Prospecting",
+      "key_quote": "",
+      "glean_query": "Staysure",
+      "content": [
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        }
+      ]
     },
     {
       "id": "manchester-united",
@@ -2840,7 +3584,26 @@
       ],
       "best_case_study": "\u2605\u2605 Xanterra (hospitality/events) \u00b7 Brinks Home (premium brand CX).",
       "narrative": "Collette Roche turned Manchester Airport's operations into a best-in-class service engine. MUFC has a similar challenge \u2014 fan services as premium commercial differentiator.",
-      "outreach_angle": "'You turned Manchester Airport's customer operations into a best-in-class service engine. MUFC has a similar challenge \u2014 millions of fan interactions, premium hospitality to upsell, and a brand where every conversation matters. Worth 20 minutes?'"
+      "outreach_angle": "'You turned Manchester Airport's customer operations into a best-in-class service engine. MUFC has a similar challenge \u2014 millions of fan interactions, premium hospitality to upsell, and a brand where every conversation matters. Worth 20 minutes?'",
+      "deal_stage": "Prospecting",
+      "key_quote": "",
+      "glean_query": "Manchester United",
+      "content": [
+        {
+          "title": "Marcus EMEA Territory DeepDive May 2026",
+          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
+          "type": "sheet",
+          "date": "2026-05-19",
+          "owner": "Marcus Nolan"
+        }
+      ],
+      "open_actions": [],
+      "cresta_team": [
+        {
+          "name": "Marcus Nolan",
+          "role": "AE"
+        }
+      ]
     }
   ]
 }
