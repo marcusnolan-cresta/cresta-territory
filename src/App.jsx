@@ -6,12 +6,20 @@ import SummaryBar from "./components/SummaryBar";
 
 const PIN = "cresta26";
 
-// Cresta Lissajous wave SVG mark
-const CrestaLogo = ({ size = 28 }) => (
-  <svg width={size} height={size} viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M 20 8 C 28 8 35 13 35 20 C 35 27 28 32 20 32 C 12 32 5 27 5 20" stroke="#E8622A" strokeWidth="3" strokeLinecap="round" fill="none"/>
-    <path d="M 5 20 C 5 14 10 9 16 9 C 22 9 26 14 26 20 C 26 26 22 31 16 31" stroke="#E8622A" strokeWidth="3" strokeLinecap="round" fill="none" opacity="0.6"/>
-    <circle cx="20" cy="20" r="2.5" fill="#E8622A"/>
+// Cresta logo — full lockup for header/pin screen
+const CrestaLogo = ({ height = 28, style = {} }) => (
+  <img
+    src="/cresta-territory/cresta-logo.png"
+    alt="Cresta"
+    style={{ height, width: 'auto', display: 'block', ...style }}
+  />
+);
+
+// Cresta icon-only mark (C symbol) for small contexts — SVG trace of the mark
+const CrestaIcon = ({ size = 28 }) => (
+  <svg width={size} height={size} viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M50 10 C30 10 14 26 14 46 C14 66 30 82 50 82 C60 82 69 78 75 71" stroke="white" strokeWidth="8" strokeLinecap="round" fill="none"/>
+    <path d="M50 28 C38 28 28 38 28 50 C28 62 38 72 50 72 C56 72 61 69 65 65" stroke="white" strokeWidth="7" strokeLinecap="round" fill="none" opacity="0.7"/>
   </svg>
 );
 
@@ -37,8 +45,7 @@ function PinScreen({ onUnlock }) {
     <div className="pin-screen">
       <div className="pin-card">
         <div className="pin-logo">
-          <CrestaLogo size={44} />
-          <span className="pin-brand">CRESTA</span>
+          <CrestaLogo height={36} />
         </div>
         <div className="pin-title">EMEA Territory Intelligence</div>
         <div className="pin-sub">Marcus Nolan · Enterprise AE</div>
@@ -146,7 +153,7 @@ Keep responses concise — 3-5 sentences max unless a detailed breakdown is requ
     <div className="ai-panel">
       <div className="ai-header">
         <div className="ai-header-left">
-          <CrestaLogo size={20} />
+          <CrestaIcon size={20} />
           <span className="ai-title">Territory AI</span>
           <span className="ai-badge">GPT-4 class · {accounts.length} accounts loaded</span>
         </div>
@@ -256,11 +263,8 @@ export default function App() {
       <header className="header">
         <div className="header-inner">
           <div className="header-brand">
-            <CrestaLogo size={28} />
-            <div>
-              <div className="header-title">CRESTA</div>
-              <div className="header-sub">EMEA Territory Intelligence · Marcus Nolan</div>
-            </div>
+            <CrestaLogo height={28} />
+            <div className="header-sub">EMEA Territory Intelligence · Marcus Nolan</div>
           </div>
           <div className="header-actions">
             <span className="header-date">Updated {meta.last_updated}</span>
@@ -325,7 +329,7 @@ export default function App() {
             <AccountDetail account={selected} onClose={() => setSelectedId(null)} />
           ) : (
             <div className="empty-state">
-              <CrestaLogo size={48} />
+              <CrestaLogo height={48} style={{ opacity: 0.4 }} />
               <div className="empty-title">Select an account</div>
               <div className="empty-sub">
                 {accounts.length} accounts · {meta.priority_counts?.A} priority A · Last updated {meta.last_updated}
