@@ -6,8 +6,8 @@
     "total_accounts": 21,
     "priority_counts": {
       "A": 6,
-      "B": 10,
-      "C": 5
+      "B": 11,
+      "C": 4
     }
   },
   "accounts": [
@@ -22,17 +22,17 @@
       "status": "Active Opp",
       "hq": "London, UK",
       "employees": "~150,000",
-      "revenue": "£33.3bn (FY25)",
+      "revenue": "\u00a333.3bn (FY25)",
       "risk_level": "LOW",
       "last_activity": "2026-04-01",
-      "quick_context": "UK's second-largest grocer. 5-year Microsoft Azure AI partnership (May 2024). Full Cresta demo Apr '26 — Kieran McLoughlin validated 100% QM as #1 pain ('200 of 10,000 calls — drop in the ocean'). Genesys + Salesforce confirmed. Ops team demo agreed.",
-      "next_step": "Book ops team demo with Kieran McLoughlin this week. Send Woolworths AU case study. Avoid 3-month sandbox — push live deployment.",
-      "group_structure": "J Sainsbury plc (LSE: SBRY) → Sainsbury's Grocery (1,107+ stores, 461 Argos concessions) → Argos (664 locations) → Sainsbury's Bank (exiting core banking — NatWest acquiring loan/card portfolio; Allianz insurance retained; Argos FS card sold to NewDay Feb '25) → Nectar (loyalty, 5M+ active users) → Tu Clothing → Habitat",
-      "financials": "FY2024/25: Revenue £33.3bn (+1.5% YoY) · Operating Profit £1,036m (+7.2%) · EBITDA £2,192m · 'Next Level Sainsbury's' 3-year strategy (Feb 2024) — 5th consecutive year of market share growth · £200m share buyback active",
+      "quick_context": "UK's second-largest grocer. 5-year Microsoft Azure AI partnership (May 2024). Full Cresta demo Apr '26 \u2014 Kieran McLoughlin validated 100% QM as #1 pain ('200 of 10,000 calls \u2014 drop in the ocean'). Genesys + Salesforce confirmed. Ops team demo agreed.",
+      "next_step": "Book ops team demo with Kieran McLoughlin this week. Send Woolworths AU case study. Avoid 3-month sandbox \u2014 push live deployment.",
+      "group_structure": "J Sainsbury plc (LSE: SBRY) \u2192 Sainsbury's Grocery (1,107+ stores, 461 Argos concessions) \u2192 Argos (664 locations) \u2192 Sainsbury's Bank (exiting core banking \u2014 NatWest acquiring loan/card portfolio; Allianz insurance retained; Argos FS card sold to NewDay Feb '25) \u2192 Nectar (loyalty, 5M+ active users) \u2192 Tu Clothing \u2192 Habitat",
+      "financials": "FY2024/25: Revenue \u00a333.3bn (+1.5% YoY) \u00b7 Operating Profit \u00a31,036m (+7.2%) \u00b7 EBITDA \u00a32,192m \u00b7 'Next Level Sainsbury's' 3-year strategy (Feb 2024) \u2014 5th consecutive year of market share growth \u00b7 \u00a3200m share buyback active",
       "tech_stack": {
         "confirmed": [
-          "Genesys (CCaaS — confirmed in Apr '26 demo by Viswa Settipalli)",
-          "Salesforce Service Cloud (CRM — confirmed demo)",
+          "Genesys (CCaaS \u2014 confirmed in Apr '26 demo by Viswa Settipalli)",
+          "Salesforce Service Cloud (CRM \u2014 confirmed demo)",
           "Microsoft Azure (5-year strategic AI partnership, May 2024)",
           "Snowflake (data platform)",
           "Tealium CDP",
@@ -40,10 +40,10 @@
           "Power BI / Tableau"
         ],
         "inferred": [
-          "Amazon Connect (Argos may use separate stack — unconfirmed)",
-          "Medallia or Qualtrics (CX measurement — unconfirmed)",
-          "Manual QA only — no AI coaching layer in CC",
-          "NCR Voyix (checkout partnership — inferred from LeadIQ)"
+          "Amazon Connect (Argos may use separate stack \u2014 unconfirmed)",
+          "Medallia or Qualtrics (CX measurement \u2014 unconfirmed)",
+          "Manual QA only \u2014 no AI coaching layer in CC",
+          "NCR Voyix (checkout partnership \u2014 inferred from LeadIQ)"
         ]
       },
       "ai_initiatives": [
@@ -51,13 +51,13 @@
           "title": "5-Year Microsoft Azure AI Partnership (May 2024)",
           "detail": "Sainsbury's and Microsoft announced a 5-year strategic AI partnership. Scope: AI-guided colleague tools, personalised promotions via Nectar, enhanced online search, AI-powered forecasting. CTO Clodagh Moriarty: 'Our collaboration with Microsoft will accelerate our ambition to become the UK's leading AI-enabled grocer.'",
           "source": "J Sainsbury plc press release, May 16 2024",
-          "cresta_angle": "Azure AI partnership = senior exec mandate. Cresta runs on Azure. Frame as: 'Extending the Microsoft AI partnership into the contact centre — the one area Azure hasn't yet touched.'"
+          "cresta_angle": "Azure AI partnership = senior exec mandate. Cresta runs on Azure. Frame as: 'Extending the Microsoft AI partnership into the contact centre \u2014 the one area Azure hasn't yet touched.'"
         },
         {
-          "title": "No CC AI initiative — complete whitespace",
+          "title": "No CC AI initiative \u2014 complete whitespace",
           "detail": "Despite the Microsoft partnership, no AI agent coaching, real-time assist, or automated QM in the Sainsbury's CC. Kieran confirmed manual QA only (200 of 10,000 calls reviewed). The Microsoft investment has not reached the contact centre.",
           "source": "Apr 2026 Cresta demo (Kieran McLoughlin)",
-          "cresta_angle": "'You've invested in Microsoft AI across your business — here is what it looks like in the contact centre.'"
+          "cresta_angle": "'You've invested in Microsoft AI across your business \u2014 here is what it looks like in the contact centre.'"
         }
       ],
       "recent_news": [
@@ -65,12 +65,12 @@
           "date": "May 2024",
           "headline": "Sainsbury's announces 5-year Microsoft Azure AI strategic partnership",
           "detail": "Named 'ambition to become the UK's leading AI-enabled grocer.' Covers stores, online, colleague tools. Nectar loyalty + AI personalisation key components.",
-          "cresta_relevance": "AI mandate at CTO level. Cresta extends this into the CC — the one area not yet touched."
+          "cresta_relevance": "AI mandate at CTO level. Cresta extends this into the CC \u2014 the one area not yet touched."
         },
         {
           "date": "Apr 2026",
-          "headline": "Cresta demo delivered — ops team demo agreed by Kieran and Viswa",
-          "detail": "Kieran: '200 of 10,000 calls — drop in the ocean.' Ops team demo agreed. 3-year strategy discussion opened.",
+          "headline": "Cresta demo delivered \u2014 ops team demo agreed by Kieran and Viswa",
+          "detail": "Kieran: '200 of 10,000 calls \u2014 drop in the ocean.' Ops team demo agreed. 3-year strategy discussion opened.",
           "cresta_relevance": "Active opportunity. Book ops team demo this week."
         }
       ],
@@ -83,13 +83,13 @@
         },
         {
           "name": "Robert Barnes",
-          "title": "CTO (ex-Asda CIO, M&S CTO) — driving digital transformation",
-          "sdr_note": "3x VM from Wes in Jan '26 — no response. Route via Kieran intro.",
+          "title": "CTO (ex-Asda CIO, M&S CTO) \u2014 driving digital transformation",
+          "sdr_note": "3x VM from Wes in Jan '26 \u2014 no response. Route via Kieran intro.",
           "status": "Cold"
         },
         {
           "name": "Mark Given",
-          "title": "Chief Technology, Marketing & Data Officer — LEAVING Jul '26 for ISBA",
+          "title": "Chief Technology, Marketing & Data Officer \u2014 LEAVING Jul '26 for ISBA",
           "sdr_note": "Leaving Jul '26. Deprioritise.",
           "status": "Cold"
         },
@@ -106,19 +106,19 @@
           "status": "Champion"
         }
       ],
-      "champions": "Kieran McLoughlin ★★ — validated 100% QM as #1 pain, agreed ops team demo. Viswa Settipalli ★ — confirmed Genesys + SF stack, framing Cresta in 3-year strategy.",
-      "blockers": "3-month data procurement for sandbox (avoid — push live). Mark Given leaving Jul '26. No exec sponsor above Kieran confirmed. SF/Genesys investments in-flight.",
+      "champions": "Kieran McLoughlin \u2605\u2605 \u2014 validated 100% QM as #1 pain, agreed ops team demo. Viswa Settipalli \u2605 \u2014 confirmed Genesys + SF stack, framing Cresta in 3-year strategy.",
+      "blockers": "3-month data procurement for sandbox (avoid \u2014 push live). Mark Given leaving Jul '26. No exec sponsor above Kieran confirmed. SF/Genesys investments in-flight.",
       "cc_footprint": "Multi-brand CC: grocery, Argos, Nectar, Tu, Habitat. Thousands of agents. Offshore (Philippines). Manual QA: 200 of every 10,000 calls (2% sample). Genesys = routing only, no AI layer. Agent desktop: 3+ systems causing high cognitive load.",
       "regulatory_signals": "Sainsbury's Bank exiting FCA-regulated core banking. No FCA enforcement on retail CC. Annual Report FY25 explicitly states 'automating contact centre processes' as strategic priority. ICO: no major penalties. Consumer Duty applies to remaining FS interactions.",
-      "competitors": "Salesforce Agentforce (Azure partnership may push this). Microsoft Copilot for CC (via Azure — Cresta is more CC-specialist). NICE CXone (if Argos uses separate stack).",
-      "why_cresta_wins": "Integrates natively on Genesys + Salesforce — no rip-and-replace. Woolworths AU ran identical stack with measurable results. AI-native for CC vs Agentforce (CRM extended). Forrester Wave Leader. 100% QM = the one thing Agentforce can't deliver.",
+      "competitors": "Salesforce Agentforce (Azure partnership may push this). Microsoft Copilot for CC (via Azure \u2014 Cresta is more CC-specialist). NICE CXone (if Argos uses separate stack).",
+      "why_cresta_wins": "Integrates natively on Genesys + Salesforce \u2014 no rip-and-replace. Woolworths AU ran identical stack with measurable results. AI-native for CC vs Agentforce (CRM extended). Forrester Wave Leader. 100% QM = the one thing Agentforce can't deliver.",
       "gong_history": [
         {
           "date": "2026-04-01",
           "type": "Demo",
           "contact": "Kieran McLoughlin (Head CC Ops) + Viswa Settipalli (Sr Technology)",
           "owner": "Marcus Nolan + Hala Agha (SE)",
-          "summary": "Full 45-min demo. Kieran: 'Only QA-ing 200 of 10,000 calls — drop in the ocean.' Viswa confirmed Genesys + SF stack, 3-system desktop friction. Both agreed ops team demo as next step. Sandbox raised but 3-month procurement flagged as blocker.",
+          "summary": "Full 45-min demo. Kieran: 'Only QA-ing 200 of 10,000 calls \u2014 drop in the ocean.' Viswa confirmed Genesys + SF stack, 3-system desktop friction. Both agreed ops team demo as next step. Sandbox raised but 3-month procurement flagged as blocker.",
           "url": ""
         },
         {
@@ -126,7 +126,7 @@
           "type": "Cold Call VM",
           "contact": "Mark Given (CTMDO)",
           "owner": "Wes Zekari (SDR)",
-          "summary": "VM: 'Wes from Cresta — free lunch and learn on AI in the contact centre'",
+          "summary": "VM: 'Wes from Cresta \u2014 free lunch and learn on AI in the contact centre'",
           "url": "https://us-15661.app.gong.io/call?id=1353260783911085172"
         },
         {
@@ -147,22 +147,22 @@
         }
       ],
       "use_cases": [
-        "100% Auto-QA — multi-brand scorecards (grocery, Argos, Nectar). Replaces 2% manual sampling.",
-        "Real-time Agent Assist — consolidates Sterling OMS + Salesforce + Genesys on one agent screen.",
-        "Conversation Intelligence — call deflection analysis, FCR root cause, topic discovery.",
-        "AI Agent — WISMO and account queries. Immediate measurable containment."
+        "100% Auto-QA \u2014 multi-brand scorecards (grocery, Argos, Nectar). Replaces 2% manual sampling.",
+        "Real-time Agent Assist \u2014 consolidates Sterling OMS + Salesforce + Genesys on one agent screen.",
+        "Conversation Intelligence \u2014 call deflection analysis, FCR root cause, topic discovery.",
+        "AI Agent \u2014 WISMO and account queries. Immediate measurable containment."
       ],
-      "best_case_study": "★★★ Woolworths AU — Genesys + Salesforce + Cresta (IDENTICAL stack). QA automation + agent assist.\n★★ Cox Communications — 20% revenue increase, 28.5% AHT reduction, 50% ramp reduction.\n★★ JD Sports — retail multi-brand CC.",
-      "narrative": "Sainsbury's signed a 5-year Microsoft Azure AI deal in May 2024 — but that investment hasn't yet touched the contact centre. Kieran confirmed they're reviewing 200 of every 10,000 calls. That's not QA — that's a sample. Cresta sits on top of the Genesys + Salesforce stack they already own, adds the AI intelligence layer Microsoft's partnership promised, and delivers 100% QM from day one. Woolworths AU ran this exact stack. The ops team demo is the next gate.",
-      "outreach_angle": "Send Woolworths case study to Kieran: 'You're already spending on Genesys, Salesforce, and Microsoft Azure AI — Cresta is the intelligence layer that connects all three in the contact centre. Woolworths ran exactly your stack. Here's what happened in 90 days.'",
+      "best_case_study": "\u2605\u2605\u2605 Woolworths AU \u2014 Genesys + Salesforce + Cresta (IDENTICAL stack). QA automation + agent assist.\n\u2605\u2605 Cox Communications \u2014 20% revenue increase, 28.5% AHT reduction, 50% ramp reduction.\n\u2605\u2605 JD Sports \u2014 retail multi-brand CC.",
+      "narrative": "Sainsbury's signed a 5-year Microsoft Azure AI deal in May 2024 \u2014 but that investment hasn't yet touched the contact centre. Kieran confirmed they're reviewing 200 of every 10,000 calls. That's not QA \u2014 that's a sample. Cresta sits on top of the Genesys + Salesforce stack they already own, adds the AI intelligence layer Microsoft's partnership promised, and delivers 100% QM from day one. Woolworths AU ran this exact stack. The ops team demo is the next gate.",
+      "outreach_angle": "Send Woolworths case study to Kieran: 'You're already spending on Genesys, Salesforce, and Microsoft Azure AI \u2014 Cresta is the intelligence layer that connects all three in the contact centre. Woolworths ran exactly your stack. Here's what happened in 90 days.'",
       "sdr_playbook": {
-        "hypothesis": "Sainsbury's is investing heavily in AI (5-year Microsoft partnership) but the CC has no AI layer. They review 2% of interactions manually. Kieran and Viswa are actively looking for a solution on their existing Genesys + Salesforce stack. This is an active opportunity, not a cold account. The ops team demo is agreed — book it this week.",
+        "hypothesis": "Sainsbury's is investing heavily in AI (5-year Microsoft partnership) but the CC has no AI layer. They review 2% of interactions manually. Kieran and Viswa are actively looking for a solution on their existing Genesys + Salesforce stack. This is an active opportunity, not a cold account. The ops team demo is agreed \u2014 book it this week.",
         "buying_signals": [
-          "Demo delivered Apr '26 — ops team demo agreed by Kieran and Viswa",
-          "5-year Microsoft Azure AI partnership (May 2024) — exec mandate for AI transformation",
-          "Kieran: '200 of 10,000 calls reviewed — drop in the ocean' — pain explicitly confirmed",
+          "Demo delivered Apr '26 \u2014 ops team demo agreed by Kieran and Viswa",
+          "5-year Microsoft Azure AI partnership (May 2024) \u2014 exec mandate for AI transformation",
+          "Kieran: '200 of 10,000 calls reviewed \u2014 drop in the ocean' \u2014 pain explicitly confirmed",
           "Viswa wants Cresta in 3-year strategy discussion",
-          "Mark Given (CTMDO) leaving Jul '26 — window to act before new leadership resets priorities"
+          "Mark Given (CTMDO) leaving Jul '26 \u2014 window to act before new leadership resets priorities"
         ],
         "target_contacts": [
           {
@@ -186,48 +186,48 @@
             "title": "CTO",
             "priority": "Secondary",
             "why": "Ultimate tech decision-maker. Microsoft partnership owner. Needs warm intro via Kieran.",
-            "approach": "Warm intro via Kieran — not cold outreach.",
+            "approach": "Warm intro via Kieran \u2014 not cold outreach.",
             "linkedin_search": "Robert Barnes Sainsbury's CTO"
           }
         ],
         "messages": [
           {
-            "persona": "Marcus → Kieran (post-demo follow-up)",
+            "persona": "Marcus \u2192 Kieran (post-demo follow-up)",
             "subject": "Sainsbury's ops team demo + Woolworths case study",
-            "body": "Kieran,\n\nGreat session last week — the 200-of-10,000 framing was exactly the kind of specificity that helps us make the case internally too.\n\nAttaching the Woolworths AU case study — they ran Genesys + Salesforce exactly as you do, and the QA automation went live within 8 weeks. The ops team comparison will be useful context.\n\nOn the ops team demo — I can flex to whatever format works. Happy to come in or run it remotely. What does the week of [date] look like?\n\nMarcus",
+            "body": "Kieran,\n\nGreat session last week \u2014 the 200-of-10,000 framing was exactly the kind of specificity that helps us make the case internally too.\n\nAttaching the Woolworths AU case study \u2014 they ran Genesys + Salesforce exactly as you do, and the QA automation went live within 8 weeks. The ops team comparison will be useful context.\n\nOn the ops team demo \u2014 I can flex to whatever format works. Happy to come in or run it remotely. What does the week of [date] look like?\n\nMarcus",
             "cta": "Book ops team demo date"
           }
         ],
         "talk_track": {
-          "opener": "Hi [name], it's Marcus from Cresta — we spoke with Kieran and Viswa last week about the QA gap. Kieran mentioned you'd be involved in the ops team review. Do you have 2 minutes?",
-          "pitch": "We work with retailers like Woolworths who run Genesys and Salesforce just like you. We sit on top of both and give you 100% call QA — replacing the 2% manual sample — plus real-time agent guidance. No rip-and-replace, 8 weeks to live.",
-          "qualifying_question": "Kieran mentioned the ops team has a view on QA prioritisation — is 100% coverage something you've been asked to solve, or is it more about agent coaching and consistency?",
-          "ask": "We've done the demo with Kieran and Viswa — can I bring that to the broader ops team? 90 minutes, on-site or remote."
+          "opener": "Hi [name], it's Marcus from Cresta \u2014 we spoke with Kieran and Viswa last week about the QA gap. Kieran mentioned you'd be involved in the ops team review. Do you have 2 minutes?",
+          "pitch": "We work with retailers like Woolworths who run Genesys and Salesforce just like you. We sit on top of both and give you 100% call QA \u2014 replacing the 2% manual sample \u2014 plus real-time agent guidance. No rip-and-replace, 8 weeks to live.",
+          "qualifying_question": "Kieran mentioned the ops team has a view on QA prioritisation \u2014 is 100% coverage something you've been asked to solve, or is it more about agent coaching and consistency?",
+          "ask": "We've done the demo with Kieran and Viswa \u2014 can I bring that to the broader ops team? 90 minutes, on-site or remote."
         },
         "objections": [
           {
             "objection": "We already have Salesforce Agentforce for this",
-            "response": "Agentforce is brilliant for CRM automation — it's not built for contact centres. Cresta is AI-native for CC: 100% QM on every call, real-time agent guidance in the moment. Forrester named us #1. We sit alongside Agentforce, not against it."
+            "response": "Agentforce is brilliant for CRM automation \u2014 it's not built for contact centres. Cresta is AI-native for CC: 100% QM on every call, real-time agent guidance in the moment. Forrester named us #1. We sit alongside Agentforce, not against it."
           },
           {
             "objection": "The data procurement process takes 3 months",
             "response": "We don't need a data dump to start. We go live on real calls from week one and build the business case from actual interaction data. Woolworths did exactly this."
           },
           {
-            "objection": "We're mid-strategy — timing isn't right",
-            "response": "Viswa said the 3-year strategy is being defined right now. That's exactly the right time to set the CC AI standard — not retrofit it in year two."
+            "objection": "We're mid-strategy \u2014 timing isn't right",
+            "response": "Viswa said the 3-year strategy is being defined right now. That's exactly the right time to set the CC AI standard \u2014 not retrofit it in year two."
           }
         ],
         "cadence": [
           {
             "day": "1",
-            "action": "Email Kieran — ops team demo booking",
+            "action": "Email Kieran \u2014 ops team demo booking",
             "note": "Attach Woolworths case study. Reference the 200-of-10,000 framing."
           },
           {
             "day": "3",
             "action": "LinkedIn connect to Viswa Settipalli",
-            "note": "'Really valued your technical questions in the demo — keen to follow up on the Genesys integration piece.'"
+            "note": "'Really valued your technical questions in the demo \u2014 keen to follow up on the Genesys integration piece.'"
           },
           {
             "day": "5",
@@ -250,7 +250,7 @@
     {
       "id": "hargreaves-lansdown",
       "name": "Hargreaves Lansdown",
-      "parent": "HL Group Ltd (CVC Capital Partners + Nordic Capital + ADAI — private since Mar 2025)",
+      "parent": "HL Group Ltd (CVC Capital Partners + Nordic Capital + ADAI \u2014 private since Mar 2025)",
       "domain": "hl.co.uk",
       "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/001Uy00000mVJxDIAW/view",
       "priority": "A",
@@ -258,18 +258,18 @@
       "status": "Active Opp",
       "hq": "Bristol, UK",
       "employees": "~2,547",
-      "revenue": "£764.9m (FY24 — last public)",
+      "revenue": "\u00a3764.9m (FY24 \u2014 last public)",
       "risk_level": "MEDIUM",
       "last_activity": "2026-04-21",
-      "quick_context": "UK's largest investment platform. Taken private by CVC Mar '25. 2M+ clients, £172bn AUM. Meeting booked with Matthew Streatfield (Retention). Charlie Peters = Head of Helpdesk Dev, owns Amazon Connect + SF roadmap — NOT YET CONTACTED BY AE. CFO Declan Hourican came from TSB — Cresta works with TSB.",
-      "next_step": "AE takeover. Email Charlie Peters TODAY — reference Michael Loberman. FCA Consumer Duty + Forrester Wave vs Agentforce. Attend Matthew Streatfield meeting (w/c 21 Apr).",
-      "group_structure": "HL Group Ltd (private, CVC + Nordic Capital + ADAI, Mar 2025) → HL Asset Management Ltd (FCA authorised) → HL Fund Managers Ltd → HL Advisory Services Ltd → HL Savings Ltd. Products: ISA, SIPP, investment accounts, Active Savings, pensions, annuities. Delisted from LSE Mar 2025.",
-      "financials": "FY2024 (last public): Revenue £764.9m · Operating Income £366.7m · Net Income £293.2m · AUM £172bn+ · 2M+ clients · Client retention 92.0% · Asset retention 88.6%. Now private — PE ownership = cost efficiency + digital transformation mandate. RGL High Court claim (3,200+ Woodford investors, filed Oct '22) — ongoing.",
+      "quick_context": "UK's largest investment platform. Taken private by CVC Mar '25. 2M+ clients, \u00a3172bn AUM. Meeting booked with Matthew Streatfield (Retention). Charlie Peters = Head of Helpdesk Dev, owns Amazon Connect + SF roadmap \u2014 NOT YET CONTACTED BY AE. CFO Declan Hourican came from TSB \u2014 Cresta works with TSB.",
+      "next_step": "AE takeover. Email Charlie Peters TODAY \u2014 reference Michael Loberman. FCA Consumer Duty + Forrester Wave vs Agentforce. Attend Matthew Streatfield meeting (w/c 21 Apr).",
+      "group_structure": "HL Group Ltd (private, CVC + Nordic Capital + ADAI, Mar 2025) \u2192 HL Asset Management Ltd (FCA authorised) \u2192 HL Fund Managers Ltd \u2192 HL Advisory Services Ltd \u2192 HL Savings Ltd. Products: ISA, SIPP, investment accounts, Active Savings, pensions, annuities. Delisted from LSE Mar 2025.",
+      "financials": "FY2024 (last public): Revenue \u00a3764.9m \u00b7 Operating Income \u00a3366.7m \u00b7 Net Income \u00a3293.2m \u00b7 AUM \u00a3172bn+ \u00b7 2M+ clients \u00b7 Client retention 92.0% \u00b7 Asset retention 88.6%. Now private \u2014 PE ownership = cost efficiency + digital transformation mandate. RGL High Court claim (3,200+ Woodford investors, filed Oct '22) \u2014 ongoing.",
       "tech_stack": {
         "confirmed": [
-          "Amazon Connect (CCaaS — confirmed by David Chapman: 'moving to Salesforce and Amazon Connect')",
-          "Salesforce Service Cloud (CRM — confirmed David Chapman)",
-          "Salesforce Agentforce / Einstein (AI — limited, confirmed by Claire Carroll: 'we have Agentforce and Einstein')",
+          "Amazon Connect (CCaaS \u2014 confirmed by David Chapman: 'moving to Salesforce and Amazon Connect')",
+          "Salesforce Service Cloud (CRM \u2014 confirmed David Chapman)",
+          "Salesforce Agentforce / Einstein (AI \u2014 limited, confirmed by Claire Carroll: 'we have Agentforce and Einstein')",
           "Snowflake",
           "Power BI",
           "MuleSoft",
@@ -278,41 +278,41 @@
         "inferred": [
           "Deloitte engaged on AI/CX (confirmed by Emily Astbury Head)",
           "In-house retention AI in development (Matthew Streatfield)",
-          "Verint or NICE (QM — likely given FCA scale, unconfirmed)",
+          "Verint or NICE (QM \u2014 likely given FCA scale, unconfirmed)",
           "Salesforce Data Cloud (likely given Agentforce + MuleSoft stack)"
         ]
       },
       "ai_initiatives": [
         {
-          "title": "Salesforce Agentforce / Einstein — Limited CC Deployment",
+          "title": "Salesforce Agentforce / Einstein \u2014 Limited CC Deployment",
           "detail": "Claire Carroll confirmed Agentforce and Einstein are in use but described the roadmap as 'full'. Likely in early-stage CRM automation, not CC agent coaching. This is Cresta's key competitive battleground.",
-          "source": "Gong call — Harold / Claire Carroll, Mar 2026",
-          "cresta_angle": "Agentforce = CRM, not CC. Cresta = AI-native for CC, Forrester Wave Leader. We complement Agentforce — they automate CRM workflows, we guide agents in real-time and score 100% of calls."
+          "source": "Gong call \u2014 Harold / Claire Carroll, Mar 2026",
+          "cresta_angle": "Agentforce = CRM, not CC. Cresta = AI-native for CC, Forrester Wave Leader. We complement Agentforce \u2014 they automate CRM workflows, we guide agents in real-time and score 100% of calls."
         },
         {
           "title": "In-House Retention AI Development (Streatfield)",
           "detail": "Matthew Streatfield (Head of Retention): 'We are actually developing something in-house, but it's really interesting.' Build-vs-buy conversation needed.",
-          "source": "Gong call — Harold / Matthew Streatfield, Apr 2026 (meeting booked)",
-          "cresta_angle": "Build = 12-18 months. Cresta = live in 8 weeks, FCA-compliant out of the box, 6-year training data. Cresta accelerates Streatfield's in-house build — real-time data from Cresta feeds his retention models."
+          "source": "Gong call \u2014 Harold / Matthew Streatfield, Apr 2026 (meeting booked)",
+          "cresta_angle": "Build = 12-18 months. Cresta = live in 8 weeks, FCA-compliant out of the box, 6-year training data. Cresta accelerates Streatfield's in-house build \u2014 real-time data from Cresta feeds his retention models."
         },
         {
           "title": "Amazon Connect + Salesforce CC Transformation (In Progress)",
-          "detail": "David Chapman: 'Contact centre going through a transformation — moving to Salesforce and Amazon Connect.' Active infrastructure migration = natural moment to add Cresta's intelligence layer.",
-          "source": "Gong call — Harold / David Chapman, Feb/Mar 2026",
+          "detail": "David Chapman: 'Contact centre going through a transformation \u2014 moving to Salesforce and Amazon Connect.' Active infrastructure migration = natural moment to add Cresta's intelligence layer.",
+          "source": "Gong call \u2014 Harold / David Chapman, Feb/Mar 2026",
           "cresta_angle": "Add Cresta during the migration. Mutual of Omaha (identical stack, financial services) = 33% premium uplift. This is the exact right moment."
         }
       ],
       "recent_news": [
         {
           "date": "Mar 2025",
-          "headline": "Hargreaves Lansdown goes private — CVC Capital Partners acquires for £5.4bn",
+          "headline": "Hargreaves Lansdown goes private \u2014 CVC Capital Partners acquires for \u00a35.4bn",
           "detail": "CVC + Nordic Capital + ADAI. HL delisted from LSE. PE ownership = cost efficiency mandate.",
           "cresta_relevance": "CVC = ROI-focused. Cresta's AHT reduction + QM automation + attrition reduction hit CVC's cost mandate."
         },
         {
           "date": "Nov 2025",
           "headline": "Simon Belsham joins as CCO (ex-Rightmove CEO, ASOS MD) + Declan Hourican as CFO (ex-TSB)",
-          "detail": "New CCO and CFO both building agendas from scratch. Hourican came from TSB — Cresta works with TSB.",
+          "detail": "New CCO and CFO both building agendas from scratch. Hourican came from TSB \u2014 Cresta works with TSB.",
           "cresta_relevance": "CFO Hourican knows Cresta from TSB. Name-drop this in every HL outreach. New CCO = additional exec sponsor path."
         }
       ],
@@ -326,12 +326,12 @@
         {
           "name": "Declan Hourican",
           "title": "CFO (Nov '25, ex-TSB CFO)",
-          "sdr_note": "TSB is a Cresta customer — strong reference. Name-drop in all HL outreach.",
+          "sdr_note": "TSB is a Cresta customer \u2014 strong reference. Name-drop in all HL outreach.",
           "status": "Cold"
         },
         {
           "name": "Charlie Peters",
-          "title": "Head of Helpdesk Development — owns Amazon Connect + SF roadmap",
+          "title": "Head of Helpdesk Development \u2014 owns Amazon Connect + SF roadmap",
           "sdr_note": "KEY CONTACT. Named by Loberman. NOT YET CONTACTED BY AE. Email this week.",
           "status": "Cold"
         },
@@ -354,10 +354,10 @@
           "status": "Blocker"
         }
       ],
-      "champions": "Matthew Streatfield ★★ (Retention Head) — meeting booked w/c 21 Apr, warm signal. Charlie Peters ★★ — named by Loberman as CC tech decision-maker, not yet contacted by AE. Simon Belsham (new CCO) — potential exec sponsor.",
-      "blockers": "Emily Astbury Head — Deloitte engaged. Claire Carroll — 'roadmap full, Agentforce in use.' Agentforce in limited use = key objection. In-house retention AI build.",
-      "cc_footprint": "Bristol CC. Amazon Connect + Salesforce. FCA Consumer Duty + SM&CR. Pensions, ISA, SIPP, investment helpdesk. 2M+ clients. Tax year-end = peak volume. ~5% manual QA sample estimated — Consumer Duty compliance gap.",
-      "regulatory_signals": "No FCA enforcement action confirmed against HL directly. RGL High Court claim (3,200+ Woodford investors, Oct '22) — ongoing. FCA Consumer Duty: HL must evidence fair outcomes on 100% of client interactions. 2M+ clients + complex investment products + manual QA = regulatory liability. FCA clone firm warnings active (fraudsters impersonating HL).",
+      "champions": "Matthew Streatfield \u2605\u2605 (Retention Head) \u2014 meeting booked w/c 21 Apr, warm signal. Charlie Peters \u2605\u2605 \u2014 named by Loberman as CC tech decision-maker, not yet contacted by AE. Simon Belsham (new CCO) \u2014 potential exec sponsor.",
+      "blockers": "Emily Astbury Head \u2014 Deloitte engaged. Claire Carroll \u2014 'roadmap full, Agentforce in use.' Agentforce in limited use = key objection. In-house retention AI build.",
+      "cc_footprint": "Bristol CC. Amazon Connect + Salesforce. FCA Consumer Duty + SM&CR. Pensions, ISA, SIPP, investment helpdesk. 2M+ clients. Tax year-end = peak volume. ~5% manual QA sample estimated \u2014 Consumer Duty compliance gap.",
+      "regulatory_signals": "No FCA enforcement action confirmed against HL directly. RGL High Court claim (3,200+ Woodford investors, Oct '22) \u2014 ongoing. FCA Consumer Duty: HL must evidence fair outcomes on 100% of client interactions. 2M+ clients + complex investment products + manual QA = regulatory liability. FCA clone firm warnings active (fraudsters impersonating HL).",
       "competitors": "Salesforce Agentforce (confirmed in-stack). Deloitte (engaged by Emily Astbury Head). In-house retention AI (Streatfield team).",
       "why_cresta_wins": "Agentforce = CRM automation, not CC coaching. Cresta = Forrester Wave Leader, AI-native for CC. 100% QM non-negotiable under Consumer Duty. Mutual of Omaha (identical Amazon Connect stack, FS, 33% uplift, QA halved) = perfect proof. CFO from TSB (Cresta customer). CVC PE = ROI urgency.",
       "gong_history": [
@@ -366,7 +366,7 @@
           "type": "Meeting Booked",
           "contact": "Matthew Streatfield (Head of Retention)",
           "owner": "Haroldas Muralis (SDR)",
-          "summary": "Meeting booked w/c 21 Apr. Streatfield: 'We are actually developing something in-house, but it's really interesting — send me something on email.' Build-vs-buy conversation needed.",
+          "summary": "Meeting booked w/c 21 Apr. Streatfield: 'We are actually developing something in-house, but it's really interesting \u2014 send me something on email.' Build-vs-buy conversation needed.",
           "url": ""
         },
         {
@@ -374,7 +374,7 @@
           "type": "Cold Call Connected",
           "contact": "Michael Loberman (Product)",
           "owner": "Haroldas Muralis (SDR)",
-          "summary": "Loberman confirmed Amazon Connect + SF stack. Named Charlie Peters as 'Head of Helpdesk Development — he owns the CC roadmap. He's the right person.' Direct internal referral.",
+          "summary": "Loberman confirmed Amazon Connect + SF stack. Named Charlie Peters as 'Head of Helpdesk Development \u2014 he owns the CC roadmap. He's the right person.' Direct internal referral.",
           "url": ""
         },
         {
@@ -382,7 +382,7 @@
           "type": "Cold Call Connected",
           "contact": "David Chapman (Transformation)",
           "owner": "Haroldas Muralis (SDR)",
-          "summary": "'Contact centre going through transformation — moving to Salesforce and Amazon Connect.' Referred to Charlie Peters and Matt Parks.",
+          "summary": "'Contact centre going through transformation \u2014 moving to Salesforce and Amazon Connect.' Referred to Charlie Peters and Matt Parks.",
           "url": ""
         },
         {
@@ -411,22 +411,22 @@
         }
       ],
       "use_cases": [
-        "100% Auto-QA — FCA Consumer Duty requires evidenced fair outcomes. Manual 5% = compliance gap.",
-        "Retention Signal Detection — live churn signals for Streatfield. Complements his in-house build.",
-        "Real-time Agent Assist — complex ISA/SIPP/investment queries. Agentforce complement.",
-        "Coaching Hub — pensions and ISA advisor coaching at scale."
+        "100% Auto-QA \u2014 FCA Consumer Duty requires evidenced fair outcomes. Manual 5% = compliance gap.",
+        "Retention Signal Detection \u2014 live churn signals for Streatfield. Complements his in-house build.",
+        "Real-time Agent Assist \u2014 complex ISA/SIPP/investment queries. Agentforce complement.",
+        "Coaching Hub \u2014 pensions and ISA advisor coaching at scale."
       ],
-      "best_case_study": "★★★ Mutual of Omaha — Amazon Web Services (identical stack), insurance/investment CC, 33% premium increase, QA cost -50%. EXACT STACK ANALOGUE.\n★★★ TSB — UK banking CC compliance. CFO Declan Hourican came from TSB — USE THIS.\n★★ Propel Holdings — regulated FS AI, compliance-heavy.\n★ Oportun — 50% QM workload reduction, 100% QA coverage.",
-      "narrative": "HL has Amazon Connect + Salesforce + Agentforce in limited use — and a Deloitte engagement on top. They're spending on AI but haven't solved the CC problem. Charlie Peters owns the CC roadmap and hasn't spoken to an AE. Streatfield is building in-house retention AI — Cresta accelerates it, doesn't compete. FCA Consumer Duty requires evidenced fair outcomes on 100% of client interactions. CFO Declan Hourican came from TSB — Cresta works with TSB.",
-      "outreach_angle": "Email Charlie Peters: 'Michael Loberman suggested you're the right person. Two questions: Is Agentforce delivering the CC intelligence you need for agent coaching — or is it still primarily CRM? And under Consumer Duty, how are you evidencing fair outcomes across pensions and investment conversations at scale?' Reference Mutual of Omaha (AWS + financial services, 33% uplift, QA halved). Mention Declan Hourican / TSB.",
+      "best_case_study": "\u2605\u2605\u2605 Mutual of Omaha \u2014 Amazon Web Services (identical stack), insurance/investment CC, 33% premium increase, QA cost -50%. EXACT STACK ANALOGUE.\n\u2605\u2605\u2605 TSB \u2014 UK banking CC compliance. CFO Declan Hourican came from TSB \u2014 USE THIS.\n\u2605\u2605 Propel Holdings \u2014 regulated FS AI, compliance-heavy.\n\u2605 Oportun \u2014 50% QM workload reduction, 100% QA coverage.",
+      "narrative": "HL has Amazon Connect + Salesforce + Agentforce in limited use \u2014 and a Deloitte engagement on top. They're spending on AI but haven't solved the CC problem. Charlie Peters owns the CC roadmap and hasn't spoken to an AE. Streatfield is building in-house retention AI \u2014 Cresta accelerates it, doesn't compete. FCA Consumer Duty requires evidenced fair outcomes on 100% of client interactions. CFO Declan Hourican came from TSB \u2014 Cresta works with TSB.",
+      "outreach_angle": "Email Charlie Peters: 'Michael Loberman suggested you're the right person. Two questions: Is Agentforce delivering the CC intelligence you need for agent coaching \u2014 or is it still primarily CRM? And under Consumer Duty, how are you evidencing fair outcomes across pensions and investment conversations at scale?' Reference Mutual of Omaha (AWS + financial services, 33% uplift, QA halved). Mention Declan Hourican / TSB.",
       "sdr_playbook": {
-        "hypothesis": "HL has invested heavily in CC tech (Amazon Connect, Salesforce, Agentforce) but the AI coaching and 100% QM layer is missing. Charlie Peters owns the roadmap and hasn't been contacted by an AE. Streatfield meeting is booked. FCA Consumer Duty = 100% QM is non-optional. CFO Hourican came from TSB (Cresta customer). This needs AE takeover — not more SDR touches.",
+        "hypothesis": "HL has invested heavily in CC tech (Amazon Connect, Salesforce, Agentforce) but the AI coaching and 100% QM layer is missing. Charlie Peters owns the roadmap and hasn't been contacted by an AE. Streatfield meeting is booked. FCA Consumer Duty = 100% QM is non-optional. CFO Hourican came from TSB (Cresta customer). This needs AE takeover \u2014 not more SDR touches.",
         "buying_signals": [
-          "Streatfield (Retention) booked a meeting — 'really interesting' (warm signal)",
-          "Loberman named Charlie Peters as CC tech decision-maker — direct internal referral",
-          "Amazon Connect + Salesforce transformation in progress — ideal moment to add AI layer",
+          "Streatfield (Retention) booked a meeting \u2014 'really interesting' (warm signal)",
+          "Loberman named Charlie Peters as CC tech decision-maker \u2014 direct internal referral",
+          "Amazon Connect + Salesforce transformation in progress \u2014 ideal moment to add AI layer",
           "CVC ownership (Mar '25) = cost efficiency mandate = Cresta's AHT + QM automation relevant",
-          "CFO Declan Hourican came from TSB — Cresta works with TSB"
+          "CFO Declan Hourican came from TSB \u2014 Cresta works with TSB"
         ],
         "target_contacts": [
           {
@@ -434,7 +434,7 @@
             "title": "Head of Helpdesk Development",
             "priority": "Primary",
             "why": "Named by Loberman as the person who owns the CC roadmap. Technical decision-maker. Not yet contacted by AE.",
-            "approach": "Cold email from Marcus — reference Loberman. Mutual of Omaha (AWS, FS). FCA Consumer Duty. Mention Hourican/TSB.",
+            "approach": "Cold email from Marcus \u2014 reference Loberman. Mutual of Omaha (AWS, FS). FCA Consumer Duty. Mention Hourican/TSB.",
             "linkedin_search": "Charlie Peters Hargreaves Lansdown helpdesk"
           },
           {
@@ -442,7 +442,7 @@
             "title": "Head of Retention",
             "priority": "Primary",
             "why": "Meeting booked. Warm signal. Build-vs-buy conversation opportunity.",
-            "approach": "Attend meeting. Lead with: 'Tell me about what you're building in-house — where does Cresta accelerate it rather than duplicate it?'",
+            "approach": "Attend meeting. Lead with: 'Tell me about what you're building in-house \u2014 where does Cresta accelerate it rather than duplicate it?'",
             "linkedin_search": "Matthew Streatfield Hargreaves Lansdown retention"
           },
           {
@@ -456,52 +456,52 @@
         ],
         "messages": [
           {
-            "persona": "Marcus → Charlie Peters (first AE outreach)",
-            "subject": "Amazon Connect + Salesforce at HL — Michael Loberman suggested you",
-            "body": "Charlie,\n\nMichael Loberman suggested you're the right person — you own the Amazon Connect and Salesforce roadmap at HL.\n\nTwo things I'd like your view on:\n\n1. Is Agentforce delivering the CC intelligence you need for agent coaching — or is it still primarily a CRM tool?\n\n2. Under FCA Consumer Duty, how are you evidencing fair outcomes across pensions and investment conversations at scale? Manual QA on a sample doesn't evidence 100% — which is what the Duty requires.\n\nWe work with Mutual of Omaha on Amazon Connect — same stack, financial services, similar regulatory environment. 33% improvement in outcomes, QA cost halved in 6 months. I'd also mention that Declan Hourican will recognise our name from his time at TSB.\n\n15 minutes? Happy to come to Bristol.\n\nMarcus",
+            "persona": "Marcus \u2192 Charlie Peters (first AE outreach)",
+            "subject": "Amazon Connect + Salesforce at HL \u2014 Michael Loberman suggested you",
+            "body": "Charlie,\n\nMichael Loberman suggested you're the right person \u2014 you own the Amazon Connect and Salesforce roadmap at HL.\n\nTwo things I'd like your view on:\n\n1. Is Agentforce delivering the CC intelligence you need for agent coaching \u2014 or is it still primarily a CRM tool?\n\n2. Under FCA Consumer Duty, how are you evidencing fair outcomes across pensions and investment conversations at scale? Manual QA on a sample doesn't evidence 100% \u2014 which is what the Duty requires.\n\nWe work with Mutual of Omaha on Amazon Connect \u2014 same stack, financial services, similar regulatory environment. 33% improvement in outcomes, QA cost halved in 6 months. I'd also mention that Declan Hourican will recognise our name from his time at TSB.\n\n15 minutes? Happy to come to Bristol.\n\nMarcus",
             "cta": "15-minute call or coffee in Bristol"
           }
         ],
         "talk_track": {
-          "opener": "Hi Charlie, Marcus Nolan from Cresta — Michael Loberman suggested you're the right person for a conversation about the Amazon Connect and Salesforce roadmap. Do you have 2 minutes?",
-          "pitch": "We sit on top of Amazon Connect and Salesforce — no replacement — and do two things: 100% call quality coverage for FCA Consumer Duty, and real-time guidance for agents during complex investment conversations. Mutual of Omaha runs exactly your stack — 33% improvement in outcomes in 6 months.",
-          "qualifying_question": "You're in the middle of the Amazon Connect transformation — is the AI coaching layer on the roadmap for this phase, or is it a separate workstream?",
+          "opener": "Hi Charlie, Marcus Nolan from Cresta \u2014 Michael Loberman suggested you're the right person for a conversation about the Amazon Connect and Salesforce roadmap. Do you have 2 minutes?",
+          "pitch": "We sit on top of Amazon Connect and Salesforce \u2014 no replacement \u2014 and do two things: 100% call quality coverage for FCA Consumer Duty, and real-time guidance for agents during complex investment conversations. Mutual of Omaha runs exactly your stack \u2014 33% improvement in outcomes in 6 months.",
+          "qualifying_question": "You're in the middle of the Amazon Connect transformation \u2014 is the AI coaching layer on the roadmap for this phase, or is it a separate workstream?",
           "ask": "20 minutes with you and whoever owns QA and compliance monitoring? I'll bring the Mutual of Omaha case study and a specific Consumer Duty framework. Happy to come to Bristol."
         },
         "objections": [
           {
-            "objection": "We already have Agentforce — why do we need Cresta?",
-            "response": "Agentforce is excellent for CRM automation — built for that. Cresta was built specifically for the contact centre: 100% call QM, real-time agent guidance during the call, conversation intelligence. Forrester named us #1. We sit alongside Agentforce — not against it."
+            "objection": "We already have Agentforce \u2014 why do we need Cresta?",
+            "response": "Agentforce is excellent for CRM automation \u2014 built for that. Cresta was built specifically for the contact centre: 100% call QM, real-time agent guidance during the call, conversation intelligence. Forrester named us #1. We sit alongside Agentforce \u2014 not against it."
           },
           {
             "objection": "We're building our own retention AI",
-            "response": "Streatfield's build makes sense — you want to own that data asset. The question is: does it cover 100% call QM for Consumer Duty? Most teams building retention AI leave the compliance monitoring gap open. Cresta fills that gap — additive, not competitive."
+            "response": "Streatfield's build makes sense \u2014 you want to own that data asset. The question is: does it cover 100% call QM for Consumer Duty? Most teams building retention AI leave the compliance monitoring gap open. Cresta fills that gap \u2014 additive, not competitive."
           },
           {
             "objection": "Deloitte are already engaged on this",
-            "response": "Deloitte designs the strategy — we deliver the CC execution. We've worked alongside Deloitte on implementations before. If they're designing the AI roadmap, being in that conversation is worth a 15-minute call."
+            "response": "Deloitte designs the strategy \u2014 we deliver the CC execution. We've worked alongside Deloitte on implementations before. If they're designing the AI roadmap, being in that conversation is worth a 15-minute call."
           }
         ],
         "cadence": [
           {
             "day": "1",
             "action": "Email Charlie Peters (Marcus sends directly)",
-            "note": "Reference Loberman. Mutual of Omaha attached. FCA Consumer Duty angle. Mention Hourican/TSB. Short — 3 paragraphs max."
+            "note": "Reference Loberman. Mutual of Omaha attached. FCA Consumer Duty angle. Mention Hourican/TSB. Short \u2014 3 paragraphs max."
           },
           {
             "day": "1",
             "action": "Attend Matthew Streatfield meeting (w/c 21 Apr)",
-            "note": "Listen first. 'Tell me about what you're building in-house — where does Cresta accelerate it?'"
+            "note": "Listen first. 'Tell me about what you're building in-house \u2014 where does Cresta accelerate it?'"
           },
           {
             "day": "3",
             "action": "LinkedIn connect to Charlie Peters",
-            "note": "Short personalised note — reference Loberman referral."
+            "note": "Short personalised note \u2014 reference Loberman referral."
           },
           {
             "day": "5",
             "action": "Follow-up if no email reply from Charlie",
-            "note": "Phone call. Short — 'Michael Loberman suggested you. 15 minutes — I'll bring the TSB reference.'"
+            "note": "Phone call. Short \u2014 'Michael Loberman suggested you. 15 minutes \u2014 I'll bring the TSB reference.'"
           },
           {
             "day": "7",
@@ -511,10 +511,1991 @@
           {
             "day": "14",
             "action": "Route to Simon Belsham (CCO) if neither progressing",
-            "note": "'I've had good conversations with Charlie Peters and Matthew Streatfield — I think this is relevant for your CX agenda too.'"
+            "note": "'I've had good conversations with Charlie Peters and Matthew Streatfield \u2014 I think this is relevant for your CX agenda too.'"
           }
         ]
       }
+    },
+    {
+      "id": "hastings-direct",
+      "name": "Hastings Direct",
+      "parent": "Sampo Group plc (Finland)",
+      "domain": "hastingsdirect.com",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/001Uy00000RRZVgIAP/view",
+      "priority": "A",
+      "vertical": "Financial Services",
+      "status": "Target",
+      "hq": "Bexhill-on-Sea, UK",
+      "employees": "~3,500",
+      "revenue": "GWP \u00a31.9bn (9M '25, +16% YoY)",
+      "risk_level": "HIGH",
+      "last_activity": "2026-04-16",
+      "quick_context": "UK P&C digital insurer. 4.4M policies (+15% YoY). Sampo Group (Finland) owner. FSA fine 2009 (\u00a3735K for TCF breach). Genesys + Verint confirmed. No AI coaching. COO not yet identified. 5+ SDR touches all below Director level.",
+      "next_step": "Identify COO or Head of CX via LinkedIn (not yet found). AE cold email \u2014 FCA Consumer Duty + Genesys enhancement angle. Skip current SDR contacts \u2014 go to Director level.",
+      "group_structure": "Sampo Group plc (Helsinki, Finland) \u2192 Hastings Insurance Services Ltd (HISL \u2014 FCA authorised broker) \u2192 Advantage Insurance Company Ltd (Gibraltar \u2014 underwriting) \u2192 Hastings Financial Services Ltd. Products: Motor, Home, Van, Bike (personal lines). Digital-first.",
+      "financials": "Q3 2025 (Sampo): GWP \u00a31,908m for 9M '25 (+16% YoY) \u00b7 Underwriting Result \u00a3148.5m (+25%) \u00b7 4.4M policies (+15% YoY) \u00b7 'Record customer satisfaction across all channels' (CEO Nov '25) \u00b7 'Continued investment in technology and customer servicing capabilities' \u2014 stated strategic priority.",
+      "tech_stack": {
+        "confirmed": [
+          "Genesys (CCaaS)",
+          "Verint (Call Recording / QM)",
+          "Smart Communications",
+          "Directly",
+          "Workday",
+          "Power BI / Tableau / Looker / Databricks"
+        ],
+        "inferred": [
+          "No CRM platform confirmed",
+          "No AI coaching layer",
+          "Possible Genesys WEM",
+          "Sampo group tech governance layer"
+        ]
+      },
+      "ai_initiatives": [
+        {
+          "title": "Mobile App Deflection Strategy",
+          "detail": "Sampo Q3 '25: 'Record app downloads and usage.' App handles policy management, claims FNOL, routine queries \u2014 deflects simple contacts but means remaining CC calls are higher complexity and FCA Consumer Duty sensitivity.",
+          "source": "Sampo Q3 2025 results",
+          "cresta_angle": "App deflects easy calls \u2014 Cresta handles the complex ones. Remaining CC interactions are high-stakes FCA moments."
+        },
+        {
+          "title": "No CC AI coaching \u2014 complete whitespace",
+          "detail": "Genesys + Verint handles routing and post-call sampling. No AI agent assist, real-time guidance, or 100% QM confirmed.",
+          "source": "ZoomInfo / public research",
+          "cresta_angle": "Hastings growing 15% YoY with no AI coaching. Gap between best and average agents widening as call complexity increases."
+        }
+      ],
+      "recent_news": [
+        {
+          "date": "2009",
+          "headline": "FSA fine: \u00a3735,000 for TCF breach \u2014 cancellation of ~4,550 incorrectly-priced motor policies",
+          "detail": "FSA fined Hastings for Treating Customers Fairly breach. Settled early (30% reduction). Final notice at fca.org.uk.",
+          "cresta_relevance": "Historical TCF fine = live regulatory nerve. FCA Consumer Duty is TCF evolved \u2014 100% QM is their insurance against a repeat."
+        },
+        {
+          "date": "Nov 2025",
+          "headline": "Sampo Q3 2025: 4.4M policies (+15% YoY), 'continued investment in customer servicing'",
+          "detail": "Strong growth. Technology and customer servicing investment stated as priority.",
+          "cresta_relevance": "Growth + stated tech investment = right timing for CC AI conversation."
+        }
+      ],
+      "key_execs": [
+        {
+          "name": "Toby van der Meer",
+          "title": "CEO",
+          "sdr_note": "Do not cold outreach.",
+          "status": "Cold"
+        },
+        {
+          "name": "Unknown COO",
+          "title": "COO / Head of Customer Operations \u2014 NOT YET IDENTIFIED",
+          "sdr_note": "PRIORITY: LinkedIn research needed. Primary AE target.",
+          "status": "Cold"
+        },
+        {
+          "name": "Levi Rhodes Suleman",
+          "title": "Head of Operational Excellence",
+          "sdr_note": "SDR touched Mar '26: 'Not right now.' Polite rejection \u2014 go above.",
+          "status": "Blocker"
+        },
+        {
+          "name": "Hayley Taylor",
+          "title": "Customer Service leadership (level unconfirmed)",
+          "sdr_note": "SDR called pre/post-Easter. Mild interest \u2014 too junior.",
+          "status": "Engaged"
+        },
+        {
+          "name": "Dilip Tanna",
+          "title": "Unknown title",
+          "sdr_note": "SDR VM Apr '26 \u2014 no response.",
+          "status": "Cold"
+        }
+      ],
+      "champions": "No confirmed champions at Director level. COO not yet identified.",
+      "blockers": "COO/CX Director not identified. Levi Rhodes Suleman \u2014 polite rejection. Sampo parent governance. Digital-first 'app handles this' internal pushback possible.",
+      "cc_footprint": "Personal lines CC: motor, home, van, bike. Genesys + Verint. FCA Consumer Duty on 100% of regulated interactions. 4.4M policies \u00d7 renewal + claims = significant volume. Mobile app deflects simple queries \u2014 remaining calls are higher complexity.",
+      "regulatory_signals": "FSA fine 2009: \u00a3735,000 for TCF breach. No recent FCA enforcement confirmed. Sampo SFCR 2024 explicitly lists conduct risk as top group-wide risk and Consumer Duty compliance as priority. Genesys + Verint = 5-10% call review = structural compliance gap.",
+      "competitors": "Verint (in-stack \u2014 position as complementary). Genesys WEM if deployed.",
+      "why_cresta_wins": "Historical TCF fine + Consumer Duty = 100% QM non-optional. Verint does post-call sampling \u2014 Cresta delivers 100% real-time scoring AND agent guidance. Sampo cost pressure = AHT + FCR + automated QM = direct cost levers.",
+      "gong_history": [
+        {
+          "date": "2026-04-16",
+          "type": "Cold Call VM",
+          "contact": "Dilip Tanna",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "VM \u2014 'build versus buy' framing. No response.",
+          "url": "https://us-15661.app.gong.io/call?id=7091298165296846440"
+        },
+        {
+          "date": "2026-04-08",
+          "type": "Cold Call Connected",
+          "contact": "Hayley Taylor (CS Lead)",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "Called back post-Easter. Mild interest \u2014 too junior to progress.",
+          "url": ""
+        },
+        {
+          "date": "2026-03-15",
+          "type": "Cold Call Connected",
+          "contact": "Levi Rhodes Suleman (Ops Excellence)",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "'Not right now if that's okay.' Polite rejection.",
+          "url": ""
+        },
+        {
+          "date": "2026-03-10",
+          "type": "Cold Call \u2014 Wrong Person",
+          "contact": "William Bayliss",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "Left Hastings 4 years ago.",
+          "url": ""
+        }
+      ],
+      "use_cases": [
+        "100% Auto-QA \u2014 FCA Consumer Duty. Historical TCF fine = live nerve. Verint 5-10% = compliance gap.",
+        "Real-time Agent Assist \u2014 claims consistency, renewal, fraud detection prompts.",
+        "Coaching Hub \u2014 Sampo cost efficiency mandate.",
+        "Conversation Intelligence \u2014 claims root cause, complaint trending."
+      ],
+      "best_case_study": "\u2605\u2605\u2605 Propel Holdings \u2014 regulated FS/insurance, compliance-heavy.\n\u2605\u2605\u2605 AAA Life Insurance \u2014 FCA-equivalent insurance CC, coaching + compliance.\n\u2605\u2605 Brinks Home \u2014 Genesys-compatible, NPS +30pts.",
+      "narrative": "Hastings was fined by the FSA in 2009 for Treating Customers Fairly failures. FCA Consumer Duty is TCF evolved \u2014 Genesys + Verint at 5-10% call review leaves a structural compliance gap. The COO is not yet identified \u2014 finding and emailing that person is the single most important action.",
+      "outreach_angle": "Cold email to COO (once identified): 'Hastings is growing at 15% YoY and your app handles the simple stuff brilliantly \u2014 but the calls still coming through are the FCA Consumer Duty-sensitive ones. With Genesys + Verint, you're reviewing 5-10% of those. Under Consumer Duty, you need to evidence fair outcomes on all of them. Here's how comparable insurers are closing that gap \u2014 on top of Genesys, without replacing anything.'",
+      "sdr_playbook": {
+        "hypothesis": "Hastings has a historical FSA fine for TCF failures and is now subject to FCA Consumer Duty requiring evidenced fair outcomes on 100% of customer interactions. They review 5-10% of calls via Verint. SDR has touched 5+ contacts all below Director level \u2014 this needs AE escalation to COO/Head of CX.",
+        "buying_signals": [
+          "Historical FSA \u00a3735K fine (2009) \u2014 live regulatory nerve",
+          "FCA Consumer Duty 2024 = 100% QM now a regulatory expectation",
+          "Sampo SFCR 2024 lists conduct risk as top group-wide risk",
+          "4.4M policies growing 15% YoY \u2014 CC scale increasing",
+          "Mobile app deflects simple queries \u2014 remaining calls higher FCA risk"
+        ],
+        "target_contacts": [
+          {
+            "name": "Unknown COO / Head of Customer Operations",
+            "title": "To be identified via LinkedIn",
+            "priority": "Primary",
+            "why": "Primary buyer for CC AI. Not yet identified \u2014 LinkedIn research is first action.",
+            "approach": "LinkedIn search: 'Hastings Direct COO' or 'Head of Customer Operations'. Once found, cold email from Marcus \u2014 FCA Consumer Duty + Genesys framing.",
+            "linkedin_search": "Hastings Direct Chief Operating Officer OR Head of Customer Operations"
+          },
+          {
+            "name": "Levi Rhodes Suleman",
+            "title": "Head of Operational Excellence",
+            "priority": "Secondary",
+            "why": "Already touched \u2014 try advisory angle rather than sales pitch.",
+            "approach": "Re-approach with changed frame: 'I spoke briefly in March \u2014 I've been researching how Consumer Duty is being operationalised in personal lines. Would you share your perspective?'",
+            "linkedin_search": "Levi Rhodes Suleman Hastings Direct"
+          }
+        ],
+        "messages": [
+          {
+            "persona": "Marcus \u2192 Unknown COO (once identified)",
+            "subject": "Hastings + FCA Consumer Duty \u2014 evidencing fair outcomes at scale",
+            "body": "[Name],\n\nHastings is growing impressively \u2014 4.4M policies, 15% YoY, and your mobile app is clearly working. The calls still reaching your agents are the ones the app can't solve: complex claims, disputed renewals, vulnerable customers.\n\nUnder FCA Consumer Duty, you need to evidence fair outcomes on all of those \u2014 not a sample. With Genesys + Verint, you're reviewing somewhere between 5-10% post-hoc.\n\nWe work with insurers running Genesys who've solved this \u2014 100% call QM, real-time agent guidance, no rip-and-replace.\n\nWould 20 minutes be worthwhile?\n\nMarcus Nolan, Cresta",
+            "cta": "20-minute call"
+          }
+        ],
+        "talk_track": {
+          "opener": "Hi [name], Marcus Nolan from Cresta. We work with FCA-regulated insurers on closing the Consumer Duty gap in contact centres. Is 100% QM evidence on your radar for this year? Do you have 2 minutes?",
+          "pitch": "We sit on top of Genesys \u2014 no replacement \u2014 and deliver 100% call quality scoring for Consumer Duty evidence, plus real-time agent guidance for complex claims and renewal conversations.",
+          "qualifying_question": "Is Consumer Duty compliance monitoring something your compliance team is asking for at CC level, or being handled at policy level?",
+          "ask": "Could I get 20 minutes with you and whoever leads compliance monitoring?"
+        },
+        "objections": [
+          {
+            "objection": "We already have Verint for QM",
+            "response": "Verint reviews a sample post-call. Consumer Duty requires evidencing fair outcomes on all customer interactions \u2014 not a sample. Cresta delivers 100% real-time scoring alongside Verint. Complementary \u2014 many customers run both."
+          },
+          {
+            "objection": "Our app handles customer service",
+            "response": "Your app handles simple queries brilliantly. The calls reaching your agents are the complex ones \u2014 disputed claims, vulnerable customers. That's exactly where agent inconsistency creates Consumer Duty exposure."
+          }
+        ],
+        "cadence": [
+          {
+            "day": "1",
+            "action": "LinkedIn research \u2014 identify COO or Head of Customer Operations",
+            "note": "Search: 'Hastings Direct COO', 'Head of Customer Operations'. Check CEO LinkedIn for direct reports."
+          },
+          {
+            "day": "2",
+            "action": "Email COO \u2014 FCA Consumer Duty + Genesys framing",
+            "note": "Short \u2014 3 paragraphs. Attach Propel case study."
+          },
+          {
+            "day": "5",
+            "action": "Follow-up email if no response",
+            "note": "One-liner referencing Consumer Duty."
+          },
+          {
+            "day": "7",
+            "action": "Call COO directly",
+            "note": "Short call. Regulatory angle."
+          },
+          {
+            "day": "14",
+            "action": "Re-engage Levi Rhodes Suleman with advisory angle",
+            "note": "Different frame \u2014 not a sales call."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hyperoptic",
+      "name": "Hyperoptic",
+      "parent": "KKR & Co. (75% equity since 2019)",
+      "domain": "hyperoptic.com",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/0013i00000tKH23AAG/view",
+      "priority": "A",
+      "vertical": "Telecom",
+      "status": "Target",
+      "hq": "London, UK",
+      "employees": "1,724 (FY24)",
+      "revenue": "\u00a3114m (FY24, +22% YoY)",
+      "risk_level": "MEDIUM",
+      "last_activity": "2026-01-26",
+      "quick_context": "UK's #1 alt-net full-fibre ISP. 400K+ subscribers. Openreach wholesale live Q1 2026 \u2014 1M new homes. 70 redundancies Dec '25. Emma Dark (CX Director, 2025) + Nemanja Zec (Head of CS, 2025) = primary targets. Five9 + Zendesk confirmed. No AI layer. SDR went to wrong contacts.",
+      "next_step": "Email Emma Dark \u2014 Challenger opener on Trustpilot consistency gap + Openreach scaling urgency. Attach Cox case study. No deck \u2014 send a provocative question.",
+      "group_structure": "Hyperoptic Ltd (UK). KKR & Co. (75% equity 2019). 64 UK towns/cities. Openreach FTTP wholesale from Q1 2026 (1M additional homes). B2C residential + B2B leased lines.",
+      "financials": "FY2024: Revenue \u00a3114m (+22% YoY) \u00b7 Operating Income \u00a387m \u00b7 Net Income -\u00a3144m \u00b7 Subscribers 373,918 (Dec '24); 400K+ Jun '25 \u00b7 70 redundancies Dec '25 (5% of 1,724 staff) \u00b7 Dropped no-mid-contract-price-rise policy Jun '25.",
+      "tech_stack": {
+        "confirmed": [
+          "Five9 (CCaaS)",
+          "3CLogic",
+          "Zendesk (Helpdesk)",
+          "ServiceNow (ITSM)",
+          "Tableau (BI)",
+          "Google Workspace"
+        ],
+        "inferred": [
+          "Hybrid UK + Serbian CC (confirmed via Trustpilot review analysis)",
+          "No AI coaching layer \u2014 complete whitespace",
+          "No dedicated CRM \u2014 Zendesk likely handles case management"
+        ]
+      },
+      "ai_initiatives": [
+        {
+          "title": "No CC AI \u2014 complete whitespace",
+          "detail": "No AI agent coaching, real-time assist, or automated QM. Emma Dark (CX Director, 2025) is defining AI strategy from scratch.",
+          "source": "ZoomInfo / Trustpilot analysis",
+          "cresta_angle": "Emma Dark is defining what AI means for Hyperoptic CX right now. Cresta should co-design that strategy, not arrive after it's set."
+        },
+        {
+          "title": "Openreach FTTP Wholesale Strategy (Dec 2025)",
+          "detail": "More customers + fewer people (70 redundancies) = CC efficiency is existential. Openreach going live Q1 2026.",
+          "source": "Wikipedia / ISPreview / Hyperoptic Dec 2025",
+          "cresta_angle": "More subscribers + fewer CC staff = Cresta's AHT reduction and ramp speed is necessary, not nice-to-have."
+        },
+        {
+          "title": "Ofcom Auto-Compensation Code (Voluntary)",
+          "detail": "Service outages, delayed repairs, missed appointments trigger automatic compensation. FCR directly impacts P&L.",
+          "source": "Hyperoptic code of practice",
+          "cresta_angle": "Auto-compensation exposure means CC resolution quality impacts P&L. Cresta improves FCR \u2014 each resolved call avoids a compensation payment."
+        }
+      ],
+      "recent_news": [
+        {
+          "date": "Dec 2025",
+          "headline": "Openreach wholesale strategy + 70 redundancies",
+          "detail": "Strategic pivot. 70 redundancies (5% workforce). Openreach live Q1 2026.",
+          "cresta_relevance": "More homes to service + fewer CC staff = efficiency imperative."
+        },
+        {
+          "date": "Jun 2025",
+          "headline": "Passes 400,000 customers + drops no-mid-contract-price-rise policy",
+          "detail": "Growth milestone. Price guarantee dropped \u2014 service quality = retention lever.",
+          "cresta_relevance": "CX consistency = retention. Cresta directly improves this."
+        },
+        {
+          "date": "2025",
+          "headline": "Emma Dark joins as CX Director; Nemanja Zec joins as Head of CS",
+          "detail": "Both 2025 hires. Blank-sheet mandates. No legacy vendor relationships.",
+          "cresta_relevance": "Ideal timing \u2014 co-define CX strategy."
+        }
+      ],
+      "key_execs": [
+        {
+          "name": "Dana Tobak CBE",
+          "title": "CEO & Co-founder",
+          "sdr_note": "Do not cold outreach.",
+          "status": "Cold"
+        },
+        {
+          "name": "Mark Bartlett",
+          "title": "COO (ex-Cellnex UK, Openreach, BT)",
+          "sdr_note": "Exec sponsor path when deal progresses.",
+          "status": "Cold"
+        },
+        {
+          "name": "Emma Dark",
+          "title": "CX & Service Director (2025)",
+          "sdr_note": "PRIMARY CHAMPION. New role. Blank-sheet mandate. Challenger email from Marcus this week.",
+          "status": "Champion"
+        },
+        {
+          "name": "Nemanja Zec",
+          "title": "Head of Customer Service (2025)",
+          "sdr_note": "SECONDARY CHAMPION. CC on every email to Emma.",
+          "status": "Champion"
+        }
+      ],
+      "champions": "Emma Dark \u2605\u2605 \u2014 new to role 2025, blank-sheet mandate, no legacy vendor loyalty. Nemanja Zec \u2605 \u2014 Head of CS, 2025 hire.",
+      "blockers": "Small company \u2014 budget approval from COO/CFO needed. KKR = commercial ROI rigour. Net income -\u00a3144m = cost discipline.",
+      "cc_footprint": "Hybrid UK + Serbian CC. Five9. Zendesk for chat. ~400K+ subscribers \u2192 ~60K+ contacts/year. Openreach = potentially 3x subscriber base. Trustpilot: supervisor visibility gaps, long chat wait times, agent inconsistency on escalations.",
+      "regulatory_signals": "Ofcom-regulated. Voluntary auto-compensation code. Ofcom shortened complaint escalation to 6 weeks (Apr 8 2026). Dropped price guarantee Jun '25.",
+      "competitors": "Five9 native AI (if deployed). Zendesk AI. Generic tools Emma's team may self-build with.",
+      "why_cresta_wins": "Integrates natively with Five9 \u2014 no CCaaS change. Cox Communications (telecom, subscriber scaling, hybrid workforce) = near-perfect analogue. With 70 redundancies made, Cresta's efficiency gains are necessary not optional.",
+      "gong_history": [
+        {
+          "date": "2026-01-26",
+          "type": "Cold Call Connected",
+          "contact": "Oliver Grant",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "Brief exchange. No progression. Wrong contact.",
+          "url": "https://us-15661.app.gong.io/call?id=2114637008660839443"
+        },
+        {
+          "date": "2026-01-20",
+          "type": "Cold Call \u2014 Rejected",
+          "contact": "Nadezda Radojcic",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "'I'm not interested.' Direct rejection.",
+          "url": "https://us-15661.app.gong.io/call?id=8926372953746629081"
+        },
+        {
+          "date": "2026-01-20",
+          "type": "Cold Call VM",
+          "contact": "Nadezda Radojcic",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "VM: 'Harold from Cresta, looking to speak about CS strategy'",
+          "url": "https://us-15661.app.gong.io/call?id=2650680595598447723"
+        },
+        {
+          "date": "2026-01-13",
+          "type": "Cold Call VM",
+          "contact": "Nadezda Radojcic",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "VM: 'Harold from Cresta, trying to reach Nadezda about CS strategy'",
+          "url": "https://us-15661.app.gong.io/call?id=7084917848968737543"
+        }
+      ],
+      "use_cases": [
+        "Real-time Agent Assist \u2014 retention save conversations (Openreach scaling).",
+        "100% Auto-QA \u2014 UK + Serbia coaching consistency.",
+        "Coaching Hub \u2014 data-driven coaching for Emma Dark to prove impact to KKR.",
+        "Agent Onboarding Acceleration \u2014 70 redundancies means ramp speed is critical."
+      ],
+      "best_case_study": "\u2605\u2605\u2605 Cox Communications \u2014 Telecom, 20% revenue increase, 28.5% AHT reduction, 50% ramp reduction.\n\u2605\u2605 Brinks Home \u2014 multi-platform integration proof, NPS +30pts.",
+      "narrative": "Emma Dark has just taken the CX Director role with a blank-sheet mandate at the exact moment Hyperoptic is about to 3x its subscriber base via Openreach \u2014 with 70 fewer people. The Openreach deal removes the 'best network' USP. Service quality becomes the only reason to stay. Cox Communications is the proof.",
+      "outreach_angle": "Challenger email to Emma Dark: 'Your Trustpilot headline is strong. But the gap between your best and average agents is probably costing you thousands of customers in churn you can't currently see \u2014 especially as Openreach scales you into a million new homes with a smaller team than you had six months ago. Is that a fair characterisation?'",
+      "sdr_playbook": {
+        "hypothesis": "SDR went to wrong contacts (Nadezda, Oliver). Marcus needs to go directly to Emma Dark with a Challenger question, not a deck. Emma and Nemanja both joined 2025 \u2014 no legacy to defend. Openreach scales subscriber base while 70 redundancies reduce CC team.",
+        "buying_signals": [
+          "Emma Dark + Nemanja Zec both joined 2025 \u2014 no incumbent vendor loyalty",
+          "Openreach wholesale (Dec '25) = 3x subscriber scaling urgency",
+          "70 redundancies = must do more with fewer people",
+          "Dropped price guarantee = service quality = retention lever",
+          "Ofcom complaint window shortened to 6 weeks (Apr '26)"
+        ],
+        "target_contacts": [
+          {
+            "name": "Emma Dark",
+            "title": "CX & Service Director (2025)",
+            "priority": "Primary",
+            "why": "New to role, building CX strategy. No legacy vendor relationships. Owns CC budget.",
+            "approach": "Challenger email from Marcus \u2014 not a deck. One provocative question about Trustpilot consistency gap.",
+            "linkedin_search": "Emma Dark Hyperoptic CX Director"
+          },
+          {
+            "name": "Nemanja Zec",
+            "title": "Head of Customer Service (2025)",
+            "priority": "Secondary",
+            "why": "Operational implementer. CC on every email to Emma.",
+            "approach": "CC on Emma email only.",
+            "linkedin_search": "Nemanja Zec Hyperoptic customer service"
+          }
+        ],
+        "messages": [
+          {
+            "persona": "Marcus \u2192 Emma Dark (Challenger first contact)",
+            "subject": "Hyperoptic CX \u2014 a question about your Trustpilot consistency",
+            "body": "Emma,\n\nI've been looking at Hyperoptic's Trustpilot reviews in detail \u2014 the headline score is strong. But the pattern in the corpus is interesting: when interactions go well, customers name a specific agent by name. When they go badly, they describe confusion, long wait times, and agents who couldn't resolve without escalation.\n\nThat gap between your best and average agents is probably costing you thousands of customers in churn you can't currently see \u2014 especially with Openreach scaling you into a million new homes this year, with a smaller team than six months ago.\n\nIs that a fair characterisation of what you're seeing internally?\n\nCox Communications \u2014 same sector, similar subscriber scaling challenge \u2014 achieved a 20% revenue increase and 28.5% reduction in handle time.\n\nWorth 30 minutes?\n\nMarcus Nolan, Cresta",
+            "cta": "30-minute conversation (not a demo)"
+          }
+        ],
+        "talk_track": {
+          "opener": "Hi Emma, Marcus Nolan from Cresta. I sent you a note about the Trustpilot consistency gap at Hyperoptic. Do you have 2 minutes?",
+          "pitch": "We work with telecoms businesses on the gap between best and average CC agents. Cox Communications \u2014 same sector, same subscriber scaling challenge \u2014 achieved 20% revenue increase and 50% ramp time reduction.",
+          "qualifying_question": "With Openreach going live this year \u2014 what's your plan for maintaining CX consistency as subscriber volume increases but headcount has come down?",
+          "ask": "30 minutes \u2014 not a demo, a conversation about how other telecoms businesses have scaled CX without scaling headcount."
+        },
+        "objections": [
+          {
+            "objection": "We have Five9 and Zendesk \u2014 we have what we need",
+            "response": "Five9 handles routing, Zendesk manages tickets. Neither guides agents in real-time or scores 100% of calls. Cresta sits on top of Five9 \u2014 no replacement."
+          },
+          {
+            "objection": "Budget is tight after the redundancies",
+            "response": "That's exactly the context where Cresta pays back fastest. Fewer people + more customers = remaining team needs to be better, faster, more consistent. AHT + ramp time + churn reduction = the ROI."
+          }
+        ],
+        "cadence": [
+          {
+            "day": "1",
+            "action": "Challenger email to Emma Dark",
+            "note": "Trustpilot consistency question. No deck. CC Nemanja Zec."
+          },
+          {
+            "day": "3",
+            "action": "LinkedIn connect to Emma Dark",
+            "note": "Short note referencing the Trustpilot email."
+          },
+          {
+            "day": "5",
+            "action": "Follow-up if no response",
+            "note": "'Happy to share the Cox case study even if timing isn't right.'"
+          },
+          {
+            "day": "7",
+            "action": "Call Emma directly",
+            "note": "'Did my note resonate? Just 30 minutes \u2014 not a demo.'"
+          },
+          {
+            "day": "10",
+            "action": "Email Nemanja Zec if Emma non-responsive",
+            "note": "Operational angle: 'With Openreach going live, I'd love to share how Cox handled similar CC scaling challenges.'"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aib",
+      "name": "AIB",
+      "parent": "AIB Group plc (Euronext Dublin + LSE)",
+      "domain": "aib.ie",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/001Uy00000iF8DyIAK/view",
+      "priority": "A",
+      "vertical": "Financial Services",
+      "status": "Target",
+      "hq": "Dublin, Ireland",
+      "employees": "~10,000",
+      "revenue": "\u20ac2.35bn PAT (FY24)",
+      "risk_level": "MEDIUM",
+      "last_activity": "2026-04-23",
+      "quick_context": "Ireland's largest bank. \u20ac2.35bn profit FY24. 3.35M customers. CRITICAL: AIB launched 'Abi' AI digital assistant in CC \u2014 130,000+ customers self-served (FY24 Annual Report). Cisco UCCE legacy CC. CBI + FCA regulated. Bobby Bergen (warm SDR contact) departed Apr '26.",
+      "next_step": "Email Niamh Phillips (COO) \u2014 Irish peer tone. 'You've launched Abi for self-service. What guides the human agent when Abi hands off?' CBI compliance angle. Marcus's Irish heritage = peer advantage.",
+      "group_structure": "AIB Group plc (Euronext Dublin + LSE \u2014 State shareholding ~12.39%) \u2192 Allied Irish Banks p.l.c. (Ireland) \u2192 AIB Group (UK) p.l.c. (FCA regulated) \u2192 EBS d.a.c. (Irish mortgages/savings) \u2192 Haven Mortgages Ltd \u2192 AIB Merchant Services (JV).",
+      "financials": "FY2024: PAT \u20ac2.35bn \u00b7 RoTE 26.7% \u00b7 3.35M customers (highest ever) \u00b7 New lending \u20ac14.5bn (+17%) \u00b7 S&P Positive outlook Nov '24: 'improved digital capabilities'. State shareholding ~12.39% \u2014 near full privatisation.",
+      "tech_stack": {
+        "confirmed": [
+          "Cisco UCCE / Unified Express (CCaaS \u2014 legacy on-prem)",
+          "Verint (Call Recording)",
+          "Medallia / Qualtrics (CX)",
+          "Boxever (CDP)",
+          "Apigee (API management)",
+          "Databricks",
+          "Kafka",
+          "Kubernetes"
+        ],
+        "inferred": [
+          "'Abi' AI digital assistant \u2014 vendor unconfirmed (likely Azure OpenAI)",
+          "AWS or Azure cloud (unconfirmed)",
+          "Salesforce or Oracle CRM (unconfirmed)"
+        ]
+      },
+      "ai_initiatives": [
+        {
+          "title": "'Abi' AI Digital Assistant \u2014 CC Deployment (FY2024)",
+          "detail": "AIB FY24 Annual Report: 'Launched Abi, our new AI digital assistant, in our contact centre assisting >130,000 customers to self-serve with a rapid response time; phased roll-out since.' Abi handles self-service \u2014 routing, FAQ, account information. Not a human agent coaching tool.",
+          "source": "AIB FY2024 Annual Report (published Mar 2025)",
+          "cresta_angle": "Abi handles self-service. When Abi hands off to a human agent \u2014 what guides that agent? How does AIB ensure the human conversation is as good as the AI that preceded it? That's Cresta's question."
+        },
+        {
+          "title": "API-First Digital Banking Architecture",
+          "detail": "Modern API-first stack (Apigee, Kafka, Kubernetes) = integration-ready foundation. Cresta's API-based integration is technically straightforward.",
+          "source": "ZoomInfo tech stack",
+          "cresta_angle": "Modern API-first = Cresta integrates cleanly on top of Cisco UCCE. No legacy integration concern."
+        }
+      ],
+      "recent_news": [
+        {
+          "date": "Mar 2025",
+          "headline": "AIB FY2024: \u20ac2.35bn PAT, 3.35M customers, 'Abi' AI assistant launched in CC",
+          "detail": "Record profit. Abi explicitly mentioned \u2014 130,000+ customers self-served. NPS all 5 core metrics above target.",
+          "cresta_relevance": "Abi launch = CC AI investment confirmed. CX excellence is a stated priority. Cresta is the agent guidance layer Abi doesn't provide."
+        },
+        {
+          "date": "Apr 2026",
+          "headline": "Bobby Bergen (AIB SDR contact) leaving imminently",
+          "detail": "Harold's VM Apr 23 '26: 'great conversation with Bobby Bergen who is unfortunately leaving in two weeks.' Warm contact departing.",
+          "cresta_relevance": "Warm contact has departed. AE must establish COO-level relationship directly now."
+        }
+      ],
+      "key_execs": [
+        {
+          "name": "Colin Hunt",
+          "title": "CEO",
+          "sdr_note": "Do not cold outreach.",
+          "status": "Cold"
+        },
+        {
+          "name": "Niamh Phillips",
+          "title": "COO (Risk, Governance & Conduct)",
+          "sdr_note": "PRIMARY TARGET. Owns operations, risk, governance. Not yet contacted by AE.",
+          "status": "Cold"
+        },
+        {
+          "name": "Elaine Purcell",
+          "title": "CMO (ex-DDB Chief Growth Officer)",
+          "sdr_note": "Secondary target \u2014 CX growth angle.",
+          "status": "Cold"
+        },
+        {
+          "name": "Bobby Bergen",
+          "title": "AIB contact (departed Apr '26)",
+          "sdr_note": "Was warm SDR contact \u2014 now gone.",
+          "status": "Cold"
+        }
+      ],
+      "champions": "No confirmed AE-level champions. Bobby Bergen departed. Niamh Phillips (COO) = primary target.",
+      "blockers": "CBI regulatory procurement governance. In-house Abi AI team may see Cresta as competitive (address proactively). Cisco UCCE legacy = rip-and-replace concern.",
+      "cc_footprint": "Multi-channel CC across Ireland + UK. Cisco UCCE. CBI Consumer Protection Code + FCA Consumer Duty (UK). Abi AI assistant: 130,000+ customers self-served. Remaining calls are higher complexity. NPS all 5 metrics above target.",
+      "regulatory_signals": "CBI Consumer Protection Code applies. Legacy tracker mortgage redress (substantially resolved). FCA Consumer Duty applies to UK entity. CBI increasingly active on conduct risk post-Tracker scandal.",
+      "competitors": "In-house Abi AI team. Cisco CC AI features. Genesys Cloud if UCCE modernisation considered.",
+      "why_cresta_wins": "Abi = self-service. Cresta = agent guidance for what Abi can't resolve. Complementary, not competitive. Cisco UCCE integration = no rip-and-replace. TSB (UK banking, Cresta customer). Marcus's Irish background = peer advantage.",
+      "gong_history": [
+        {
+          "date": "2026-04-23",
+          "type": "Cold Call VM",
+          "contact": "Orlaith Ryan (aib.ie)",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "VM: 'Had a great conversation with Bobby Bergen who is unfortunately leaving in two weeks. We work with Fortune 500 banks in CX functions.'",
+          "url": "https://us-15661.app.gong.io/call?id=3889084248405050708"
+        }
+      ],
+      "use_cases": [
+        "Real-time Agent Assist \u2014 Abi-to-human handoff quality.",
+        "100% Auto-QA \u2014 CBI Consumer Protection Code + FCA Consumer Duty (UK).",
+        "Coaching Hub \u2014 complex banking queries at scale.",
+        "Retention Signal Detection \u2014 3.35M customers, competitive Irish banking market."
+      ],
+      "best_case_study": "\u2605\u2605\u2605 Propel Holdings \u2014 regulated FS/banking AI automation.\n\u2605\u2605\u2605 Mutual of Omaha \u2014 financial services CC, compliance + coaching, 33% uplift.\n\u2605\u2605 TSB \u2014 UK banking CC compliance. (Use actively with Niamh Phillips.)",
+      "narrative": "AIB has already invested in CC AI \u2014 Abi assists 130,000+ customers. But Abi handles self-service. When a query is too complex for Abi and it hands off to a human agent \u2014 what guides that agent? That's Cresta. Marcus's Irish connection opens the door peer-to-peer. Bobby Bergen (warm contact) has departed \u2014 AE must move to COO level now.",
+      "outreach_angle": "Email Niamh Phillips (COO) \u2014 Irish peer tone: 'AIB's launch of Abi is exactly the right first step. The next question: when Abi hands off to a human, what guides that agent? And how do you evidence CBI-compliant outcomes on 100% of those handoffs? That's Cresta \u2014 on top of your existing Cisco infrastructure. I'm from Dublin and I'd love 20 minutes.'",
+      "sdr_playbook": {
+        "hypothesis": "AIB has self-service AI (Abi) but no agent coaching or 100% QM layer. The Abi-to-human handoff gap is Cresta's whitespace. Bobby Bergen (warm SDR contact) has departed \u2014 AE must establish COO-level relationship. Marcus's Irish heritage is a genuine competitive advantage.",
+        "buying_signals": [
+          "Abi AI launched in CC \u2014 130,000+ customers. AI-ready organisation.",
+          "S&P Positive from 'improved digital capabilities' \u2014 digital investment strategically valued.",
+          "CBI Consumer Protection Code + FCA Consumer Duty = 100% QM is a regulatory requirement.",
+          "3.35M customers (highest ever) + record profit = investment appetite.",
+          "API-first architecture = technically ready for Cresta integration."
+        ],
+        "target_contacts": [
+          {
+            "name": "Niamh Phillips",
+            "title": "COO (Risk, Governance & Conduct)",
+            "priority": "Primary",
+            "why": "Owns operations, risk, governance. Primary buyer for CC AI. CBI compliance in her remit.",
+            "approach": "Direct email from Marcus \u2014 Irish peer-to-peer tone. Reference Abi launch. 'Abi handles self-service \u2014 what guides the human agent for the 30% Abi can't resolve?'",
+            "linkedin_search": "Niamh Phillips AIB COO"
+          },
+          {
+            "name": "Elaine Purcell",
+            "title": "CMO",
+            "priority": "Secondary",
+            "why": "CX growth angle. NPS improvement = CMO win.",
+            "approach": "Secondary if COO route stalls.",
+            "linkedin_search": "Elaine Purcell AIB CMO"
+          }
+        ],
+        "messages": [
+          {
+            "persona": "Marcus \u2192 Niamh Phillips (COO)",
+            "subject": "AIB + Abi \u2014 the next question for your contact centre",
+            "body": "Niamh,\n\nAIB's launch of Abi is exactly the right first step \u2014 130,000 customers self-serving is a meaningful result.\n\nThe next question every bank at your stage faces: when Abi hands off to a human agent, what guides that agent? And how do you evidence CBI-compliant outcomes on 100% of those handoffs?\n\nWe work with banks on exactly that layer \u2014 real-time agent guidance and 100% call quality assurance on top of existing Cisco infrastructure. No replacement required.\n\nI'm from Dublin originally and I'd love 20 minutes. Happy to come to Molesworth Street.\n\nMarcus Nolan, Cresta",
+            "cta": "20-minute meeting at AIB HQ"
+          }
+        ],
+        "talk_track": {
+          "opener": "Hi Niamh, Marcus Nolan from Cresta \u2014 I'm originally from Dublin. I've been following AIB's digital transformation \u2014 the Abi launch is impressive. I wanted to ask about the next layer. Do you have 2 minutes?",
+          "pitch": "Abi handles self-service brilliantly. The challenge: when Abi hands off to a human agent, what guides that agent in real-time? And how do you evidence CBI-compliant outcomes on 100% of those conversations? That's Cresta \u2014 on top of your existing Cisco, no rip-and-replace. TSB in the UK is a customer.",
+          "qualifying_question": "With 3.35M customers and Abi rolling out \u2014 is the human agent coaching layer on the roadmap for this year?",
+          "ask": "20 minutes \u2014 in person at Molesworth Street or on a call. I'll bring the TSB reference and a CBI Consumer Protection framework."
+        },
+        "objections": [
+          {
+            "objection": "We already have Abi for AI in the CC",
+            "response": "Abi is a virtual agent for self-service. Cresta is an agent coaching tool \u2014 it guides your human agents in real-time when Abi hands off. Complementary, not competitive."
+          },
+          {
+            "objection": "We run Cisco UCCE \u2014 changing is a big project",
+            "response": "Cresta sits on top of Cisco UCCE \u2014 we don't replace it. API-based integration, typically 6-8 weeks. No rip-and-replace."
+          }
+        ],
+        "cadence": [
+          {
+            "day": "1",
+            "action": "Marcus emails Niamh Phillips (COO) \u2014 Irish peer tone",
+            "note": "Short. Abi handoff question. CBI compliance. TSB reference. Offer Molesworth Street."
+          },
+          {
+            "day": "3",
+            "action": "LinkedIn connect to Niamh Phillips",
+            "note": "Irish peer connection."
+          },
+          {
+            "day": "5",
+            "action": "Follow-up if no response",
+            "note": "One-liner referencing CBI Consumer Protection Code."
+          },
+          {
+            "day": "7",
+            "action": "Phone Niamh or her PA",
+            "note": "Irish market: phone calls more culturally appropriate."
+          },
+          {
+            "day": "10",
+            "action": "Approach Elaine Purcell (CMO) if COO stalls",
+            "note": "NPS/CX growth angle."
+          }
+        ]
+      }
+    },
+    {
+      "id": "n-brown",
+      "name": "N Brown Group",
+      "parent": "N Brown Group plc (private \u2014 AIM delisted 2023)",
+      "domain": "nbrown.co.uk",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/0013i00002uoGasAAE/view",
+      "priority": "A",
+      "vertical": "Retail",
+      "status": "Active Opp",
+      "hq": "Manchester, UK",
+      "employees": "~2,000",
+      "revenue": "~\u00a3700-800m (est.)",
+      "risk_level": "LOW",
+      "last_activity": "2026-04-01",
+      "quick_context": "UK online fashion retailer \u2014 JD Williams, Simply Be, Jacamo. Demo done Apr '26 (Chris Byron, Simon Seddon, Thomas Shorrock). WISMO + FS Consumer Duty identified as use cases. Marcus committed to send case studies \u2014 OVERDUE. NICE QM partial only.",
+      "next_step": "Send JD Sports + Cox case studies to Chris Byron TODAY. Propose focused 2nd demo. Ask: 'Of JDW, Simply Be, Jacamo \u2014 which brand do we pilot first?'",
+      "group_structure": "N Brown Group plc (private since AIM delisting 2023) \u2192 JD Williams (flagship) \u2192 Simply Be (plus-size women's) \u2192 Jacamo (plus-size menswear) \u2192 Financial Services arm (FCA regulated \u2014 store card, BNPL) \u2192 Ambrose Wilson / Marisota.",
+      "financials": "Private since 2023. Revenue ~\u00a3700-800m peak. Group restructure: Daniel Joy (Group CEO), Natalie Rogers (COO, Feb '25), Dominic Appleton (CFO, ex-The Very Group) \u2014 cost optimisation mandate.",
+      "tech_stack": {
+        "confirmed": [
+          "8x8 Contact Center (CCaaS)",
+          "Avaya Call Management System + Proactive Contact (legacy)",
+          "Teradata CRM",
+          "Medallia (CX)",
+          "NICE Systems (QM \u2014 partial coverage)",
+          "Celebrus (CDP)",
+          "Tableau / Power BI / Qlik",
+          "SAS Enterprise Miner"
+        ],
+        "inferred": [
+          "Offshore CC (Philippines \u2014 implied in demo context)",
+          "NICE doing partial QM only \u2014 Cresta adds 100% coverage",
+          "Possible Salesforce for FS arm (unconfirmed)"
+        ]
+      },
+      "ai_initiatives": [
+        {
+          "title": "NICE Systems \u2014 Partial QM Only",
+          "detail": "NICE in-stack for QM but reviewing a sample post-call, not 100% real-time. For the FS arm Consumer Duty, this is legally insufficient.",
+          "source": "ZoomInfo tech stack (confirmed)",
+          "cresta_angle": "NICE reviews a sample post-call. Cresta = 100% QM real-time. For FS arm Consumer Duty, NICE sample coverage is insufficient."
+        },
+        {
+          "title": "No AI agent coaching \u2014 complete whitespace",
+          "detail": "No AI agent assist or real-time guidance confirmed across any of the 3 brands.",
+          "source": "Apr 2026 demo observation",
+          "cresta_angle": "Complete whitespace for real-time agent coaching across JDW, Simply Be, Jacamo."
+        }
+      ],
+      "recent_news": [
+        {
+          "date": "Feb 2025",
+          "headline": "Natalie Rogers promoted to COO; Daniel Joy elevated to Group CEO",
+          "detail": "Leadership restructure. New COO building operational strategy from scratch.",
+          "cresta_relevance": "New COO = executive sponsor opportunity. No legacy CC AI vendor to defend."
+        },
+        {
+          "date": "Apr 2026",
+          "headline": "Cresta demo completed \u2014 Chris Byron, Simon Seddon, Thomas Shorrock attended",
+          "detail": "AI Agent + Agent Assist demoed. Simon Seddon confirmed WISMO, FS compliance queries as top use cases. Marcus committed to send case studies.",
+          "cresta_relevance": "Active opportunity. Case studies overdue. Book 2nd demo."
+        }
+      ],
+      "key_execs": [
+        {
+          "name": "Daniel Joy",
+          "title": "Group CEO",
+          "sdr_note": "Too senior \u2014 not for outreach.",
+          "status": "Cold"
+        },
+        {
+          "name": "Natalie Rogers",
+          "title": "COO (Feb '25 \u2014 promoted from CPO)",
+          "sdr_note": "EXEC SPONSOR PATH. New to role. Route via Chris Byron.",
+          "status": "Cold"
+        },
+        {
+          "name": "Dominic Appleton",
+          "title": "CFO (ex-The Very Group)",
+          "sdr_note": "Cost optimisation mandate \u2014 ex-Very Group understands CC economics.",
+          "status": "Cold"
+        },
+        {
+          "name": "Chris Byron",
+          "title": "Demo attendee",
+          "sdr_note": "PRIMARY CHAMPION. Case studies overdue \u2014 send today.",
+          "status": "Champion"
+        },
+        {
+          "name": "Simon Seddon",
+          "title": "Front-End Tech Lead",
+          "sdr_note": "TECHNICAL CHAMPION. Substantive demo questions on WISMO + multi-brand AI.",
+          "status": "Champion"
+        }
+      ],
+      "champions": "Chris Byron \u2605\u2605 \u2014 demo attendee, engaged, awaiting case studies (overdue). Simon Seddon \u2605 \u2014 substantive questions on AI Agent for WISMO and multi-brand complexity.",
+      "blockers": "NICE already in-stack \u2014 partial QM vendor overlap (position as augment). Multi-brand procurement = slower consensus. COO newly promoted \u2014 budget authority unclear. FS arm = FCA compliance procurement layer.",
+      "cc_footprint": "Three brands: JDW, Simply Be, Jacamo. 8x8 + Avaya legacy. Manchester CC + offshore (Philippines). NICE: partial QM. Multi-brand routing = high agent cognitive load. WISMO = highest volume routine query. FS arm: FCA Consumer Duty regulated.",
+      "regulatory_signals": "FS arm FCA-regulated for credit products (store card, BNPL). FCA Consumer Duty applies. NICE reviews a sample \u2014 for FS interactions, this is a material Consumer Duty evidence gap.",
+      "competitors": "NICE Systems (in-stack \u2014 position as complementary). 8x8 native AI (confirm if deployed).",
+      "why_cresta_wins": "NICE only reviews a sample \u2014 Cresta = 100% QM + real-time guidance. For FS Consumer Duty, sample coverage is legally insufficient. CFO Appleton (ex-Very Group) understands CC economics. Multi-brand complexity = agent assist directly reduces cognitive load.",
+      "gong_history": [
+        {
+          "date": "2026-04-01",
+          "type": "Demo",
+          "contact": "Chris Byron + Simon Seddon + Thomas Shorrock",
+          "owner": "Marcus Nolan + Hala Agha (SE)",
+          "summary": "Full demo. AI Agent containment + Agent Assist. Simon confirmed WISMO automation, damaged parcels, bank information resets, FS compliance, next best action as top use cases. Hala asked: 'AI Agent or Agent Assist \u2014 which is the burning priority?' Marcus committed to send retail case studies + pass demo recording to Chris Byron.",
+          "url": ""
+        }
+      ],
+      "use_cases": [
+        "AI Agent \u2014 WISMO + account queries. 8x8-compatible. Immediate measurable containment.",
+        "100% Auto-QA \u2014 multi-brand + FCA FS arm Consumer Duty (NICE sample = insufficient).",
+        "Real-time Agent Assist \u2014 FS vulnerable customer handling, multi-brand cognitive load reduction.",
+        "Coaching Hub \u2014 Manchester + offshore coaching consistency."
+      ],
+      "best_case_study": "\u2605\u2605\u2605 JD Sports \u2014 retail multi-brand CC.\n\u2605\u2605\u2605 Cox Communications \u2014 high-volume CC, 20% revenue increase.\n\u2605\u2605 Propel Holdings \u2014 regulated FS + AI (for FS arm Consumer Duty).",
+      "narrative": "N Brown runs 3 fashion brands out of one Manchester CC on 8x8 + NICE with partial QM only. New CFO (ex-Very Group) understands omnichannel CC costs. New COO is building operational strategy from scratch. Chris Byron and Simon Seddon have seen the demo and engaged. The question: which brand do we pilot first?",
+      "outreach_angle": "Email Chris Byron: 'JD Sports + Cox case studies attached as promised. Based on Simon's questions, the two strongest immediate use cases are: 1) AI Agent for WISMO (measurable deflection from week one), 2) 100% auto-QM on FS arm interactions (Consumer Duty gap closed). Which brand first \u2014 JDW, Simply Be, or Jacamo?'",
+      "sdr_playbook": {
+        "hypothesis": "N Brown is post-demo. Chris Byron and Simon Seddon are engaged. Case studies are overdue. Urgency: send them today, propose 2nd demo, elevate to Natalie Rogers (new COO) as exec sponsor. FS arm Consumer Duty gap is the urgency narrative.",
+        "buying_signals": [
+          "Demo completed Apr '26 \u2014 3 attendees, substantive questions",
+          "Simon Seddon confirmed specific use cases: WISMO, FS compliance, next best action",
+          "New COO (Feb '25) building operational strategy from scratch",
+          "New CFO (ex-Very Group) understands omnichannel CC economics",
+          "FS arm FCA Consumer Duty gap \u2014 NICE reviews only a sample"
+        ],
+        "target_contacts": [
+          {
+            "name": "Chris Byron",
+            "title": "Demo attendee",
+            "priority": "Primary",
+            "why": "Engaged demo attendee. Case studies overdue \u2014 primary follow-up.",
+            "approach": "Email TODAY with JD Sports + Cox case studies. Ask which brand for pilot.",
+            "linkedin_search": "Chris Byron N Brown JD Williams"
+          },
+          {
+            "name": "Simon Seddon",
+            "title": "Front-End Tech Lead",
+            "priority": "Primary",
+            "why": "Substantive technical questions. Understands multi-brand complexity.",
+            "approach": "CC on every email to Chris.",
+            "linkedin_search": "Simon Seddon N Brown technology"
+          },
+          {
+            "name": "Natalie Rogers",
+            "title": "COO",
+            "priority": "Secondary",
+            "why": "New COO, blank-sheet mandate. Exec sponsor path.",
+            "approach": "Route via Chris Byron intro once case studies sent and 2nd demo agreed.",
+            "linkedin_search": "Natalie Rogers N Brown COO"
+          }
+        ],
+        "messages": [
+          {
+            "persona": "Marcus \u2192 Chris Byron (case studies + 2nd demo)",
+            "subject": "N Brown \u2014 JD Sports + Cox case studies, and which brand first?",
+            "body": "Chris,\n\nApologies for the slight delay \u2014 as promised, JD Sports and Cox case studies are attached.\n\nBased on what Simon raised in the demo, the two strongest immediate use cases for N Brown are:\n\n1. AI Agent for WISMO and account queries \u2014 measurable containment from week one.\n2. 100% auto-QM on FS arm interactions \u2014 closing the Consumer Duty gap that NICE's sampling leaves open.\n\nI'd love a focused 45-minute 2nd session with you, Simon, and whoever owns FS compliance.\n\nOf the three brands \u2014 which would benefit most from AI-assisted deflection first?\n\nMarcus",
+            "cta": "Schedule 45-min 2nd demo"
+          }
+        ],
+        "talk_track": {
+          "opener": "Hi Chris, Marcus from Cresta \u2014 I promised you the JD Sports and Cox case studies after the demo. Have you had a chance to look at them?",
+          "pitch": "The two things that came out of the demo as strongest: AI Agent for WISMO deflection \u2014 measurable from week one; and 100% auto-QM on FS interactions \u2014 Consumer Duty gap that NICE can't close. We'd love to show both in 45 minutes.",
+          "qualifying_question": "Of JDW, Simply Be, and Jacamo \u2014 which brand has the most CC volume and the most commercial pressure to improve right now?",
+          "ask": "45 minutes for a focused 2nd demo. Include whoever owns FS compliance and ideally Natalie Rogers."
+        },
+        "objections": [
+          {
+            "objection": "We already have NICE for QM",
+            "response": "NICE reviews a sample post-call. Consumer Duty requires evidence on every call. Cresta + NICE are complementary \u2014 many customers run both."
+          },
+          {
+            "objection": "3 brands \u2014 rollout is complex",
+            "response": "That's why we start with one brand, prove ROI in the first quarter, then expand. JD Sports ran exactly this approach."
+          }
+        ],
+        "cadence": [
+          {
+            "day": "1",
+            "action": "Email Chris Byron \u2014 send JD Sports + Cox case studies (OVERDUE)",
+            "note": "Short email. Ask which brand first. CC Simon Seddon."
+          },
+          {
+            "day": "2",
+            "action": "LinkedIn connect to Simon Seddon",
+            "note": "Reference demo conversation."
+          },
+          {
+            "day": "3",
+            "action": "Follow-up call to Chris",
+            "note": "'Did the case studies land? Can we get 45 minutes?'"
+          },
+          {
+            "day": "5",
+            "action": "Propose 2nd demo date",
+            "note": "AI Agent + QM focus. Ask for Natalie Rogers involvement."
+          },
+          {
+            "day": "7",
+            "action": "LinkedIn connect to Natalie Rogers",
+            "note": "'I've been working with Chris and Simon \u2014 would love to share the FS Consumer Duty angle.'"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fbd-insurance",
+      "name": "FBD Insurance",
+      "parent": "FBD Holdings plc (Euronext Dublin)",
+      "domain": "fbd.ie",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/001Uy00000RSRAjIAP/view",
+      "priority": "B",
+      "vertical": "Financial Services",
+      "status": "Active Opp",
+      "hq": "Dublin, Ireland",
+      "employees": "~1,100",
+      "revenue": "GWP ~\u20ac450m+",
+      "risk_level": "LOW",
+      "last_activity": "2026-05-06",
+      "quick_context": "Irish insurer (farm/rural/motor/home). FULL DEMO completed May 6 '26 \u2014 Brian Goddard, Deborah McCormack, Linda Heduvan attended. CEO Tomas O'Midheach = ex-AIB CDO/COO 23yr. Microsoft Azure + Dynamics 365. Marcus built FBD intro deck (Apr '26).",
+      "next_step": "Follow up on May 6 demo \u2014 send Mutual of Omaha case study. Ask: 'What resonated most? What does the decision process look like from here?'",
+      "group_structure": "FBD Holdings plc (Euronext Dublin: FBD) \u2192 FBD Insurance Ltd (core underwriter) \u2192 FBD Hotels & Resorts. Founded by Irish farming cooperatives \u2014 rural Ireland heritage is core identity.",
+      "financials": "GWP ~\u20ac450m+ growing. Public on Euronext Dublin. CBI regulated.",
+      "tech_stack": {
+        "confirmed": [
+          "Microsoft Azure",
+          "Microsoft Dynamics 365",
+          "MuleSoft",
+          "Tableau",
+          "OneTrust"
+        ],
+        "inferred": [
+          "No CCaaS confirmed \u2014 possible Microsoft Teams telephony or Dynamics 365 omnichannel",
+          "No AI coaching layer"
+        ]
+      },
+      "ai_initiatives": [
+        {
+          "title": "Microsoft-first stack \u2014 no CC AI confirmed",
+          "detail": "No CCaaS or AI coaching layer confirmed. Microsoft-first = likely Azure OpenAI or Copilot for any AI investment.",
+          "source": "ZoomInfo tech stack",
+          "cresta_angle": "Microsoft-first stack = Cresta's Azure compatibility is a direct advantage. 'Extends your Microsoft investment into the CC.'"
+        }
+      ],
+      "recent_news": [
+        {
+          "date": "2026-05-06",
+          "headline": "Cresta demo completed \u2014 Brian Goddard, Deborah McCormack, Linda Heduvan attended",
+          "detail": "Full demo with SE Amy Koh. Auto-summarisation demoed. Oportun QM case study referenced in Marcus's FBD deck.",
+          "cresta_relevance": "Post-demo follow-up needed this week. Identify economic buyer."
+        }
+      ],
+      "key_execs": [
+        {
+          "name": "Tomas O'Midheach",
+          "title": "CEO (ex-AIB CDO/COO 23yr career)",
+          "sdr_note": "PRIMARY TARGET \u2014 route via demo attendees first.",
+          "status": "Cold"
+        },
+        {
+          "name": "Brian Goddard",
+          "title": "Demo attendee",
+          "email": "brian.goddard@fbd.ie",
+          "sdr_note": "PRIMARY CHAMPION. Attended May 6 demo.",
+          "status": "Champion"
+        },
+        {
+          "name": "Deborah McCormack",
+          "title": "Demo attendee",
+          "email": "deborah.mccormack@fbd.ie",
+          "sdr_note": "Demo attendee.",
+          "status": "Champion"
+        },
+        {
+          "name": "Linda Heduvan",
+          "title": "Demo attendee",
+          "email": "linda.heduvan@fbd.ie",
+          "sdr_note": "Demo attendee.",
+          "status": "Champion"
+        }
+      ],
+      "champions": "Brian Goddard \u2605\u2605, Deborah McCormack \u2605, Linda Heduvan \u2605 \u2014 all attended May 6 demo.",
+      "blockers": "CBI governance = procurement scrutiny. No CCaaS confirmed \u2014 may complicate integration story. Economic buyer above demo attendees not yet identified.",
+      "cc_footprint": "FBD direct insurer = meaningful CC for farm, motor, property claims and policy queries. Specialist farm/rural knowledge = high agent burden.",
+      "regulatory_signals": "No known CBI enforcement actions. CBI Consumer Protection Code applies.",
+      "competitors": "Microsoft Copilot for CC (given Microsoft-first stack).",
+      "why_cresta_wins": "Microsoft-first stack = Azure compatible. CEO's AIB background = seen CC AI done well. Mutual of Omaha (insurance CC, 33% uplift, QA -50%) = closest analogue.",
+      "gong_history": [
+        {
+          "date": "2026-05-06",
+          "type": "Demo",
+          "contact": "Brian Goddard + Deborah McCormack + Linda Heduvan",
+          "owner": "Marcus Nolan + Amy Koh (SE)",
+          "summary": "Full demo. Auto-summarisation and core capabilities demoed. Marcus's pre-built FBD deck referenced Oportun. 'FBD is relationship-led with strong retention \u2014 opportunity is full visibility into conversations without losing the human, local service.'",
+          "url": "https://us-15661.app.gong.io/call?id=4940740202875222474"
+        }
+      ],
+      "use_cases": [
+        "Real-time Agent Assist (complex farm/rural insurance knowledge surfacing)",
+        "100% Auto-QA (CBI Consumer Protection compliance)",
+        "Coaching Hub (relationship-led service consistency)"
+      ],
+      "best_case_study": "\u2605\u2605\u2605 Mutual of Omaha \u2014 insurance CC, 33% premium uplift, QA cost -50%.\n\u2605\u2605 Oportun \u2014 50% QM workload reduction, 100% QA coverage (already in FBD deck).",
+      "narrative": "FBD's CEO comes from AIB. The demo is done. The deck is built. This is post-demo follow-up \u2014 identify the economic buyer, send Mutual of Omaha, understand the decision process.",
+      "outreach_angle": "Follow up on demo: 'Brian, Deborah, Linda \u2014 attaching the Mutual of Omaha case study. Two questions: What resonated most from last week? What does the decision process look like from here?'"
+    },
+    {
+      "id": "saga",
+      "name": "Saga Group",
+      "parent": "Saga plc (LSE: SAGA)",
+      "domain": "saga.co.uk",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/001Uy00000RSDFuIAP/view",
+      "priority": "B",
+      "vertical": "Financial Services",
+      "status": "Target",
+      "hq": "Folkestone, UK",
+      "employees": "~2,700",
+      "revenue": "~\u00a31.2bn+",
+      "risk_level": "MEDIUM",
+      "last_activity": "Unknown",
+      "quick_context": "Over-50s insurance, travel, financial services. 8x8 + OpenText Qfiniti (partial QM) confirmed. COO Sacha Puffett = Lean Six Sigma + digital transformation mandate (Feb 2023). FCA regulated. No Cresta engagement.",
+      "next_step": "Email Sacha Puffett (COO) \u2014 Lean Six Sigma framing. 'Qfiniti tells you what happened. Cresta changes what happens in the moment.' Attach Mutual of Omaha.",
+      "group_structure": "Saga plc (LSE) \u2192 Saga Insurance (motor, home, travel, medical, pet) \u2192 Saga Holidays / Cruises \u2192 Saga Money (savings, equity release) \u2192 Saga Magazine (627K+ circulation). Over-50s exclusive.",
+      "financials": "Revenue ~\u00a31.2bn+ group. FCA regulated. Publicly listed.",
+      "tech_stack": {
+        "confirmed": [
+          "8x8 Contact Center (CCaaS)",
+          "OpenText Qfiniti (QM/Analytics)",
+          "Adobe Audience Manager",
+          "Celebrus (CDP)",
+          "IBM Tealeaf",
+          "Snowflake",
+          "Power BI / Tableau / SAP BusinessObjects"
+        ],
+        "inferred": [
+          "Possible Salesforce CRM (unconfirmed)",
+          "No AI coaching layer",
+          "Qfiniti = post-call analytics only \u2014 no real-time guidance"
+        ]
+      },
+      "ai_initiatives": [
+        {
+          "title": "OpenText Qfiniti \u2014 Post-Call Analytics Only",
+          "detail": "Qfiniti provides post-call analytics and sampling. No real-time guidance or 100% QM coverage.",
+          "source": "ZoomInfo (confirmed)",
+          "cresta_angle": "Qfiniti tells you what happened. Cresta changes what happens in the moment \u2014 for every agent, every call."
+        }
+      ],
+      "recent_news": [
+        {
+          "date": "Feb 2023",
+          "headline": "Sacha Puffett joins as COO \u2014 Lean Six Sigma + digital transformation mandate",
+          "detail": "2+ years in post \u2014 now in execution phase.",
+          "cresta_relevance": "COO in execution phase = right timing for AI coaching layer."
+        }
+      ],
+      "key_execs": [
+        {
+          "name": "Michael Hazell",
+          "title": "CEO",
+          "sdr_note": "Not for cold outreach.",
+          "status": "Cold"
+        },
+        {
+          "name": "Sacha Puffett",
+          "title": "COO (Lean Six Sigma, digital transformation, Feb '23)",
+          "sdr_note": "PRIMARY TARGET. 2+ years in post, execution phase.",
+          "status": "Cold"
+        },
+        {
+          "name": "Lloyd East",
+          "title": "CEO Insurance",
+          "sdr_note": "Secondary target.",
+          "status": "Cold"
+        }
+      ],
+      "champions": "None confirmed. Sacha Puffett (COO) = primary target.",
+      "blockers": "OpenText Qfiniti already in-stack \u2014 vendor overlap concern. CX roadmap may be committed.",
+      "cc_footprint": "Dual hubs Kent + Sussex. Multi-product: motor, home, travel, medical, pet + cruises + savings. FCA regulated. Over-50s = high empathy, high complexity calls.",
+      "regulatory_signals": "FCA Consumer Duty applies. Over-50s = vulnerable customer considerations.",
+      "competitors": "OpenText Qfiniti (in-stack \u2014 position as complementary).",
+      "why_cresta_wins": "Qfiniti = post-call sampling. Cresta = 100% real-time QM + live coaching. For an over-50s insurer, agent consistency on every call is non-optional.",
+      "gong_history": [],
+      "use_cases": [
+        "Real-time Agent Assist (multi-product knowledge, empathy prompting for over-50s)",
+        "100% Auto-QA (FCA Consumer Duty, vulnerable customer detection)",
+        "Coaching Hub",
+        "Conversation Intelligence"
+      ],
+      "best_case_study": "\u2605\u2605\u2605 Mutual of Omaha \u2014 insurance CC, 33% uplift, ramp reduction, QA -50%.\n\u2605\u2605 AAA Life Insurance \u2014 over-50s adjacent, coaching + compliance.",
+      "narrative": "Qfiniti gives Saga post-call analytics. Cresta adds the live coaching layer and 100% QM Qfiniti cannot deliver. For an over-50s insurer where trust defines the brand, agent consistency on every call is non-negotiable.",
+      "outreach_angle": "'Lean Six Sigma tells you what happened after the fact. What if you could optimise the conversation in the moment \u2014 for every agent, every call, every Saga brand? Qfiniti tells you what happened. Cresta changes what happens.'"
+    },
+    {
+      "id": "uk-power-networks",
+      "name": "UK Power Networks",
+      "parent": "ENGIE (French utility)",
+      "domain": "ukpowernetworks.co.uk",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/001Uy00000jEHSCIA4/view",
+      "priority": "B",
+      "vertical": "Telecom",
+      "status": "Target",
+      "hq": "London, UK",
+      "employees": "~6,000",
+      "revenue": "Regulated (Ofgem RIIO-ED2)",
+      "risk_level": "MEDIUM",
+      "last_activity": "2026-04-20",
+      "quick_context": "DNO for London, South East, East England. 8x8 + Verint + multi-CRM (Salesforce + SAP + Sage). New CIO Matthew Webb (Mar 2024). WARM LEAD: Suleman Alli (CS Director) told Harold 'this is an interesting area for us \u2014 send me something.' Marcus owns UKPN; rest of hierarchy owned by Joe \u2014 coordinate first.",
+      "next_step": "Coordinate with Joe on hierarchy first. Then email Matthew Webb (CIO) + reference Suleman Alli warm signal. Ofgem compliance + multi-CRM consolidation angle.",
+      "group_structure": "ENGIE (France) \u2192 UK Power Networks Holdings Ltd \u2192 Eastern Power Networks (EPN) \u2192 London Power Networks (LPN) \u2192 South Eastern Power Networks (SPN). DNO = regulated electricity distributor. Ofgem RIIO-ED2.",
+      "financials": "Regulated revenue set by Ofgem RIIO-ED2. CEO transition: Basil Scarsella departed Nov 2024.",
+      "tech_stack": {
+        "confirmed": [
+          "8x8 Contact Center (CCaaS)",
+          "Aspect",
+          "Netcall",
+          "Verint (Call Recording)",
+          "Salesforce (primary CRM)",
+          "SAP CRM",
+          "Sage ACT! (legacy)",
+          "Databricks",
+          "Azure Data Factory"
+        ],
+        "inferred": [
+          "No AI coaching layer",
+          "Directly platform (self-service)",
+          "Campaign Monitor (comms)"
+        ]
+      },
+      "ai_initiatives": [
+        {
+          "title": "No CC AI \u2014 multi-CRM complexity is the pain",
+          "detail": "Multi-CRM stack (Salesforce + SAP + Sage) creates high agent cognitive load with no consolidation layer.",
+          "source": "ZoomInfo tech stack",
+          "cresta_angle": "Cresta consolidates Salesforce + SAP + Sage context on one agent screen \u2014 the exact problem they have."
+        }
+      ],
+      "recent_news": [
+        {
+          "date": "Mar 2024",
+          "headline": "Matthew Webb appointed as new CIO",
+          "detail": "New CIO = transformation appetite and open window.",
+          "cresta_relevance": "New CIO = ideal time to introduce Cresta."
+        },
+        {
+          "date": "Nov 2024",
+          "headline": "CEO Basil Scarsella departs",
+          "detail": "New CEO being appointed \u2014 leadership transition.",
+          "cresta_relevance": "Leadership transition = strategic reset opportunity."
+        }
+      ],
+      "key_execs": [
+        {
+          "name": "New CEO",
+          "title": "Post-Scarsella (Nov 2024) \u2014 confirm via LinkedIn",
+          "sdr_note": "Confirm identity first.",
+          "status": "Cold"
+        },
+        {
+          "name": "Matthew Webb",
+          "title": "CIO (Mar 2024)",
+          "sdr_note": "PRIMARY TARGET. New CIO = transformation appetite.",
+          "status": "Cold"
+        },
+        {
+          "name": "Suleman Alli",
+          "title": "Customer Service Director",
+          "sdr_note": "WARM LEAD. 'This is an interesting area for us \u2014 send me something.' Feb '26. Connected on LinkedIn with Harold.",
+          "status": "Champion"
+        },
+        {
+          "name": "James Allison",
+          "title": "Customer Experience",
+          "sdr_note": "Engaged SDR Feb '26 \u2014 'there's overlap with existing initiatives. I'll respond back either way.'",
+          "status": "Engaged"
+        }
+      ],
+      "champions": "Suleman Alli (CS Director) \u2605 \u2014 WARM. Said 'this is an interesting area for us' (Feb '26). LinkedIn connected with Harold.",
+      "blockers": "Shared hierarchy with Joe \u2014 coordinate internally first. Ofgem regulated = procurement governance. Multi-CRM complexity = integration concern.",
+      "cc_footprint": "DNO CC: network outage response, connection management, smart meter, complaints. 8x8 + Aspect + Netcall + Verint. Multi-CRM (Salesforce + SAP + Sage) = agents navigating multiple systems on every call.",
+      "regulatory_signals": "Ofgem RIIO-ED2 regulated. Network outage communications = licence obligation. Customer service standards part of Ofgem licence conditions.",
+      "competitors": "Verint (in-stack). Multi-CRM vendors may push native AI.",
+      "why_cresta_wins": "Cresta consolidates Salesforce + SAP + Sage on one screen. 100% Ofgem-compliant QM. New CIO = open window. Suleman Alli warm signal.",
+      "gong_history": [
+        {
+          "date": "2026-04-20",
+          "type": "Cold Call VM",
+          "contact": "Suleman Alli + James Allison",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "Both VMs same day.",
+          "url": "https://us-15661.app.gong.io/call?id=784996902776880591"
+        },
+        {
+          "date": "2026-03-26",
+          "type": "Cold Call Connected",
+          "contact": "James Allison (CX)",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "Harold pitched real-time coaching, vulnerable customers, outage CC. James: 'there's overlap to existing initiatives. I'll respond back either way.' Agreed to receive email.",
+          "url": "https://us-15661.app.gong.io/call?id=7134484560239998465"
+        },
+        {
+          "date": "2026-02-23",
+          "type": "Cold Call \u2014 WARM",
+          "contact": "Suleman Alli (CS Director)",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "WARM CONVERSATION. Suleman: 'This is an interesting area for us. I think we're working with a provider at the moment. Send me something and I'll get my head of customer services to give you a call if we're interested.' Connected on LinkedIn.",
+          "url": "https://us-15661.app.gong.io/call?id=282959044729853549"
+        },
+        {
+          "date": "2026-02-09",
+          "type": "Cold Call Connected",
+          "contact": "Kuldip Pardesi",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "Harold referenced personal experience calling UKPN during Romford power cuts.",
+          "url": "https://us-15661.app.gong.io/call?id=5134235295132887909"
+        }
+      ],
+      "use_cases": [
+        "Real-time Agent Assist (multi-CRM consolidation \u2014 Salesforce + SAP + Sage on one screen)",
+        "100% Auto-QA (Ofgem compliance)",
+        "Conversation Intelligence (outage complaint root cause)"
+      ],
+      "best_case_study": "\u2605\u2605 Utilita Energy (utilities CC) \u00b7 Cox Communications (CC modernisation at scale).",
+      "narrative": "UKPN handles the UK's most stressful CC calls \u2014 power outages. Suleman Alli said 'this is an interesting area for us' and offered to have his Head of CS call back. That warm signal needs AE follow-through. Coordinate with Joe first, then email Matthew Webb (new CIO).",
+      "outreach_angle": "'Your agents navigate Salesforce, SAP, and Sage on every call \u2014 at exactly the moment a customer is in the dark (literally). Cresta consolidates all that context onto one screen and ensures Ofgem-compliant QM on 100% of interactions. Suleman Alli suggested I reach out.'"
+    },
+    {
+      "id": "asda",
+      "name": "Asda",
+      "parent": "Asda Group Holdings Ltd (Issa family + TDR Capital)",
+      "domain": "asda.com",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/001Uy00000RRTVUIA5/view",
+      "priority": "B",
+      "vertical": "Retail",
+      "status": "Target",
+      "hq": "Leeds, UK",
+      "employees": "~150,000",
+      "revenue": "~\u00a322bn (est. FY24)",
+      "risk_level": "MEDIUM",
+      "last_activity": "2026-02-01",
+      "quick_context": "UK's third-largest supermarket. New CIO Cathal Corcoran (Jan 2026, ex-Microsoft VP Banking + Barclays CIO) = major trigger. Oracle + Salesforce CC stack. Multi-divisional: Asda Money (FCA), George, Asda Mobile. No engagement yet.",
+      "next_step": "Email Cathal Corcoran (CIO) directly \u2014 reference Microsoft/Barclays AI experience. 'You've seen CC AI done at scale. Here's what Cresta does on Oracle and Salesforce without replacing either.'",
+      "group_structure": "Asda Group Holdings Ltd (private) \u2192 Asda Stores (600+ stores) \u2192 George (fashion/home) \u2192 Asda Money (FCA regulated) \u2192 Asda Mobile (EE network) \u2192 Asda Health (pharmacy, opticians) \u2192 Asda Logistics.",
+      "financials": "Private. Revenue ~\u00a322bn est. 16M weekly customers. Heavy tech investment post-EG Group separation.",
+      "tech_stack": {
+        "confirmed": [
+          "Oracle Service Cloud",
+          "Salesforce Service Cloud",
+          "Vocollect Voice",
+          "Power BI / Tableau / Looker",
+          "UiPath RPA",
+          "Docker/Kubernetes"
+        ],
+        "inferred": [
+          "No AI coaching layer",
+          "Asda Money: possible separate FCA platform",
+          "George: possible separate CC routing"
+        ]
+      },
+      "ai_initiatives": [
+        {
+          "title": "New CIO Cathal Corcoran (Jan 2026) \u2014 AI transformation mandate",
+          "detail": "Ex-Microsoft VP Banking + Barclays CIO + Gatwick CIO. Has seen CC AI done at scale at global firms.",
+          "source": "LinkedIn / public announcements",
+          "cresta_angle": "CIO has seen what good looks like at Microsoft and Barclays. Frame Cresta as the CC AI layer that makes Oracle + Salesforce dramatically more valuable."
+        }
+      ],
+      "recent_news": [
+        {
+          "date": "Jan 2026",
+          "headline": "Cathal Corcoran joins as CIO (ex-Microsoft VP Banking, Barclays CIO, Gatwick CIO)",
+          "detail": "New CIO appointment. Digital transformation mandate.",
+          "cresta_relevance": "New CIO = transformation appetite. He's seen CC AI done at scale."
+        }
+      ],
+      "key_execs": [
+        {
+          "name": "Cathal Corcoran",
+          "title": "CIO (Jan '26, ex-Microsoft VP Banking + Barclays CIO)",
+          "sdr_note": "PRIMARY TARGET. Has seen CC AI at scale at Microsoft and Barclays.",
+          "status": "Cold"
+        },
+        {
+          "name": "Alfie Berwick",
+          "title": "COO",
+          "sdr_note": "Secondary target.",
+          "status": "Cold"
+        },
+        {
+          "name": "Michael Gleeson",
+          "title": "CFO (ex-Morrisons)",
+          "sdr_note": "Financial ROI when deal progresses.",
+          "status": "Cold"
+        }
+      ],
+      "champions": "None confirmed. Cathal Corcoran (CIO) = primary target.",
+      "blockers": "Complex multi-divisional procurement. No existing relationship.",
+      "cc_footprint": "Multi-divisional: Asda Money (FCA), George (high-volume fashion), grocery (WISMO, delivery), Mobile. Oracle + Salesforce.",
+      "regulatory_signals": "Asda Money = FCA Consumer Duty obligations.",
+      "competitors": "Oracle AI (in-stack). Salesforce Agentforce (in-stack). Hyperscaler bolt-ons.",
+      "why_cresta_wins": "CIO has seen CC AI at Microsoft and Barclays. Cresta makes Oracle + Salesforce more valuable without replacing either. Forrester Wave Leader vs hyperscaler bolt-ons.",
+      "gong_history": [],
+      "use_cases": [
+        "Real-time Agent Assist (Asda Money FCA regulated)",
+        "AI Agent (WISMO, George account queries)",
+        "100% Auto-QA (multi-division scorecards)",
+        "Conversation Intelligence"
+      ],
+      "best_case_study": "\u2605\u2605 Cox Communications (large-scale CC modernisation) \u00b7 Sainsbury's (multi-brand retail).",
+      "narrative": "Asda's new CIO comes from Microsoft and Barclays. He's seen AI CC done well and done badly. Cresta makes Oracle + Salesforce dramatically more valuable without replacing either.",
+      "outreach_angle": "'You've seen AI contact centre done at scale \u2014 at Microsoft and at Barclays. Here's what the top 10% of CCs are doing with Cresta. It works on Oracle and Salesforce \u2014 without replacing either. 20 minutes?'"
+    },
+    {
+      "id": "utilita",
+      "name": "Utilita Energy",
+      "parent": "Utilita Group Ltd (private)",
+      "domain": "utilita.co.uk",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/001Uy00000nlR8eIAE/view",
+      "priority": "B",
+      "vertical": "Telecom",
+      "status": "Target",
+      "hq": "Eastleigh, Hampshire, UK",
+      "employees": "~1,500",
+      "revenue": "Private",
+      "risk_level": "MEDIUM",
+      "last_activity": "2026-03-02",
+      "quick_context": "UK's largest prepayment energy supplier. 8x8 CCaaS confirmed. Kim Brosnan (CPO, ex-Thames Water) = best first contact. Marcus built CCW intro deck (Mar '26) \u2014 frames collections and compliance risk as primary pain.",
+      "next_step": "Email Kim Brosnan (CPO) \u2014 vulnerable customer handling + Ofgem compliance. Reference the CCW deck already built.",
+      "group_structure": "Utilita Group Ltd (private) \u2192 Utilita Energy Ltd (prepayment retail) \u2192 Utilita Business Energy. Smart metering pioneer.",
+      "financials": "Private. Ofgem-regulated. Prepayment model.",
+      "tech_stack": {
+        "confirmed": [
+          "8x8 Contact Center (CCaaS)",
+          "Microsoft Dynamics 365 (ERP)",
+          "Workday",
+          "Power BI / Tableau",
+          "MailChimp"
+        ],
+        "inferred": [
+          "No CRM confirmed (Dynamics = ERP)",
+          "No AI coaching layer"
+        ]
+      },
+      "ai_initiatives": [
+        {
+          "title": "No CC AI \u2014 collections and vulnerability gap",
+          "detail": "Collections, debt management, and vulnerable customer conversations handled with no real-time guidance layer.",
+          "source": "Marcus's CCW intro deck (Mar '26)",
+          "cresta_angle": "Cresta provides real-time guidance for vulnerability and debt conversations \u2014 ensuring every agent responds with the right empathy every time."
+        }
+      ],
+      "recent_news": [
+        {
+          "date": "Mar 2026",
+          "headline": "Marcus built Cresta CCW intro deck for Utilita",
+          "detail": "Deck framed pain as 'collections & compliance risk \u2014 your most difficult conversations happen in real time.' Referenced CVS Health, Verizon, Cox.",
+          "cresta_relevance": "Deck is built and ready to deploy."
+        }
+      ],
+      "key_execs": [
+        {
+          "name": "Kim Brosnan",
+          "title": "CPO (ex-Thames Water, ex-Which?, change management)",
+          "sdr_note": "PRIMARY TARGET. Thames Water background = vulnerable customer experience directly relevant.",
+          "status": "Cold"
+        },
+        {
+          "name": "Jem Maidment",
+          "title": "CMO (ex-Sky News, William Hill)",
+          "sdr_note": "Secondary target.",
+          "status": "Cold"
+        }
+      ],
+      "champions": "Kim Brosnan (CPO) \u2605 \u2014 change management expertise + Thames Water background = ideal champion.",
+      "blockers": "No CRM confirmed. Budget cycle unknown.",
+      "cc_footprint": "Prepayment energy CC. 8x8. High-volume: payment queries, smart meter, debt management. Financially vulnerable customer base. Ofgem Consumer Vulnerability obligations.",
+      "regulatory_signals": "Ofgem Consumer Vulnerability Strategy obligations. Smart meter rollout government compliance.",
+      "competitors": "8x8 native AI (if deployed).",
+      "why_cresta_wins": "Financially vulnerable customers need the right empathy on every call. Cresta guides human agents in real-time. Brinks Home (vulnerability handling, NPS +30pts) = closest analogue.",
+      "gong_history": [
+        {
+          "date": "2026-03-02",
+          "type": "Internal Prep",
+          "contact": "Internal",
+          "owner": "Marcus Nolan",
+          "summary": "Marcus built 'Utilita | Cresta - CCW Intro' deck. Pain framed as 'collections & compliance risk \u2014 your most difficult conversations happen in real time.' Case studies: CVS Health, Verizon, Cox referenced.",
+          "url": ""
+        }
+      ],
+      "use_cases": [
+        "Real-time Agent Assist (debt/vulnerability conversations)",
+        "AI Agent (routine prepayment FAQs)",
+        "100% Auto-QA (Ofgem Consumer Vulnerability)",
+        "Coaching Hub"
+      ],
+      "best_case_study": "\u2605\u2605\u2605 Brinks Home \u2014 vulnerability handling, NPS +30pts, transfer rate 30%\u21928%.\n\u2605\u2605 Cox Communications \u2014 high-volume CC operational complexity.",
+      "narrative": "Utilita serves the UK's most financially vulnerable energy customers. Every debt conversation is high-stakes. The CCW intro deck is already built.",
+      "outreach_angle": "'Your customers are calling about the most stressful thing in their lives \u2014 keeping the lights on. Here's how service providers handling vulnerable customers at scale use Cresta to ensure every agent responds with the right empathy, every time.'"
+    },
+    {
+      "id": "john-lewis",
+      "name": "John Lewis Partnership",
+      "parent": "John Lewis Partnership plc (employee-owned)",
+      "domain": "johnlewispartnership.co.uk",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/0013i00002uoF86AAE/view",
+      "priority": "B",
+      "vertical": "Retail",
+      "status": "Target",
+      "hq": "London, UK",
+      "employees": "~70,000",
+      "revenue": "~\u00a312.4bn (JL + Waitrose)",
+      "risk_level": "MEDIUM",
+      "last_activity": "Unknown",
+      "quick_context": "John Lewis + Waitrose. Employee-owned partnership. No tech stack data. No engagement. JL Finance = FCA regulated. Complete cold territory.",
+      "next_step": "LinkedIn research to identify Head of Customer Operations or CX Director. Brand integrity angle.",
+      "group_structure": "JLP (employee-owned) \u2192 John Lewis (34 stores + JL.com) \u2192 Waitrose & Partners (332+ branches) \u2192 JL Finance (FCA regulated credit) \u2192 Waitrose Finance.",
+      "financials": "FY24: Revenue ~\u00a312.4bn. Not publicly listed. JL Finance = FCA regulated.",
+      "tech_stack": {
+        "confirmed": [],
+        "inferred": [
+          "Likely Genesys or Avaya at Waitrose scale",
+          "Possible SAP or Salesforce CRM",
+          "Unknown CC footprint"
+        ]
+      },
+      "ai_initiatives": [],
+      "recent_news": [],
+      "key_execs": [
+        {
+          "name": "Nish Kankiwala",
+          "title": "CEO JLP (since 2023)",
+          "sdr_note": "Not for cold outreach.",
+          "status": "Cold"
+        },
+        {
+          "name": "Pippa Wicks",
+          "title": "Executive Director John Lewis",
+          "sdr_note": "Secondary.",
+          "status": "Cold"
+        },
+        {
+          "name": "James Bailey",
+          "title": "Executive Director Waitrose",
+          "sdr_note": "Secondary.",
+          "status": "Cold"
+        }
+      ],
+      "champions": "None confirmed.",
+      "blockers": "Partnership governance = slow consensus procurement. No relationship. No tech stack visibility.",
+      "cc_footprint": "Unknown. Likely: JL.com orders, Waitrose online, JL Finance (FCA regulated credit), My Waitrose loyalty.",
+      "regulatory_signals": "JL Finance = FCA Consumer Duty applies.",
+      "competitors": "Unknown.",
+      "why_cresta_wins": "JLP's partnership model = every partner interaction is brand integrity.",
+      "gong_history": [],
+      "use_cases": [
+        "Real-time Agent Assist (dual-brand JL + Waitrose)",
+        "100% Auto-QA (JLP service standards + JL Finance FCA)",
+        "AI Agent (WISMO, loyalty queries)"
+      ],
+      "best_case_study": "\u2605\u2605 JD Sports (retail multi-brand CC) \u00b7 Cox Communications (service consistency at scale).",
+      "narrative": "JLP's partnership model means every partner interaction is brand integrity. CC consistency isn't just efficiency \u2014 it's identity.",
+      "outreach_angle": "'Every partner interaction is a brand moment for JLP. How do you ensure consistency across thousands of conversations without listening to every single one?'"
+    },
+    {
+      "id": "simply-business",
+      "name": "Simply Business",
+      "parent": "Travelers Companies Inc. (NYSE: TRV)",
+      "domain": "simplybusiness.co.uk",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/0013i00000tKH24AAG/view",
+      "priority": "B",
+      "vertical": "Financial Services",
+      "status": "Target",
+      "hq": "London, UK",
+      "employees": "~800",
+      "revenue": "Private (Travelers: $46bn+)",
+      "risk_level": "MEDIUM",
+      "last_activity": "Unknown",
+      "quick_context": "UK SME insurance broker. Travelers (Fortune 500) owned. FCA regulated. No CC stack confirmed. No engagement. Qualifying discovery call needed.",
+      "next_step": "Identify COO or Head of Operations via LinkedIn. Discovery call to confirm CC scale. FCA compliance framing.",
+      "group_structure": "Travelers Companies (NYSE: TRV) \u2192 Simply Business UK (wholly owned). Digital-first SME insurance broker.",
+      "financials": "Not reported separately. Travelers: $46bn+ global revenue.",
+      "tech_stack": {
+        "confirmed": [
+          "Microsoft 365",
+          "Google Workspace",
+          "Cloudflare",
+          "Xero"
+        ],
+        "inferred": [
+          "Unknown CCaaS",
+          "No AI coaching confirmed"
+        ]
+      },
+      "ai_initiatives": [],
+      "recent_news": [],
+      "key_execs": [
+        {
+          "name": "Unknown",
+          "title": "Leadership not identified \u2014 research needed",
+          "sdr_note": "LinkedIn research required.",
+          "status": "Cold"
+        }
+      ],
+      "champions": "None confirmed.",
+      "blockers": "Travelers governance = Fortune 500 procurement layer. CC footprint unknown.",
+      "cc_footprint": "Unknown. Claims + complex policy queries likely handled by CC.",
+      "regulatory_signals": "FCA Consumer Duty applies.",
+      "competitors": "Unknown.",
+      "why_cresta_wins": "FCA Consumer Duty = compliance imperative. Qualifying call needed first.",
+      "gong_history": [],
+      "use_cases": [
+        "Real-time Agent Assist (complex SME policy queries)",
+        "100% Auto-QA (FCA Consumer Duty)",
+        "AI Agent (routine policy FAQ)"
+      ],
+      "best_case_study": "\u2605\u2605 Propel Holdings (FS automation) \u00b7 AAA Life Insurance (regulated insurance CC).",
+      "narrative": "Digital-first FCA-regulated insurer. Consumer Duty = compliance imperative. Qualifying call needed to confirm CC scale.",
+      "outreach_angle": "'FCA Consumer Duty means you must demonstrate fair outcomes on every customer interaction. How are you doing that if you're only reviewing a fraction of calls?'"
+    },
+    {
+      "id": "mercedes-uk",
+      "name": "Mercedes UK",
+      "parent": "Mercedes-Benz Group AG (XETRA: MBG)",
+      "domain": "mercedes-benz.co.uk",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/001Uy00000RSNdPIAX/view",
+      "priority": "B",
+      "vertical": "Other",
+      "status": "Active / Deck Delivered",
+      "hq": "Milton Keynes, UK",
+      "employees": "~1,500 (UK)",
+      "revenue": "Mercedes-Benz Group AG: \u20ac153bn (FY24)",
+      "risk_level": "MEDIUM",
+      "last_activity": "2026-02-06",
+      "quick_context": "Daimler AG UK subsidiary. AI Agent pitch deck delivered + internal prep call (Feb '26). Thomas Bell (Insights & Data) + Daniel McAleese engaged. EV transition driving new CC query types. Going cold \u2014 follow up this week.",
+      "next_step": "Follow up on Feb '26 deck and prep call this week. AI Agent for EV queries + warranty = strongest angle.",
+      "group_structure": "Mercedes-Benz Group AG (Germany) \u2192 Mercedes-Benz Cars UK Ltd \u2192 Mercedes-Benz Vans UK \u2192 Mercedes-Benz Retail Group UK \u2192 Mercedes-Benz Financial Services UK (FCA regulated). 150+ dealer network.",
+      "financials": "Daimler AG: \u20ac153bn global revenue. UK: ~100-120K vehicles annually.",
+      "tech_stack": {
+        "confirmed": [],
+        "inferred": [
+          "Genesys or Avaya (common in automotive)",
+          "Daimler AG may impose global tech governance",
+          "MB Financial Services: separate FCA regulated CC"
+        ]
+      },
+      "ai_initiatives": [
+        {
+          "title": "EV transition \u2014 new CC query types",
+          "detail": "EQ range creating new CC query types: charging, OTA software, warranty, dealer routing. Traditional CC platforms weren't built for this.",
+          "source": "Industry analysis",
+          "cresta_angle": "Cresta's AI Agent handles EV-specific queries at scale \u2014 a new whitespace."
+        }
+      ],
+      "recent_news": [
+        {
+          "date": "Feb 2026",
+          "headline": "Cresta AI Agent deck delivered + internal prep call held",
+          "detail": "Thomas Bell (Insights & Data) engaged via Porsche reference. Daniel McAleese attended internal prep call.",
+          "cresta_relevance": "Deck is out there. Follow up this week before it goes cold."
+        }
+      ],
+      "key_execs": [
+        {
+          "name": "Thomas Bell",
+          "title": "Insights & Data, Mercedes UK",
+          "sdr_note": "SDR engaged Jan '26 via Porsche reference. Progressed to prep call.",
+          "status": "Engaged"
+        },
+        {
+          "name": "Daniel McAleese",
+          "title": "Mercedes UK",
+          "sdr_note": "Attended internal prep call Feb '26.",
+          "status": "Engaged"
+        }
+      ],
+      "champions": "Thomas Bell \u2605 \u2014 engaged enough to progress to prep call.",
+      "blockers": "Daimler AG global governance = procurement from Stuttgart. Contact level unknown.",
+      "cc_footprint": "Unknown \u2014 likely: EV charging queries, warranty, service booking, dealer support, Mercedes me app.",
+      "regulatory_signals": "MB Financial Services UK: FCA regulated (motor finance). FCA motor finance industry investigation (2024/25).",
+      "competitors": "Unknown CCaaS vendor. Daimler AG may impose group-level vendors.",
+      "why_cresta_wins": "Cresta's AI Agent handles EV-specific queries traditional CC platforms weren't built for.",
+      "gong_history": [
+        {
+          "date": "2026-02-06",
+          "type": "Internal Prep",
+          "contact": "Daniel McAleese (Mercedes UK)",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "Internal Cresta prep call with Daniel McAleese regarding the AI Agent pitch.",
+          "url": "https://us-15661.app.gong.io/call?id=867838696639215818"
+        },
+        {
+          "date": "2026-01-27",
+          "type": "Cold Call Connected",
+          "contact": "Thomas Bell (Insights & Data)",
+          "owner": "Haroldas Muralis (SDR)",
+          "summary": "'I know you lead insights at Mercedes. We work with Porsche. Do you have 20 seconds?' Thomas engaged \u2014 progressed to prep call.",
+          "url": "https://us-15661.app.gong.io/call?id=8633417030243957522"
+        }
+      ],
+      "use_cases": [
+        "AI Agent (EV charging queries, warranty FAQ, dealer routing)",
+        "Real-time Agent Assist (complex warranty, MB Financial Services FCA)",
+        "Conversation Intelligence"
+      ],
+      "best_case_study": "\u2605\u2605 Brinks Home (premium brand CX) \u00b7 Cox Communications (high-volume CC).",
+      "narrative": "Deck delivered and prep call held. Someone at Mercedes UK has engaged. EV transition creating new CC query types. Follow up this week before momentum is lost.",
+      "outreach_angle": "'Following up on the AI Agent overview from February \u2014 given EV-related query volumes scaling with the EQ range, there are 2-3 specific use cases worth 20 minutes. Are you the right person or should I connect with someone else on your team?'"
+    },
+    {
+      "id": "trailfinders",
+      "name": "Trailfinders",
+      "parent": "Trailfinders Ltd (private, employee-owned)",
+      "domain": "trailfinders.com",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/001Uy00000RS7k0IAD/view",
+      "priority": "B",
+      "vertical": "Travel / Hospitality",
+      "status": "Target",
+      "hq": "London, UK",
+      "employees": "~1,500",
+      "revenue": "~\u00a3500-800m (est.)",
+      "risk_level": "LOW",
+      "last_activity": "Unknown",
+      "quick_context": "UK's largest independent travel agency. 39 travel centres. 8x8 CCaaS confirmed. Ross Simpson (COO, ex-Director of Technology Development) = best first contact. Complex itinerary booking = high knowledge burden.",
+      "next_step": "Email Ross Simpson (COO) \u2014 complex destination knowledge surfacing. Xanterra case study (74% containment).",
+      "group_structure": "Trailfinders Ltd (private, employee-owned). Founded 1970. 39 travel centres UK/Ireland.",
+      "financials": "Private. High-margin complex itinerary bookings. Largest independent UK travel agency by volume.",
+      "tech_stack": {
+        "confirmed": [
+          "8x8 Contact Center (CCaaS)",
+          "QS/1 (Travel ERP)",
+          "Freshservice (ITSM)",
+          "Nickelled",
+          "Cloudflare"
+        ],
+        "inferred": [
+          "No AI coaching confirmed"
+        ]
+      },
+      "ai_initiatives": [],
+      "recent_news": [],
+      "key_execs": [
+        {
+          "name": "Toby Kelly",
+          "title": "CEO (25yr tenure)",
+          "sdr_note": "Cautious long-tenured CEO \u2014 route via COO.",
+          "status": "Cold"
+        },
+        {
+          "name": "Ross Simpson",
+          "title": "COO (ex-Director of Technology Development 2020-23)",
+          "sdr_note": "PRIMARY TARGET. Combined ops + tech background.",
+          "status": "Cold"
+        }
+      ],
+      "champions": "Ross Simpson (COO) \u2605 \u2014 ops + tech background = ideal first contact.",
+      "blockers": "Long-tenured CEO = cautious. Private company = slower procurement.",
+      "cc_footprint": "39 travel centres + telephony. 8x8. Complex itinerary support across hundreds of destinations.",
+      "regulatory_signals": "ATOL licensed. No CC regulatory issues.",
+      "competitors": "8x8 native AI (if deployed).",
+      "why_cresta_wins": "Agents need encyclopaedic knowledge. Cresta surfaces the right knowledge in the moment. 8x8 = straightforward integration.",
+      "gong_history": [],
+      "use_cases": [
+        "Real-time Agent Assist (complex destination knowledge surfacing)",
+        "Coaching Hub (seasonal staff onboarding)",
+        "Conversation Intelligence (booking conversion)"
+      ],
+      "best_case_study": "\u2605\u2605\u2605 Xanterra \u2014 travel/hospitality, 74% containment, 11+ AI agents.",
+      "narrative": "Trailfinders agents need encyclopaedic knowledge across hundreds of destinations. Cresta surfaces the right knowledge in the moment.",
+      "outreach_angle": "'Your agents need to be destination experts across the entire world. How much of that knowledge is instantly accessible when a customer asks about specialist medical requirements for the Galapagos?'"
+    },
+    {
+      "id": "informa",
+      "name": "Informa",
+      "parent": "Informa plc (LSE: INF \u2014 FTSE 100)",
+      "domain": "informa.com",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/0013i00001w0y7kAAA/view",
+      "priority": "B",
+      "vertical": "Other",
+      "status": "Target / Content Engaged",
+      "hq": "London, UK",
+      "employees": "~11,000",
+      "revenue": "~\u00a33.1bn (FY24)",
+      "risk_level": "LOW",
+      "last_activity": "2026-04-01",
+      "quick_context": "FTSE 100 B2B events and information. Michelle Bradshaw engaged with Cresta AI content twice (Oct '25 + Apr '26). CSAT + conversion stated as pain points. Inbound signal \u2014 respond immediately.",
+      "next_step": "Reply to Michelle Bradshaw immediately \u2014 move from educational to discovery. 'Which of CSAT or conversion is costing you more right now?'",
+      "group_structure": "Informa plc (FTSE 100) \u2192 Informa Markets (B2B exhibitions) \u2192 Informa Connect (B2B conferences) \u2192 Informa Tech (Omdia) \u2192 Taylor & Francis (academic publishing). 60,000+ events annually.",
+      "financials": "FY2024: Revenue ~\u00a33.1bn. FTSE 100.",
+      "tech_stack": {
+        "confirmed": [
+          "Docker/Kubernetes"
+        ],
+        "inferred": [
+          "Salesforce (likely at B2B scale)",
+          "Unknown CCaaS"
+        ]
+      },
+      "ai_initiatives": [],
+      "recent_news": [
+        {
+          "date": "Apr 2026",
+          "headline": "Michelle Bradshaw engaged with Cresta content for second time",
+          "detail": "First Oct '25, second Apr '26. CSAT + conversion pain stated.",
+          "cresta_relevance": "Two engagements = genuine interest. Reply immediately and move to discovery."
+        }
+      ],
+      "key_execs": [
+        {
+          "name": "Jan-Erik Lindfors",
+          "title": "CEO",
+          "sdr_note": "Not for cold outreach.",
+          "status": "Cold"
+        },
+        {
+          "name": "Michelle Bradshaw",
+          "title": "Content-engaged contact (icmiexporeg@informa.com)",
+          "sdr_note": "SELF-SELECTED via content engagement x2. CSAT + conversion pain confirmed.",
+          "status": "Champion"
+        }
+      ],
+      "champions": "Michelle Bradshaw \u2605 \u2014 self-selected via content engagement twice. Pain confirmed.",
+      "blockers": "Michelle's title and budget authority unknown. CC scale unknown.",
+      "cc_footprint": "Unknown. Likely: event registrations, Taylor & Francis CS, B2B client support. Seasonal peaks.",
+      "regulatory_signals": "No specific CC regulatory issues.",
+      "competitors": "Unknown.",
+      "why_cresta_wins": "Michelle has self-selected. The worst response is more content. She needs a Challenger discovery conversation.",
+      "gong_history": [],
+      "use_cases": [
+        "Conversation Intelligence (CSAT root cause)",
+        "AI Agent (event registration FAQ)",
+        "Real-time Agent Assist (conversion conversations)"
+      ],
+      "best_case_study": "\u2605\u2605 Cox Communications (conversion + CSAT at scale) \u00b7 Snap Finance (conversion optimisation).",
+      "narrative": "Michelle has self-selected twice. The worst thing to do is send more content. The next step is a Challenger discovery call.",
+      "outreach_angle": "'I noticed you've engaged with our CSAT and conversion content twice \u2014 most people in your position tell me one of those is keeping them up more than the other. Which is it for you?'"
+    },
+    {
+      "id": "ikea",
+      "name": "IKEA",
+      "parent": "Inter IKEA Group (Liechtenstein)",
+      "domain": "ikea.com",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/001Uy00000iE8PZIA0/view",
+      "priority": "B",
+      "vertical": "Retail",
+      "status": "Target",
+      "hq": "Delft, Netherlands",
+      "employees": "~230,000 (global)",
+      "revenue": "\u20ac47.6bn (FY24)",
+      "risk_level": "MEDIUM",
+      "last_activity": "Unknown",
+      "quick_context": "World's largest furniture retailer. Global revenue \u20ac47.6bn. No confirmed CC platform. No engagement. Cold \u2014 find EMEA CC Director first.",
+      "next_step": "LinkedIn research to identify IKEA UK/EMEA Head of Customer Operations. WISMO + omnichannel complexity angle.",
+      "group_structure": "Inter IKEA Group (Liechtenstein) \u2192 INGKA Group (retail stores) \u2192 IKEA UK (~21 stores) \u2192 IKEA Food Services \u2192 IKEA Financial Services.",
+      "financials": "FY2024: Global retail sales \u20ac47.6bn (+5.9% YoY). Not publicly traded.",
+      "tech_stack": {
+        "confirmed": [],
+        "inferred": [
+          "Genesys or Avaya (EMEA retail scale)",
+          "Salesforce or SAP CRM",
+          "Possible offshore BPO"
+        ]
+      },
+      "ai_initiatives": [],
+      "recent_news": [],
+      "key_execs": [
+        {
+          "name": "Jesper Brodin",
+          "title": "INGKA Group CEO",
+          "sdr_note": "Not for cold outreach.",
+          "status": "Cold"
+        },
+        {
+          "name": "Unknown CC Director",
+          "title": "IKEA UK/EMEA \u2014 research needed",
+          "sdr_note": "LinkedIn research required first.",
+          "status": "Cold"
+        }
+      ],
+      "champions": "None confirmed.",
+      "blockers": "No relationship. Large bureaucratic procurement. Unknown CC footprint.",
+      "cc_footprint": "UK: click-and-collect, home delivery, returns, assembly queries. Volume unknown.",
+      "regulatory_signals": "No known regulatory fines in CC domain.",
+      "competitors": "Unknown.",
+      "why_cresta_wins": "IKEA handles millions of WISMO, returns, and assembly queries. Cresta deflects routine contacts and coaches agents on complex queries.",
+      "gong_history": [],
+      "use_cases": [
+        "AI Agent (WISMO, delivery, returns, assembly FAQs)",
+        "Real-time Agent Assist (complex assembly + product queries)",
+        "Conversation Intelligence"
+      ],
+      "best_case_study": "\u2605\u2605 Cox Communications (large-scale retail/service CC) \u00b7 Snap Finance (containment at scale).",
+      "narrative": "IKEA handles tens of millions of WISMO, returns, and assembly queries. The challenge is finding the right internal contact first.",
+      "outreach_angle": "Identify EMEA CC Director first. Then: 'Here's how leading retailers are automating the routine and elevating the complex.'"
+    },
+    {
+      "id": "pentland",
+      "name": "Pentland Group",
+      "parent": "Pentland Group Ltd (private, Rubin family ~85%)",
+      "domain": "pentland.com",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/001Uy00000iEuB0IAK/view",
+      "priority": "C",
+      "vertical": "Retail",
+      "status": "Target",
+      "hq": "London, UK",
+      "employees": "~15,000 (global)",
+      "revenue": "\u00a31bn+ (est.)",
+      "risk_level": "LOW",
+      "last_activity": "2026-03-01",
+      "quick_context": "Private sports/lifestyle brand portfolio (Speedo, Berghaus, Canterbury). ~57% stake in JD Sports. No CC platform. No warm intro. Route through JD Sports only.",
+      "next_step": "Route through JD Sports relationship. No standalone approach without warm intro.",
+      "group_structure": "Pentland Group Ltd (private, Rubin family ~85%) \u2192 Speedo \u2192 Berghaus \u2192 Canterbury \u2192 Endura \u2192 Mitre \u2192 Kickers. ~57% stake in JD Sports Fashion plc.",
+      "financials": "Private. Revenue \u00a31bn+ est. JD Sports (associated): \u00a310bn+ public revenue.",
+      "tech_stack": {
+        "confirmed": [],
+        "inferred": [
+          "Distributed across brands"
+        ]
+      },
+      "ai_initiatives": [],
+      "recent_news": [],
+      "key_execs": [
+        {
+          "name": "Andy Rubin",
+          "title": "CEO Pentland Brands",
+          "sdr_note": "Route via JD Sports first.",
+          "status": "Cold"
+        }
+      ],
+      "champions": "None.",
+      "blockers": "Private. No warm intro. Brand CC fragmentation.",
+      "cc_footprint": "Unknown \u2014 distributed across brands.",
+      "regulatory_signals": "None known.",
+      "competitors": "Unknown.",
+      "why_cresta_wins": "Route through JD Sports only.",
+      "gong_history": [],
+      "use_cases": [
+        "AI Agent (WISMO, returns)",
+        "Conversation Intelligence",
+        "Real-time Agent Assist"
+      ],
+      "best_case_study": "JD Sports (shared brand via Pentland stake).",
+      "narrative": "Route through JD Sports relationship. No entry point without warm intro.",
+      "outreach_angle": "Route through JD Sports engagement only."
+    },
+    {
+      "id": "energia",
+      "name": "Energia Group",
+      "parent": "iCON Infrastructure (PE-backed)",
+      "domain": "energia.ie",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/001Uy00000kyJtOIAU/view",
+      "priority": "C",
+      "vertical": "Telecom",
+      "status": "Target",
+      "hq": "Dublin, Ireland",
+      "employees": "~800",
+      "revenue": "Private",
+      "risk_level": "LOW",
+      "last_activity": "Unknown",
+      "quick_context": "Irish dual-brand energy (Energia ROI + Power NI). Salesforce CRM confirmed. No CCaaS detected. CC footprint unknown \u2014 qualifying call needed before priority can be confirmed.",
+      "next_step": "Email Phillip Paterson (Group CIO) \u2014 Salesforce integration angle. Confirm CC scale.",
+      "group_structure": "Energia Group Ltd (private, iCON Infrastructure) \u2192 Energia (ROI retail) \u2192 Power NI (NI retail) \u2192 Energia Renewables \u2192 Energia Business.",
+      "financials": "Private. CRU (ROI) and Utility Regulator (NI) oversight.",
+      "tech_stack": {
+        "confirmed": [
+          "Salesforce (CRM)",
+          "Microsoft Azure",
+          "Databricks",
+          "Looker / Power BI / QlikView",
+          "SAP"
+        ],
+        "inferred": [
+          "No CCaaS confirmed",
+          "Mobile app confirmed"
+        ]
+      },
+      "ai_initiatives": [],
+      "recent_news": [],
+      "key_execs": [
+        {
+          "name": "Ian Thom",
+          "title": "Group CEO (since 2011)",
+          "sdr_note": "Long tenure \u2014 cautious.",
+          "status": "Cold"
+        },
+        {
+          "name": "Phillip Paterson",
+          "title": "Group CIO",
+          "sdr_note": "PRIMARY TARGET. Salesforce already deployed.",
+          "status": "Cold"
+        }
+      ],
+      "champions": "Phillip Paterson (CIO) \u2605 \u2014 Salesforce deployed = easy integration story.",
+      "blockers": "CC footprint unknown. Long-tenured CEO = cautious.",
+      "cc_footprint": "Unknown. Dual brands. CRU/Utility Regulator oversight.",
+      "regulatory_signals": "CRU + Utility Regulator oversight.",
+      "competitors": "Unknown.",
+      "why_cresta_wins": "Salesforce already deployed = straightforward Cresta integration.",
+      "gong_history": [],
+      "use_cases": [
+        "Real-time Agent Assist",
+        "100% Auto-QA (CRU/Utility Regulator)",
+        "Conversation Intelligence"
+      ],
+      "best_case_study": "Utilita Energy (energy sector) \u00b7 Cox Communications (utility-adjacent).",
+      "narrative": "Salesforce already deployed = technically straightforward. Key question: CC scale. Qualifying call needed.",
+      "outreach_angle": "'You already have Salesforce \u2014 Cresta is the intelligence layer that makes every customer conversation visible, scoreable, and improvable. 20 minutes?'"
+    },
+    {
+      "id": "staysure",
+      "name": "Staysure",
+      "parent": "Staysure Group Ltd (private)",
+      "domain": "staysure.co.uk",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/001Uy00000olCc3IAE/view",
+      "priority": "C",
+      "vertical": "Financial Services",
+      "status": "Target",
+      "hq": "Northampton, UK",
+      "employees": "~500",
+      "revenue": "Private",
+      "risk_level": "LOW",
+      "last_activity": "Unknown",
+      "quick_context": "Over-50s travel insurance specialist. 8x8 + Zendesk + Salesforce confirmed. No executive identified. FCA regulated. Low priority until leadership mapped.",
+      "next_step": "Research CEO/COO on LinkedIn first. FCA + over-50s empathy framing. Low priority.",
+      "group_structure": "Staysure Group Ltd \u2192 Staysure (travel insurance, over-50s) \u2192 Avanti (travel insurance) \u2192 Paid Assist (B2B).",
+      "financials": "Private. Niche over-50s travel insurance.",
+      "tech_stack": {
+        "confirmed": [
+          "8x8 Contact Center (CCaaS)",
+          "Zendesk (Help Desk)",
+          "Salesforce + Microsoft Dynamics (CRM)",
+          "Freespee (Call Analytics)",
+          "Looker / Tableau"
+        ],
+        "inferred": [
+          "No AI coaching layer"
+        ]
+      },
+      "ai_initiatives": [],
+      "recent_news": [],
+      "key_execs": [
+        {
+          "name": "Unknown",
+          "title": "CEO/COO \u2014 LinkedIn research required",
+          "sdr_note": "Research first.",
+          "status": "Cold"
+        }
+      ],
+      "champions": "None.",
+      "blockers": "No executive identified. Small ACV potential.",
+      "cc_footprint": "Over-50s travel insurance with pre-existing medical conditions. FCA regulated.",
+      "regulatory_signals": "FCA Consumer Duty applies.",
+      "competitors": "Unknown.",
+      "why_cresta_wins": "Over-50s need knowledgeable, empathetic agents. Cresta ensures right knowledge + tone every call.",
+      "gong_history": [],
+      "use_cases": [
+        "Real-time Agent Assist (complex medical travel queries)",
+        "100% Auto-QA (FCA Consumer Duty)",
+        "Coaching Hub (empathy for older customers)"
+      ],
+      "best_case_study": "Saga (over-50s insurance analogue) \u00b7 AAA Life Insurance.",
+      "narrative": "Over-50s customers with pre-existing conditions need knowledgeable, empathetic agents. Identify leadership first.",
+      "outreach_angle": "Identify CEO/COO first. FCA Consumer Duty + over-50s empathy framing."
+    },
+    {
+      "id": "manchester-united",
+      "name": "Manchester United",
+      "parent": "Manchester United plc (NYSE: MANU)",
+      "domain": "manutd.com",
+      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/001Uy00000qaZJ4IAM/view",
+      "priority": "C",
+      "vertical": "Other",
+      "status": "Target",
+      "hq": "Manchester, UK",
+      "employees": "~1,100",
+      "revenue": "\u00a3661.8m (FY24)",
+      "risk_level": "LOW",
+      "last_activity": "Unknown",
+      "quick_context": "Sports/entertainment. 8x8 + Salesforce + Qualtrics. All-new INEOS leadership 2024. Collette Roche (COO, ex-Manchester Airport MD) = best entry. Non-traditional account \u2014 lower ACV. C priority.",
+      "next_step": "Email Collette Roche (COO, ex-Manchester Airport) \u2014 fan services consistency + premium hospitality angle.",
+      "group_structure": "Manchester United plc (NYSE: MANU, INEOS controlling stake Feb 2024) \u2192 MUFC Ltd \u2192 MUFC Catering \u2192 MUFC Merchandising \u2192 MUTV.",
+      "financials": "FY2024: Revenue \u00a3661.8m (Match day \u00a3127m, Broadcasting \u00a3234m, Commercial \u00a3300m). Net loss -\u00a3113m. INEOS: cost efficiency + commercial growth mandate.",
+      "tech_stack": {
+        "confirmed": [
+          "8x8 Contact Center (CCaaS)",
+          "Salesforce (CRM)",
+          "Qualtrics (CX feedback)",
+          "Power BI / Databricks / SAP HANA",
+          "Adobe Target / VWO"
+        ],
+        "inferred": [
+          "No AI coaching layer",
+          "Ticketmaster integration"
+        ]
+      },
+      "ai_initiatives": [],
+      "recent_news": [
+        {
+          "date": "Feb 2024",
+          "headline": "INEOS acquires controlling stake \u2014 Berrada (CEO), Roche (COO) appointed",
+          "detail": "All-new leadership team. Cost efficiency + commercial growth mandate.",
+          "cresta_relevance": "New leadership = potential CX technology appetite."
+        }
+      ],
+      "key_execs": [
+        {
+          "name": "Omar Berrada",
+          "title": "CEO (2024, ex-Man City COO/CFOO)",
+          "sdr_note": "Not for cold outreach.",
+          "status": "Cold"
+        },
+        {
+          "name": "Collette Roche",
+          "title": "COO (2024, ex-Manchester Airport MD)",
+          "sdr_note": "PRIMARY TARGET. Airport CC experience directly transferable.",
+          "status": "Cold"
+        }
+      ],
+      "champions": "Collette Roche (COO) \u2605 \u2014 Manchester Airport CC experience directly transferable.",
+      "blockers": "Non-traditional account. Fan services CC = smaller scope. INEOS financial constraints.",
+      "cc_footprint": "Fan services: ticketing, premium hospitality, merchandise, international enquiries. 8x8 + Salesforce.",
+      "regulatory_signals": "No CC-specific regulatory issues.",
+      "competitors": "Unknown.",
+      "why_cresta_wins": "Collette Roche turned Manchester Airport into best-in-class service. MUFC has a similar challenge.",
+      "gong_history": [],
+      "use_cases": [
+        "Real-time Agent Assist (premium hospitality upsell)",
+        "AI Agent (FAQ deflection \u2014 matchday)",
+        "Conversation Intelligence (fan sentiment)"
+      ],
+      "best_case_study": "\u2605\u2605 Xanterra (hospitality/events) \u00b7 Brinks Home (premium brand CX).",
+      "narrative": "Collette Roche turned Manchester Airport's operations into a best-in-class service engine. MUFC has a similar challenge \u2014 fan services as premium commercial differentiator.",
+      "outreach_angle": "'You turned Manchester Airport's customer operations into a best-in-class service engine. MUFC has a similar challenge \u2014 millions of fan interactions, premium hospitality to upsell, and a brand where every conversation matters. Worth 20 minutes?'"
     }
   ]
 }
