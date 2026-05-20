@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-const Section = ({ title, children, defaultOpen = true }) => {
+const Section = ({ title, icon, children, defaultOpen = true, accent }) => {
   const [open, setOpen] = useState(defaultOpen);
   return (
-    <div className="detail-section">
+    <div className={`detail-section${accent ? ` accent-${accent}` : ""}`}>
       <button className="section-toggle" onClick={() => setOpen(!open)}>
-        <span>{title}</span>
+        <span className="section-toggle-left">{icon && <span className="section-icon">{icon}</span>}{title}</span>
         <span className="toggle-icon">{open ? "−" : "+"}</span>
       </button>
       {open && <div className="section-body">{children}</div>}
@@ -19,171 +19,412 @@ const TechBadge = ({ label, confirmed }) => (
   </span>
 );
 
+const RiskBadge = ({ level }) => {
+  const map = { HIGH: ["risk-high","🔴"], MEDIUM: ["risk-med","🟡"], LOW: ["risk-low","🟢"] };
+  const [cls, icon] = map[level] || ["risk-low","🟢"];
+  return <span className={`risk-badge ${cls}`}>{icon} {level}</span>;
+};
+
 const GongCall = ({ call }) => {
-  const typeColors = {
-    "Demo": "#1E7F45",
-    "Meeting Booked": "#1E7F45",
-    "Cold Call Connected": "#1E6FBF",
-    "Cold Call — WARM": "#C9A84C",
-    "Cold Call Blocked": "#B71C1C",
-    "Cold Call VM": "#666",
-    "Cold Call Voicemail": "#666",
-    "Cold Call — VM": "#666",
-    "Cold Call — Rejected": "#B71C1C",
-    "Cold Call — Wrong Person": "#888",
-    "Internal Prep": "#888",
-    "Intelligence": "#C9A84C",
+  const typeMap = {
+    "Demo": { cls: "type-demo", icon: "🎯" },
+    "Meeting Booked": { cls: "type-warm", icon: "📅" },
+    "Cold Call — WARM": { cls: "type-warm", icon: "🔥" },
+    "Cold Call Connected": { cls: "type-connected", icon: "📞" },
+    "Cold Call Blocked": { cls: "type-blocked", icon: "🚫" },
+    "Cold Call VM": { cls: "type-vm", icon: "📭" },
+    "Cold Call Voicemail": { cls: "type-vm", icon: "📭" },
+    "Cold Call — VM": { cls: "type-vm", icon: "📭" },
+    "Cold Call — Rejected": { cls: "type-blocked", icon: "❌" },
+    "Cold Call — Wrong Person": { cls: "type-vm", icon: "👤" },
+    "Internal Prep": { cls: "type-internal", icon: "📋" },
+    "Intelligence": { cls: "type-warm", icon: "💡" },
   };
+  const { cls, icon } = typeMap[call.type] || { cls: "type-vm", icon: "📞" };
   return (
     <div className="gong-call">
       <div className="gong-call-header">
-        <span className="gong-type" style={{ color: typeColors[call.type] || "#888" }}>{call.type}</span>
+        <span className={`gong-type-badge ${cls}`}>{icon} {call.type}</span>
         <span className="gong-date">{call.date}</span>
-        {call.url && <a href={call.url} target="_blank" rel="noopener noreferrer" className="gong-link">▶ Open in Gong</a>}
+        {call.owner && <span className="gong-owner">by {call.owner}</span>}
+        {call.url && <a href={call.url} target="_blank" rel="noopener noreferrer" className="gong-link">▶ Gong</a>}
       </div>
-      <div className="gong-contact">{call.contact}</div>
+      <div className="gong-contact">🧑‍💼 {call.contact}</div>
       <div className="gong-summary">{call.summary}</div>
     </div>
   );
 };
 
+const ContactRow = ({ contact }) => (
+  <div className="contact-card">
+    <div className="contact-name">{contact.name}</div>
+    <div className="contact-title">{contact.title}</div>
+    {contact.email && <div className="contact-email">✉️ {contact.email}</div>}
+    {contact.linkedin && <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" className="contact-linkedin">LinkedIn ↗</a>}
+    {contact.sdr_note && <div className="contact-sdr-note">💬 {contact.sdr_note}</div>}
+    {contact.status && <span className={`contact-status cs-${contact.status.toLowerCase().replace(/\s/g,"-")}`}>{contact.status}</span>}
+  </div>
+);
+
+const MessageBlock = ({ message }) => (
+  <div className="message-block">
+    <div className="message-persona">📩 {message.persona}</div>
+    <div className="message-subject">Subject: <em>{message.subject}</em></div>
+    <div className="message-body">{message.body}</div>
+    {message.cta && <div className="message-cta">CTA: {message.cta}</div>}
+  </div>
+);
+
 export default function AccountDetail({ account, onClose }) {
+  const [activeTab, setActiveTab] = useState("intelligence");
+
   const {
-    name, parent, domain, sfdc, priority, vertical, status,
-    hq, employees, revenue, last_activity, quick_context, next_step,
+    name, domain, sfdc, priority, vertical, status,
+    hq, employees, revenue, next_step,
     group_structure, financials, tech_stack, key_execs, champions,
     blockers, cc_footprint, regulatory_signals, gong_history,
-    use_cases, best_case_study, narrative, outreach_angle
+    use_cases, best_case_study, narrative, outreach_angle,
+    ai_initiatives, recent_news, risk_level, competitors,
+    why_cresta_wins, sdr_playbook,
   } = account;
 
   const priorityClass = { A: "p-a", B: "p-b", C: "p-c" }[priority];
+  const callCount = gong_history?.length || 0;
+  const lastCall = gong_history?.length
+    ? [...gong_history].sort((a, b) => b.date.localeCompare(a.date))[0]
+    : null;
+
+  const daysSince = lastCall && lastCall.date !== "Unknown"
+    ? Math.floor((new Date() - new Date(lastCall.date)) / 86400000)
+    : null;
+
+  const tabs = [
+    { id: "intelligence", label: "🧠 Intelligence" },
+    { id: "engagement",   label: `📞 Engagement (${callCount})` },
+    { id: "sdr",          label: "🎯 SDR Playbook" },
+    { id: "cresta",       label: "🚀 Cresta Fit" },
+  ];
 
   return (
     <div className="detail-view">
-      {/* ── HEADER ── */}
+
+      {/* HEADER */}
       <div className="detail-header">
-        <button className="close-btn" onClick={onClose}>← Back</button>
+        <button className="close-btn" onClick={onClose}>← Back to territory</button>
         <div className="detail-title-row">
           <span className={`priority-pill large ${priorityClass}`}>{priority}</span>
           <h1 className="detail-name">{name}</h1>
-          <div className="detail-status-badges">
-            <span className="vertical-badge">{vertical}</span>
-            <span className="status-badge">{status}</span>
-          </div>
+          {risk_level && <RiskBadge level={risk_level} />}
         </div>
-        <div className="detail-meta">
-          <a href={`https://${domain}`} target="_blank" rel="noopener noreferrer" className="detail-link">{domain}</a>
-          <a href={sfdc} target="_blank" rel="noopener noreferrer" className="detail-link sfdc-link">Open in Salesforce ↗</a>
+        <div className="detail-badges">
+          <span className="vertical-badge">{vertical}</span>
+          <span className="status-badge">{status}</span>
           <span className="detail-meta-item">📍 {hq}</span>
           <span className="detail-meta-item">👥 {employees}</span>
           <span className="detail-meta-item">💰 {revenue}</span>
+          <a href={`https://${domain}`} target="_blank" rel="noopener noreferrer" className="detail-link">{domain} ↗</a>
+          <a href={sfdc} target="_blank" rel="noopener noreferrer" className="detail-link sfdc-link">Salesforce ↗</a>
         </div>
       </div>
 
-      {/* ── NEXT STEP CALLOUT ── */}
-      <div className="next-step-callout">
-        <div className="next-step-label">🎯 RECOMMENDED NEXT STEP</div>
-        <div className="next-step-text">{next_step}</div>
+      {/* ALERT STRIP */}
+      <div className="alert-strip">
+        <div className="alert-item">
+          <span className="alert-label">LAST CONTACT</span>
+          <span className="alert-value">
+            {lastCall ? `${lastCall.date} · ${lastCall.type}` : "No contact logged"}
+          </span>
+        </div>
+        <div className="alert-divider" />
+        <div className="alert-item">
+          <span className="alert-label">DAYS SINCE</span>
+          <span className={`alert-value ${daysSince !== null && daysSince > 30 ? "alert-overdue" : "alert-days"}`}>
+            {daysSince !== null ? `${daysSince}d` : "—"}
+            {daysSince !== null && daysSince > 30 && " ⚠️"}
+          </span>
+        </div>
+        <div className="alert-divider" />
+        <div className="alert-item alert-item-wide">
+          <span className="alert-label">NEXT STEP</span>
+          <span className="alert-value alert-next">{next_step}</span>
+        </div>
       </div>
 
-      {/* ── OUTREACH ANGLE ── */}
-      <div className="outreach-callout">
-        <div className="outreach-label">💬 OUTREACH ANGLE</div>
-        <div className="outreach-text">{outreach_angle}</div>
+      {/* CALLOUT ROW */}
+      <div className="callout-row">
+        <div className="next-step-callout">
+          <div className="callout-label">🎯 RECOMMENDED NEXT STEP</div>
+          <div className="callout-text">{next_step}</div>
+        </div>
+        <div className="outreach-callout">
+          <div className="callout-label">💬 OPENING ANGLE</div>
+          <div className="callout-text italic">{outreach_angle}</div>
+        </div>
       </div>
 
-      {/* ── SECTIONS ── */}
-      <div className="detail-sections">
+      {/* TABS */}
+      <div className="tab-bar">
+        {tabs.map(t => (
+          <button
+            key={t.id}
+            className={`tab-btn${activeTab === t.id ? " active" : ""}`}
+            onClick={() => setActiveTab(t.id)}
+          >
+            {t.label}
+          </button>
+        ))}
+      </div>
 
-        <Section title="🏢 Group Structure & Financials">
-          <div className="two-col">
-            <div>
-              <h4>Group Structure</h4>
-              <p className="detail-text">{group_structure}</p>
-            </div>
-            <div>
-              <h4>Financials</h4>
-              <p className="detail-text">{financials}</p>
-            </div>
-          </div>
-        </Section>
+      <div className="tab-content">
 
-        <Section title="💻 Tech Stack">
-          <div className="tech-legend">
-            <span className="tech-badge confirmed">✓ Confirmed</span>
-            <span className="tech-badge inferred">~ Inferred / Hypothesis</span>
-          </div>
-          <div className="tech-grid">
-            {(tech_stack.confirmed || []).map(t => <TechBadge key={t} label={t} confirmed />)}
-            {(tech_stack.inferred || []).map(t => <TechBadge key={t} label={t} confirmed={false} />)}
-          </div>
-        </Section>
+        {/* ── INTELLIGENCE ── */}
+        {activeTab === "intelligence" && (
+          <div className="tab-pane">
 
-        <Section title="👥 People & Relationships">
-          <div className="three-col">
-            <div>
-              <h4>Key Executives</h4>
-              {key_execs.map((e, i) => (
-                <div key={i} className="exec-row">
-                  <span className="exec-name">{e.name}</span>
-                  <span className="exec-title">{e.title}</span>
+            <Section title="Group Structure & Financials" icon="🏢">
+              <div className="two-col">
+                <div>
+                  <h4>Group Structure</h4>
+                  <p className="detail-text">{group_structure}</p>
                 </div>
-              ))}
-            </div>
-            <div>
-              <h4>Champions</h4>
-              <p className="detail-text">{champions}</p>
-            </div>
-            <div>
-              <h4>Blockers / Risks</h4>
-              <p className="detail-text blockers">{blockers}</p>
-            </div>
-          </div>
-        </Section>
+                <div>
+                  <h4>Financials</h4>
+                  <p className="detail-text">{financials}</p>
+                </div>
+              </div>
+            </Section>
 
-        <Section title="📞 CC Footprint & Regulatory Signals">
-          <div className="two-col">
-            <div>
-              <h4>Contact Centre Footprint</h4>
+            <Section title="Tech Stack" icon="💻">
+              <div className="tech-legend">
+                <span className="tech-badge confirmed">✓ Confirmed</span>
+                <span className="tech-badge inferred">~ Inferred</span>
+              </div>
+              <div className="tech-section-label confirmed-label">✅ Confirmed sources</div>
+              <div className="tech-grid">
+                {(tech_stack?.confirmed || []).map(t => <TechBadge key={t} label={t} confirmed />)}
+                {!tech_stack?.confirmed?.length && <span className="no-data">No confirmed stack data yet</span>}
+              </div>
+              <div className="tech-section-label inferred-label">🔶 Inferred / hypothesis</div>
+              <div className="tech-grid">
+                {(tech_stack?.inferred || []).map(t => <TechBadge key={t} label={t} confirmed={false} />)}
+                {!tech_stack?.inferred?.length && <span className="no-data">No inferred data</span>}
+              </div>
+            </Section>
+
+            {ai_initiatives?.length > 0 && (
+              <Section title="AI & Contact Centre Initiatives" icon="🤖" accent="blue">
+                <div className="initiative-list">
+                  {ai_initiatives.map((item, i) => (
+                    <div key={i} className="initiative-item">
+                      <div className="initiative-title">{item.title}</div>
+                      <div className="initiative-detail">{item.detail}</div>
+                      {item.source && <div className="initiative-source">📎 {item.source}</div>}
+                      {item.cresta_angle && (
+                        <div className="initiative-cresta">💡 Cresta angle: {item.cresta_angle}</div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </Section>
+            )}
+
+            <Section title="Contact Centre Footprint" icon="📞">
               <p className="detail-text">{cc_footprint}</p>
-            </div>
-            <div>
-              <h4>Regulatory / Fine Signals</h4>
+            </Section>
+
+            <Section title="Regulatory Signals & Fines" icon="⚖️" accent="amber">
               <p className="detail-text regulatory">{regulatory_signals}</p>
-            </div>
+            </Section>
+
+            {recent_news?.length > 0 && (
+              <Section title="Recent News & Trigger Events" icon="📰">
+                <div className="news-list">
+                  {recent_news.map((item, i) => (
+                    <div key={i} className="news-item">
+                      <div className="news-date">{item.date}</div>
+                      <div className="news-headline">{item.headline}</div>
+                      <div className="news-detail">{item.detail}</div>
+                      {item.cresta_relevance && (
+                        <div className="news-relevance">🎯 {item.cresta_relevance}</div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </Section>
+            )}
+
           </div>
-        </Section>
+        )}
 
-        <Section title={`📞 Gong Call History (${gong_history?.length || 0} calls)`}>
-          {gong_history && gong_history.length > 0 ? (
-            <div className="gong-list">
-              {[...gong_history].reverse().map((call, i) => (
-                <GongCall key={i} call={call} />
-              ))}
-            </div>
-          ) : (
-            <div className="no-calls">No Gong calls logged for this account yet.</div>
-          )}
-        </Section>
+        {/* ── ENGAGEMENT ── */}
+        {activeTab === "engagement" && (
+          <div className="tab-pane">
 
-        <Section title="🎯 Cresta Positioning">
-          <div className="positioning-grid">
-            <div>
-              <h4>Executive Narrative</h4>
+            <Section title="Key Contacts" icon="👥">
+              {key_execs?.length > 0 ? (
+                <div className="contacts-grid">
+                  {key_execs.map((e, i) => <ContactRow key={i} contact={e} />)}
+                </div>
+              ) : <p className="no-data">No contacts identified yet.</p>}
+            </Section>
+
+            <Section title="Champions" icon="⭐" accent="green">
+              <p className="detail-text">{champions || "No confirmed champions."}</p>
+            </Section>
+
+            <Section title="Blockers & Risks" icon="🚧" accent="red">
+              <p className="detail-text blockers">{blockers || "No confirmed blockers."}</p>
+            </Section>
+
+            <Section title={`Gong History (${callCount} calls)`} icon="📞">
+              {gong_history?.length > 0 ? (
+                <div className="gong-list">
+                  {[...gong_history]
+                    .sort((a, b) => b.date.localeCompare(a.date))
+                    .map((call, i) => <GongCall key={i} call={call} />)}
+                </div>
+              ) : (
+                <div className="no-calls">
+                  <p>No Gong calls logged yet.</p>
+                  <p className="no-calls-sub">See the SDR Playbook tab for outreach recommendations.</p>
+                </div>
+              )}
+            </Section>
+
+          </div>
+        )}
+
+        {/* ── SDR PLAYBOOK ── */}
+        {activeTab === "sdr" && (
+          <div className="tab-pane">
+            {sdr_playbook ? (
+              <>
+                <div className="sdr-header">
+                  <div className="sdr-title">SDR Playbook — {name}</div>
+                  <div className="sdr-sub">Account hypothesis · target contacts · messaging · objection handling · cadence</div>
+                </div>
+
+                <Section title="Account Hypothesis & Buying Signals" icon="🧪" accent="blue">
+                  <p className="detail-text hypothesis">{sdr_playbook.hypothesis}</p>
+                  {sdr_playbook.buying_signals?.length > 0 && (
+                    <div className="hypothesis-signals">
+                      <div className="signals-label">Key buying signals</div>
+                      <ul className="signals-list">
+                        {sdr_playbook.buying_signals.map((s, i) => <li key={i}>{s}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                </Section>
+
+                <Section title="Target Contacts — Who to Reach & Why" icon="🎯">
+                  <div className="target-contacts">
+                    {sdr_playbook.target_contacts?.map((c, i) => (
+                      <div key={i} className="target-contact-card">
+                        <div className="tc-priority-row">
+                          <span className={`tc-priority tp-${c.priority?.toLowerCase()}`}>{c.priority}</span>
+                          <span className="tc-name">{c.name}</span>
+                          <span className="tc-title">{c.title}</span>
+                        </div>
+                        <div className="tc-why"><strong>Why:</strong> {c.why}</div>
+                        <div className="tc-approach"><strong>Approach:</strong> {c.approach}</div>
+                        {c.linkedin_search && (
+                          <div className="tc-linkedin">🔍 <em>{c.linkedin_search}</em></div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </Section>
+
+                <Section title="Suggested Messages" icon="✉️">
+                  <div className="messages-list">
+                    {sdr_playbook.messages?.map((m, i) => <MessageBlock key={i} message={m} />)}
+                  </div>
+                </Section>
+
+                <Section title="Call Talk Track" icon="📞">
+                  <div className="talk-track">
+                    {[
+                      { label: "OPENER — first 10 seconds", key: "opener" },
+                      { label: "VALUE PROP — 20 seconds", key: "pitch" },
+                      { label: "QUALIFYING QUESTION", key: "qualifying_question" },
+                      { label: "THE ASK", key: "ask" },
+                    ].map(({ label, key }) => (
+                      <div key={key} className={`tt-block tt-${key}`}>
+                        <div className="tt-label">{label}</div>
+                        <div className="tt-text">{sdr_playbook.talk_track?.[key]}</div>
+                      </div>
+                    ))}
+                  </div>
+                </Section>
+
+                <Section title="Objection Handling" icon="🛡️">
+                  <div className="objections-list">
+                    {sdr_playbook.objections?.map((o, i) => (
+                      <div key={i} className="objection-item">
+                        <div className="objection-q">❓ "{o.objection}"</div>
+                        <div className="objection-a">✅ {o.response}</div>
+                      </div>
+                    ))}
+                  </div>
+                </Section>
+
+                <Section title="Sequencing & Cadence" icon="📅">
+                  <div className="cadence-list">
+                    {sdr_playbook.cadence?.map((step, i) => (
+                      <div key={i} className="cadence-step">
+                        <div className="cadence-day">Day {step.day}</div>
+                        <div className="cadence-body">
+                          <div className="cadence-action">{step.action}</div>
+                          <div className="cadence-note">{step.note}</div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </Section>
+
+              </>
+            ) : (
+              <div className="no-playbook">
+                <p>SDR Playbook not yet built for this account.</p>
+                <p>Run "update territory" in Claude to generate one.</p>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* ── CRESTA FIT ── */}
+        {activeTab === "cresta" && (
+          <div className="tab-pane">
+
+            <Section title="Executive Narrative" icon="📖" accent="blue">
               <p className="detail-text narrative">{narrative}</p>
-            </div>
-            <div>
-              <h4>Best-Fit Use Cases</h4>
+            </Section>
+
+            <Section title="Best-Fit Use Cases" icon="🎯">
               <ul className="use-case-list">
-                {use_cases.map((u, i) => <li key={i}>{u}</li>)}
+                {(use_cases || []).map((u, i) => <li key={i}>{u}</li>)}
               </ul>
-            </div>
-            <div>
-              <h4>Best Case Study</h4>
+            </Section>
+
+            <Section title="Recommended Case Studies" icon="📚">
               <p className="detail-text case-study">{best_case_study}</p>
-            </div>
+            </Section>
+
+            <Section title="Competitive Landscape" icon="⚔️">
+              <div className="two-col">
+                <div>
+                  <h4>Likely Competitors</h4>
+                  <p className="detail-text">{competitors || "Unknown — discovery needed"}</p>
+                </div>
+                <div>
+                  <h4>Why Cresta Wins</h4>
+                  <p className="detail-text">{why_cresta_wins || "See narrative above"}</p>
+                </div>
+              </div>
+            </Section>
+
           </div>
-        </Section>
+        )}
 
       </div>
     </div>
