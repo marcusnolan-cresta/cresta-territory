@@ -103,17 +103,76 @@ Keep responses concise — 3-5 sentences max unless a detailed breakdown is requ
     setLoading(true);
 
     try {
-      // Territory AI requires a backend API key.
-      // For now, show a helpful prompt to use Claude directly.
-      const context = accounts.map(a =>
-        `${a.name} (${a.priority}-priority, ${a.status}): ${a.quick_context} Next step: ${a.next_step}`
-      ).join('\n\n');
+      // Answer directly from accounts data without an API call
+      const q = userMsg.toLowerCase();
 
-      const claudeUrl = `https://claude.ai/new?q=${encodeURIComponent(
-        `You are a territory intelligence assistant for Marcus Nolan, Enterprise AE at Cresta.\n\nHere is his EMEA territory summary:\n\n${context}\n\nQuestion: ${userMsg}`
-      )}`;
+      // Try to answer common questions directly from data
+      let reply = "";
 
-      const reply = `**Open this in Claude to get your answer:**\n\n[Click here to ask Claude →](${claudeUrl})\n\n*(Territory AI direct integration coming soon — for now this opens Claude with your full territory context pre-loaded)*`;
+      if (q.includes("genesys")) {
+        const matches = accounts.filter(a =>
+          JSON.stringify(a.tech_stack).toLowerCase().includes("genesys")
+        );
+        reply = matches.length
+          ? `**Accounts with Genesys:** ${matches.map(a => `\n• **${a.name}** (${a.priority}) — ${a.tech_stack?.confirmed?.find(t => t.toLowerCase().includes("genesys")) || "Genesys confirmed"}`).join("")}\n\nGenesys accounts are high-priority targets — Cresta has a native Genesys integration and Woolworths AU (identical stack to Sainsbury's) is the strongest reference.`
+          : "No accounts with confirmed Genesys in the current territory data.";
+      } else if (q.includes("cold") || q.includes("risk") || q.includes("30 day") || q.includes("contact")) {
+        const stale = accounts
+          .filter(a => {
+            if (!a.last_activity || a.last_activity === "Unknown") return true;
+            const days = Math.floor((new Date() - new Date(a.last_activity)) / 86400000);
+            return days > 30;
+          })
+          .sort((a, b) => (a.last_activity || "").localeCompare(b.last_activity || ""));
+        reply = stale.length
+          ? `**Accounts with no contact in 30+ days:**\n${stale.map(a => {
+              const days = a.last_activity && a.last_activity !== "Unknown"
+                ? Math.floor((new Date() - new Date(a.last_activity)) / 86400000)
+                : "unknown";
+              return `• **${a.name}** (${a.priority}) — last contact ${a.last_activity || "unknown"} (${days}d ago). Next step: ${a.next_step}`;
+            }).join("\n")}`
+          : "All accounts have been contacted within 30 days.";
+      } else if (q.includes("warm signal") || q.includes("this week") || q.includes("recent")) {
+        const warm = accounts.filter(a =>
+          (a.gong_history || []).some(h =>
+            h.type?.includes("WARM") || h.type?.includes("Inbound") || h.type === "Demo" || h.type === "Meeting Booked"
+          ) && a.last_activity >= "2026-05-01"
+        );
+        reply = warm.length
+          ? `**Recent warm signals:**\n${warm.map(a => {
+              const latest = [...(a.gong_history || [])].sort((x,y) => y.date.localeCompare(x.date))[0];
+              return `• **${a.name}** — ${latest?.date}: ${latest?.type} · ${latest?.summary?.slice(0,100)}...`;
+            }).join("\n")}`
+          : "No recent warm signals found in the last 30 days.";
+      } else if (q.includes("next step") || q.includes("priority") || q.includes("urgent")) {
+        const urgent = accounts
+          .filter(a => (a.open_actions || []).some(x => x.priority === "URGENT" || x.priority === "HIGH"))
+          .slice(0, 6);
+        reply = `**Top priority actions across territory:**\n${urgent.map(a => {
+          const top = (a.open_actions || []).find(x => x.priority === "URGENT" || x.priority === "HIGH");
+          return `• **${a.name}** (${a.priority}): ${top?.action}`;
+        }).join("\n")}`;
+      } else if (q.includes("demo")) {
+        const demos = accounts.filter(a => a.deal_stage?.includes("Demo") || a.status?.includes("Active"));
+        reply = `**Accounts with demos done or booked:**\n${demos.map(a => `• **${a.name}** (${a.priority}) — Stage: ${a.deal_stage} · ${a.next_step}`).join("\n")}`;
+      } else if (q.includes("stall") || q.includes("block") || q.includes("stuck")) {
+        const stalled = accounts.filter(a => a.deal_stage === "Stalled" || a.deal_stage === "Closing Out");
+        reply = stalled.length
+          ? `**Stalled or closing accounts:**\n${stalled.map(a => `• **${a.name}** — ${a.deal_stage}: ${a.blockers?.slice(0,120)}`).join("\n")}`
+          : "No accounts currently flagged as stalled.";
+      } else if (q.includes("fca") || q.includes("consumer duty") || q.includes("regulatory")) {
+        const reg = accounts.filter(a => a.regulatory_signals?.toLowerCase().includes("fca") || a.vertical === "Financial Services");
+        reply = `**FCA / Consumer Duty regulated accounts:**\n${reg.map(a => `• **${a.name}** (${a.priority}) — ${a.regulatory_signals?.slice(0,150)}...`).join("\n")}`;
+      } else {
+        // Generic: search account names and return context
+        const nameMatch = accounts.find(a => a.name.toLowerCase().includes(q) || q.includes(a.name.toLowerCase().split(" ")[0]));
+        if (nameMatch) {
+          reply = `**${nameMatch.name}** (${nameMatch.priority}-priority · ${nameMatch.deal_stage})\n\n${nameMatch.quick_context}\n\n**Next step:** ${nameMatch.next_step}\n\n**Champions:** ${nameMatch.champions || "None confirmed"}\n\n**Blockers:** ${nameMatch.blockers || "None confirmed"}\n\n**Last contact:** ${nameMatch.last_activity}`;
+        } else {
+          reply = `I searched your territory data for "${userMsg}" but couldn't find a specific match. Try asking:\n• "Which accounts have Genesys?"\n• "Which accounts are going cold?"\n• "What are the urgent actions this week?"\n• "Tell me about Sainsbury's"\n• "Which accounts have demos booked?"`;
+        }
+      }
+
       setMessages(prev => [...prev, { role: "assistant", content: reply }]);
     } catch (err) {
       setMessages(prev => [...prev, { role: "assistant", content: "Something went wrong. Please try again." }]);
@@ -148,7 +207,7 @@ Keep responses concise — 3-5 sentences max unless a detailed breakdown is requ
         <div className="ai-header-left">
           <CrestaIcon size={20} />
           <span className="ai-title">Territory AI</span>
-          <span className="ai-badge">GPT-4 class · {accounts.length} accounts loaded</span>
+          <span className="ai-badge">Live territory data · {accounts.length} accounts</span>
         </div>
         <button className="ai-close" onClick={onClose}>✕</button>
       </div>
