@@ -2,7 +2,7 @@
   "meta": {
     "owner": "Marcus Nolan",
     "title": "EMEA Territory Intelligence",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-01",
     "total_accounts": 21,
     "priority_counts": {
       "A": 6,
@@ -24,7 +24,7 @@
       "employees": "~150,000",
       "revenue": "\u00a333.3bn (FY25)",
       "risk_level": "LOW",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-21",
       "quick_context": "UK's second-largest grocer. 12M CC interactions annually across all brands. 5-year Microsoft Azure AI partnership. Full Cresta demo Apr 16 '26 (Kieran, Viswa, Chris Tomlinson \u2014 remote). Exec escalation: Mark Meghezzi emailed Rob Barnes (CTO) + James Leech May 13 '26. 3-year plan being finalised NOW. Ops team demo agreed \u2014 needs to be booked this week.",
       "next_step": "Rob Barnes + James Leech now have Mark's email. Follow up with Kieran + Viswa this week: 'Mark has dropped Rob and James a note \u2014 want to make sure you have visibility on next steps. Can we get the ops team demo in the diary before the 3-year plan is finalised?'",
       "group_structure": "J Sainsbury plc (LSE: SBRY) \u2192 Sainsbury's Grocery (1,107+ stores, 461 Argos concessions) \u2192 Argos (664 locations) \u2192 Sainsbury's Bank (exiting core banking) \u2192 Nectar (loyalty, 5M+ active users) \u2192 Tu Clothing \u2192 Habitat. NOTE: 12 million interactions annually across multiple brands and channels (per Mark Meghezzi email May '26).",
@@ -102,13 +102,13 @@
         {
           "name": "James Leech",
           "title": "Unknown \u2014 made original intro to Kieran and Viswa",
-          "sdr_note": "Was the internal referral source for Kieran/Viswa intro. CC'd on Mark's May 13 email.",
-          "status": "Cold"
+          "sdr_note": "Made original intro to Kieran/Viswa + CC'd on Mark Meghezzi exec escalation May 13. Still active at Sainsbury's \u2014 ZoomInfo scoop May 14 shows him speaking about SmartShop innovation. Good sign he's engaged.",
+          "status": "Engaged"
         },
         {
           "name": "Mark Given",
-          "title": "Chief Technology, Marketing & Data Officer \u2014 LEAVING Jul '26",
-          "sdr_note": "Leaving Jul '26. Deprioritise.",
+          "title": "Chief Technology, Marketing & Data Officer \u2014 LEAVING Jul 1 '26 \u2014 joining ISBA as President (confirmed May 7 '26)",
+          "sdr_note": "Confirmed departure July 1 to join ISBA as President. Source: ISBA press release May 7. Do NOT contact. Transition risk window \u2014 push for ops demo before July 1.",
           "status": "Cold"
         },
         {
@@ -137,6 +137,14 @@
       "competitors": "Salesforce Agentforce (Azure partnership may push this). Microsoft Copilot for CC (via Azure \u2014 Cresta is more CC-specialist). NICE CXone (if Argos uses separate stack).",
       "why_cresta_wins": "Integrates natively on Genesys + Salesforce \u2014 no rip-and-replace. Woolworths AU ran identical stack with measurable results. AI-native for CC vs Agentforce (CRM extended). Forrester Wave Leader. 100% QM = the one thing Agentforce can't deliver.",
       "gong_history": [
+        {
+          "date": "2026-05-21",
+          "type": "Intelligence",
+          "contact": "ZoomInfo scoop \u2014 Mark Given / Sainsbury's",
+          "owner": "Territory intelligence",
+          "summary": "CONFIRMED: Mark Given (CTMDO) leaving Sainsbury's July 1, 2026 to join ISBA as President. Source: ISBA.org.uk press release May 7. James Leech (ZoomInfo scoop May 14) highlighted SmartShop innovation as decade-long Sainsbury's achievement \u2014 confirms he's still active and engaged. NatWest expanding Sainsbury's Bank partnership (embedded financial products, Patrick Short) \u2014 ongoing financial services transformation. Simon Roberts speaking at Blue Yonder ICON May 17-20.",
+          "url": "https://www.isba.org.uk/article/mark-given-sainsburys-announced-new-isba-president"
+        },
         {
           "date": "2026-05-13",
           "type": "Email \u2014 Exec Escalation",
@@ -295,7 +303,7 @@
         ]
       },
       "deal_stage": "Demo Done",
-      "key_quote": "\"12M contacts a year across the group. We're moving into the final year of our three-year strategy. We need to make sure tools align with that before we rush into anything.\" \u2014 Kieran McLoughlin, Apr '26 demo",
+      "key_quote": "\"We're moving into our final year of our three-year strategy. Next year will be the start of a new three-year cycle. We need to make sure tools align with that.\" \u2014 Kieran McLoughlin, Apr '26. Mark Given leaves July 1 \u2014 new CTMDO = new 3-year plan reset.",
       "glean_query": "Sainsburys",
       "content": [
         {
@@ -350,17 +358,17 @@
       ],
       "open_actions": [
         {
-          "action": "Book Sainsbury's ops team demo with Kieran McLoughlin",
+          "action": "\u26a1 URGENT WINDOW: Mark Given leaves July 1. His replacement will reset priorities. Book ops team demo with Kieran before July 1 to lock Cresta into the plan before the new CTMDO arrives.",
           "owner": "Marcus",
-          "priority": "HIGH"
+          "priority": "URGENT"
         },
         {
-          "action": "Send demo brief to Amy + Hala tonight",
+          "action": "Follow up with Kieran McLoughlin \u2014 ops team demo date. Reference: \"You mentioned aligning with the 3-year strategy being finalised \u2014 Mark Given's move to ISBA on July 1 means now is exactly the right moment to lock this in.\"",
           "owner": "Marcus",
-          "priority": "HIGH"
+          "priority": "URGENT"
         },
         {
-          "action": "Send Woolworths AU case study to Kieran (awaiting AU sign-off \u2014 union involvement)",
+          "action": "Woolworths AU case study sign-off \u2014 Alan Ranger chasing (union involvement). Critical for Sainsbury's narrative.",
           "owner": "Alan Ranger",
           "priority": "HIGH"
         }
@@ -405,7 +413,7 @@
       "employees": "~2,547",
       "revenue": "\u00a3764.9m (FY24 \u2014 last public)",
       "risk_level": "MEDIUM",
-      "last_activity": "2026-05-19",
+      "last_activity": "2026-05-22",
       "quick_context": "UK's largest investment platform. Taken private by CVC Mar '25. 2M+ clients, \u00a3172bn AUM. Meeting booked with Matthew Streatfield (Retention). Charlie Peters = Head of Helpdesk Dev, owns Amazon Connect + SF roadmap \u2014 NOT YET CONTACTED BY AE. CFO Declan Hourican came from TSB \u2014 Cresta works with TSB.",
       "next_step": "Ioan Macrae (Sabio) intro received May 19 - has CVC connection to HL. Reply to Ioan and schedule 30-min call to get his view on right contacts. Separately: email Charlie Peters this week as planned.",
       "group_structure": "HL Group Ltd (private, CVC + Nordic Capital + ADAI, Mar 2025) \u2192 HL Asset Management Ltd (FCA authorised) \u2192 HL Fund Managers Ltd \u2192 HL Advisory Services Ltd \u2192 HL Savings Ltd. Products: ISA, SIPP, investment accounts, Active Savings, pensions, annuities. Delisted from LSE Mar 2025.",
@@ -512,6 +520,22 @@
       "competitors": "Salesforce Agentforce (confirmed in-stack). Deloitte (engaged by Emily Astbury Head). In-house retention AI (Streatfield team).",
       "why_cresta_wins": "Agentforce = CRM automation, not CC coaching. Cresta = Forrester Wave Leader, AI-native for CC. 100% QM non-negotiable under Consumer Duty. Mutual of Omaha (identical Amazon Connect stack, FS, 33% uplift, QA halved) = perfect proof. CFO from TSB (Cresta customer). CVC PE = ROI urgency.",
       "gong_history": [
+        {
+          "date": "2026-05-22",
+          "type": "Meeting Booked",
+          "contact": "Ioan Macrae (Sabio Group)",
+          "owner": "Marcus Nolan",
+          "summary": "Marcus proposed Tuesday morning 30-minute call with Ioan Macrae. Ioan confirmed interest. Call to discuss Sabio's history with HL and how to work together on the Cresta opportunity.",
+          "url": ""
+        },
+        {
+          "date": "2026-05-22",
+          "type": "Email \u2014 Inbound",
+          "contact": "Ioan Macrae (Sabio Group)",
+          "owner": "Ioan Macrae \u2192 Ashley Williamson + Marcus Nolan",
+          "summary": "\"Many thanks indeed and apologies for the delayed response, I have been out all week. It would be great to have a call and discuss HL, as there is some history between Sabio and HL going [back].\" \u2014 Sabio has existing history with HL. This is a warm partner route into HL. Marcus replied immediately proposing Tuesday morning for 30 minutes.",
+          "url": ""
+        },
         {
           "date": "2026-05-19",
           "type": "Email \u2014 Partner Intelligence",
@@ -675,7 +699,7 @@
         ]
       },
       "deal_stage": "Discovery",
-      "key_quote": "\"Developing something in-house but it's really interesting \u2014 send me something on email.\" \u2014 Matthew Streatfield, Head of Retention, Apr '26",
+      "key_quote": "\"There is some history between Sabio and HL going back.\" \u2014 Ioan Macrae, Sabio Group, May 22 '26. Use this to get a warm map of HL contacts before going direct.",
       "glean_query": "Hargreaves Lansdown",
       "content": [
         {
@@ -723,19 +747,19 @@
       ],
       "open_actions": [
         {
-          "action": "Email Charlie Peters \u2014 reference Loberman, FCA Consumer Duty + Forrester Wave vs Agentforce",
+          "action": "CALL with Ioan Macrae (Sabio) \u2014 Tuesday morning, 30 mins. Sabio has \"history\" with HL. Use this to map contacts and understand the account before going direct.",
+          "owner": "Marcus + Ashley Williamson",
+          "priority": "URGENT"
+        },
+        {
+          "action": "Email Charlie Peters after Sabio call \u2014 reference both Loberman AND Sabio conversation for maximum credibility",
           "owner": "Marcus",
           "priority": "HIGH"
         },
         {
-          "action": "Confirm Matthew Streatfield meeting \u2014 is it still valid post w/c 21 Apr?",
+          "action": "Confirm Matthew Streatfield meeting \u2014 is w/c 21 Apr retention meeting still live?",
           "owner": "Marcus",
           "priority": "HIGH"
-        },
-        {
-          "action": "Connect Ioan Macrae (Sabio/CVC) for HL warm intro",
-          "owner": "Marcus",
-          "priority": "MEDIUM"
         }
       ],
       "cresta_team": [
@@ -1874,7 +1898,7 @@
       "employees": "~1,100",
       "revenue": "GWP ~\u20ac450m+",
       "risk_level": "LOW",
-      "last_activity": "2026-05-07",
+      "last_activity": "2026-05-28",
       "quick_context": "Irish insurer (farm/rural/motor/home). FULL DEMO completed May 6 '26 \u2014 Brian Goddard, Deborah McCormack, Linda Heduvan attended. CEO Tomas O'Midheach = ex-AIB CDO/COO 23yr. Microsoft Azure + Dynamics 365. Marcus built FBD intro deck (Apr '26).",
       "next_step": "Paul Murphy = economic buyer who missed the May 6 demo. Marcus already sent him a personalised catchup email. Chase Paul for 20-min call. Ask the group: \"What needs to be true for this to become a formal project in 2026?\"",
       "group_structure": "FBD Holdings plc (Euronext Dublin: FBD) \u2192 FBD Insurance Ltd (core underwriter) \u2192 FBD Hotels & Resorts. Founded by Irish farming cooperatives \u2014 rural Ireland heritage is core identity.",
@@ -1962,6 +1986,22 @@
       "competitors": "Microsoft Copilot for CC (given Microsoft-first stack).",
       "why_cresta_wins": "Microsoft-first stack = Azure compatible. CEO's AIB background = seen CC AI done well. Mutual of Omaha (insurance CC, 33% uplift, QA -50%) = closest analogue.",
       "gong_history": [
+        {
+          "date": "2026-05-21",
+          "type": "Email \u2014 Outbound",
+          "contact": "Paul Murphy (FBD \u2014 economic buyer)",
+          "owner": "Marcus Nolan",
+          "summary": "\"Hi Paul. I sent a full follow-up to the group after the demo and a separate note directly to you. I appreciate things get busy and I am not chasing for the sake of it. I did want to ask one direct [question]...\" \u2014 Marcus sent a second direct email to Paul Murphy with a Challenger question. No response confirmed yet. This is Marcus's second personalised outreach to Paul (first was May 7).",
+          "url": ""
+        },
+        {
+          "date": "2026-05-28",
+          "type": "Internal Prep",
+          "contact": "Harold Muralis (Cresta SDR)",
+          "owner": "Marcus Nolan",
+          "summary": "Marcus forwarded the May 7 FBD demo follow-up email to Harold: \"Fwd: FBD | Cresta \u2013 demo follow-up + next steps.\" Re-engaging Harold on the FBD account \u2014 may be planning to bring Harold back in to help with follow-up or to task him with research.",
+          "url": ""
+        },
         {
           "date": "2026-05-07",
           "type": "Email \u2014 Follow Up",
@@ -2054,18 +2094,13 @@
       ],
       "open_actions": [
         {
-          "action": "CALL Paul Murphy TOMORROW \u2014 not email. \"Paul, I know you missed the 6th. I want 10 minutes to understand how this fits FBD's H2 priorities.\"",
+          "action": "Paul Murphy has received 2 direct emails from Marcus (May 7 + May 21) \u2014 no response. Try PHONE CALL now. \"Paul \u2014 Marcus from Cresta. I've sent you two notes since the demo. I know you're busy. 5 minutes \u2014 just one honest question.\"",
           "owner": "Marcus",
           "priority": "URGENT"
         },
         {
-          "action": "11 days silence since May 7 follow-up emails \u2014 both group email and Paul direct email unanswered",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        },
-        {
-          "action": "Propose deeper Agent Assist + Opera session + technical scoping call with Brian + Mullingar on-site",
-          "owner": "Marcus",
+          "action": "Harold re-engaged on FBD (May 28 forward) \u2014 coordinate with Harold on whether he can help unlock Paul Murphy or find additional contacts",
+          "owner": "Marcus + Harold",
           "priority": "MEDIUM"
         }
       ],
@@ -2281,7 +2316,7 @@
           "type": "Email \u2014 Outbound",
           "contact": "Nigel Blanks (Saga)",
           "owner": "Marcus Nolan",
-          "summary": "Second Challenger email to Nigel: 'I noticed in Saga's annual report that NPS has become a board-level KPI, and that you have made meaningful progress in Cruise. That is a genuinely difficult metric to shift at scale. What...' [specific question referencing NPS and board accountability]. No reply yet.",
+          "summary": "Second Challenger email to Nigel Blanks. Subject: \"The tNPS question nobody's asking in travel ops.\" Referenced Saga annual report: NPS as board-level KPI, meaningful progress in Cruise. \"That is a genuinely difficult metric to shift at scale. What...\" \u2014 specific, sharp framing using tNPS (transactional NPS). No reply yet.",
           "url": ""
         },
         {
@@ -2656,22 +2691,17 @@
       ],
       "open_actions": [
         {
-          "action": "DEMO CONFIRMED \u2014 June 3 Teams with Alex Williams, Jenny Carter, Clive Patmore + Amy Koh SE",
-          "owner": "Marcus + Amy",
+          "action": "\ud83c\udfaf DEMO THIS WEEK \u2014 June 3 Teams with Alex Williams, Jenny Carter, Clive Patmore + Amy Koh SE. Prep: misdirected contacts use case, multi-CRM consolidation, Ofgem compliance. Send pre-read case studies: United Airlines, Alaska Airlines, Brinks.",
+          "owner": "Marcus + Amy Koh",
           "priority": "URGENT"
         },
         {
-          "action": "Send case study pre-reads: United Airlines (misdirected contacts), Alaska Airlines (storm-day), Brinks Home (on-premise)",
+          "action": "Brief Amy Koh tonight on UKPN context \u2014 utility/energy CC, misdirected contacts pain, Alex Williams profile (Head of CC, phone 07812 262321)",
           "owner": "Marcus",
           "priority": "HIGH"
         },
         {
-          "action": "Prep with Amy Koh \u2014 utility/energy context (flagged in pod meeting)",
-          "owner": "Marcus + Amy",
-          "priority": "HIGH"
-        },
-        {
-          "action": "NOTE: Marcus owns UKPN only. Joe owns rest of hierarchy \u2014 coordinate before expanding contacts.",
+          "action": "Coordinate with Joe Widing before expanding contacts beyond Alex/Jenny/Clive",
           "owner": "Marcus",
           "priority": "MEDIUM"
         }
@@ -3082,7 +3112,7 @@
       "employees": "~1,500",
       "revenue": "Private",
       "risk_level": "MEDIUM",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-19",
       "quick_context": "UK largest prepayment energy supplier. FULL DEMO done Apr 29 (Louise Walsh CCO, Lenard Smith, Martin Filler, Ian Warner, Russell Lane). Lenard replied May 6 positively then May 12: \"too busy, not uninterested.\" Marcus replied honestly May 13. Awaiting response.",
       "next_step": "Lenard said \"too busy, not uninterested.\" Marcus replied honestly May 13. Await Lenard reply. Key Q: propose a lighter-touch engagement (read-only access to Cresta platform, no resource needed) or a deferred start date in Q3.",
       "group_structure": "Utilita Group Ltd (private) \u2192 Utilita Energy Ltd (prepayment retail) \u2192 Utilita Business Energy. Smart metering pioneer.",
@@ -3172,6 +3202,14 @@
       "competitors": "8x8 native AI (if deployed).",
       "why_cresta_wins": "Financially vulnerable customers need the right empathy on every call. Cresta guides human agents in real-time. Brinks Home (vulnerability handling, NPS +30pts) = closest analogue.",
       "gong_history": [
+        {
+          "date": "2026-05-19",
+          "type": "Email \u2014 Outbound",
+          "contact": "Louise Walsh (Chief Customer Contact Officer)",
+          "owner": "Marcus Nolan",
+          "summary": "\"Hi Louise. Hope you are well and finally getting some proper summer weather down on the coast. You were missed at CCW last week! I tried to give you a quick call but I think I have the wrong number for you. Worth 30 minutes of your time?\" \u2014 Marcus chased Louise directly via email, referenced CCW, tried to call but had wrong number. Subject: \"Cresta | June \u2014 worth 30 minutes of your time?\"",
+          "url": ""
+        },
         {
           "date": "2026-05-13",
           "type": "Email \u2014 Outbound",
@@ -3297,22 +3335,17 @@
       ],
       "open_actions": [
         {
-          "action": "Text or call Louise Walsh (CCO) TODAY \u2014 Marcus action from pod meeting 18 May",
-          "owner": "Marcus",
-          "priority": "URGENT"
-        },
-        {
-          "action": "Awaiting reply to May 13 Challenger email (cited \u00a34.43bn Ofgem energy debt + 2022 Utilita \u00a3830K Ofgem fine for vulnerability failures + statutory personal executive accountability)",
+          "action": "Louise Walsh: get correct phone number. Marcus had wrong number on May 19. Text Lenard Smith to ask for Louise's correct mobile.",
           "owner": "Marcus",
           "priority": "HIGH"
         },
         {
-          "action": "Propose lighter-touch engagement: deferred Q3 start date OR read-only platform access \u2014 no resource drain",
+          "action": "Lenard Smith: awaiting reply to May 13 Challenger email. If no reply by June 3, call directly.",
           "owner": "Marcus",
-          "priority": "MEDIUM"
+          "priority": "HIGH"
         },
         {
-          "action": "NOTE: Ofgem CRM renewal up at year-end \u2014 key leverage point for urgency conversation",
+          "action": "Propose Q3 deferred start \u2014 commercial intent now, implementation Q3 when capacity available",
           "owner": "Marcus",
           "priority": "MEDIUM"
         }
@@ -3648,14 +3681,14 @@
       "sfdc": "https://cresta.lightning.force.com/lightning/r/0013i00000tKH24AAG/view",
       "priority": "B",
       "vertical": "Financial Services",
-      "status": "Target",
+      "status": "Active Opp",
       "hq": "London, UK",
       "employees": "~800",
       "revenue": "Private (Travelers: $46bn+)",
       "risk_level": "MEDIUM",
-      "last_activity": "2026-05-18",
-      "quick_context": "UK SME insurance broker. Travelers (Fortune 500) owned. FCA regulated. No CC stack confirmed. No engagement. Qualifying discovery call needed.",
-      "next_step": "Identify COO or Head of Operations via LinkedIn. Discovery call to confirm CC scale. FCA compliance framing.",
+      "last_activity": "2026-05-27",
+      "quick_context": "MUCH MORE ADVANCED THAN DASHBOARD SHOWED. Beatriz Montoya (Head of CC) is the champion. CC strategy approved + budget secured. Chose Ada (RPA/agentic) over Cresta for Phase 1 due to lower entry point. Bea: 'we remain very impressed with Cresta.' Call booked Mon June 1 4pm. Northampton onsite agreed. Jen Smith = EA coordinating diaries. Elixirr = management consultancy advising on CC strategy (introduced both Cresta and Ada to Bea).",
+      "next_step": "CALL TODAY (June 1, 4pm) with Bea Montoya + Alex Cramer. Goal: agree Northampton onsite date and define what the Cresta engagement looks like alongside Ada \u2014 not instead of it.",
       "group_structure": "Travelers Companies (NYSE: TRV) \u2192 Simply Business UK (wholly owned). Digital-first SME insurance broker.",
       "financials": "Not reported separately. Travelers: $46bn+ global revenue.",
       "tech_stack": {
@@ -3674,19 +3707,75 @@
       "recent_news": [],
       "key_execs": [
         {
-          "name": "Unknown",
-          "title": "Leadership not identified \u2014 research needed",
-          "sdr_note": "LinkedIn research required.",
-          "status": "Cold"
+          "name": "Beatriz Montoya",
+          "title": "Head of Contact Centre",
+          "email": "beatriz.montoya@simplybusiness.co.uk",
+          "sdr_note": "PRIMARY CHAMPION. Budget approved. Very impressed with Cresta. Call June 1 4pm.",
+          "status": "Champion"
+        },
+        {
+          "name": "Jen Smith",
+          "title": "Executive Assistant",
+          "email": "jen.smith@simplybusiness.co.uk",
+          "sdr_note": "EA \u2014 coordinates Bea's diary. Based at Hylo, 103-105 Bunhill Row, London EC1Y 8LZ.",
+          "status": "Engaged"
         }
       ],
-      "champions": "None confirmed.",
-      "blockers": "Travelers governance = Fortune 500 procurement layer. CC footprint unknown.",
+      "champions": "Beatriz Montoya \u2605\u2605\u2605 (Head of CC) \u2014 budget approved, impressed with Cresta, call booked June 1. Said \"contact center is a brand differentiator and if anything, we expect it to be more so in an AI world.\" Jen Smith \u2605 (EA) \u2014 coordinating all diaries, responsive.",
+      "blockers": "Ada chosen for Phase 1 (RPA/agentic flows, lower entry point, faster ROI). Higher Cresta price and integration effort flagged as concerns. Timeline shifted \"by quite a few months\" \u2014 but door actively left open.",
       "cc_footprint": "Unknown. Claims + complex policy queries likely handled by CC.",
       "regulatory_signals": "FCA Consumer Duty applies.",
       "competitors": "Unknown.",
       "why_cresta_wins": "FCA Consumer Duty = compliance imperative. Qualifying call needed first.",
       "gong_history": [
+        {
+          "date": "2026-05-13",
+          "type": "Email \u2014 Outbound",
+          "contact": "Beatriz Montoya (Head of CC)",
+          "owner": "Marcus Nolan",
+          "summary": "Marcus proposed: (1) ringfenced commercial terms and implementation personnel until July 31 \u2014 \"can we progress to commercial agreement in the next six weeks?\"; (2) fully managed, no-lift AI Agent deployment at no cost as part of initial agreement \u2014 \"Cresta handles everything. No engineering resource required from your side.\" Offered to start next week. CC'd Mark Meghezzi and Alex Cramer.",
+          "url": ""
+        },
+        {
+          "date": "2026-05-14",
+          "type": "Email \u2014 Inbound",
+          "contact": "Beatriz Montoya (Head of CC)",
+          "owner": "Beatriz Montoya \u2192 Marcus Nolan",
+          "summary": "\"Marcus. Not ignoring you \u2014 incredibly busy. Will get back tomorrow. Thank you. Bea.\" \u2014 Confirmed engagement despite delay.",
+          "url": ""
+        },
+        {
+          "date": "2026-05-19",
+          "type": "Email \u2014 Inbound",
+          "contact": "Beatriz Montoya (Head of CC)",
+          "owner": "Beatriz Montoya \u2192 Marcus Nolan",
+          "summary": "MAJOR UPDATE. Bea confirmed: (1) CC strategy approved + budget secured; (2) internal technical resources confirmed; (3) during Elixirr immersion, met both Cresta and an RPA/agentic flows company; (4) chose the other company for Phase 1 due to lower entry point and faster ROI; (5) renewing Ada contract for one year; (6) \"we remain very impressed with Cresta, particularly how your technology supports both customers and consultant performance \u2014 yet the high price and higher integration effort means it's not going to be a quick set up.\" Asked to set up a call and discuss best way of remaining in touch. Offered Northampton visit.",
+          "url": ""
+        },
+        {
+          "date": "2026-05-20",
+          "type": "Email \u2014 Outbound",
+          "contact": "Beatriz Montoya (Head of CC)",
+          "owner": "Marcus Nolan",
+          "summary": "\"I understand the decision completely. Reducing manual process overhead in the contact centre is exactly the right place to start... the problems we were discussing (query volume, agent variability, and the lack of visibility into what drives contacts) won't disappear with this. They'll still be there in six months.\" Requested a call AND Northampton onsite date. Kept Alex Cramer CC'd.",
+          "url": ""
+        },
+        {
+          "date": "2026-05-21",
+          "type": "Email \u2014 Inbound",
+          "contact": "Beatriz Montoya (Head of CC)",
+          "owner": "Beatriz Montoya \u2192 Marcus Nolan",
+          "summary": "\"We are 100% aligned \u2014 we will automate the work that adds no value but we will still need to have conversations with customers and support our agents. For us the contact center is a brand differentiator and if anything, we expect it to be more so in an AI world (one of our agents today was asked if she was human or a robot!)\" Actively wanted the Northampton onsite. Asked Jen Smith (EA) to help with diaries.",
+          "url": ""
+        },
+        {
+          "date": "2026-05-27",
+          "type": "Meeting Booked",
+          "contact": "Beatriz Montoya (Head of CC) via Jen Smith (EA)",
+          "owner": "Marcus Nolan",
+          "summary": "Jen confirmed Bea is free Monday June 1 at 4pm. Marcus: \"Great. I will set that up now.\" Call booked with Alex Cramer also joining. Northampton onsite also agreed in principle \u2014 Bea: \"I am very happy to hold the day in Northampton if you are (I will be there).\"",
+          "url": ""
+        },
         {
           "date": "2026-05-18",
           "type": "Internal Prep",
@@ -3704,8 +3793,8 @@
       "best_case_study": "\u2605\u2605 Propel Holdings (FS automation) \u00b7 AAA Life Insurance (regulated insurance CC).",
       "narrative": "Digital-first FCA-regulated insurer. Consumer Duty = compliance imperative. Qualifying call needed to confirm CC scale.",
       "outreach_angle": "'FCA Consumer Duty means you must demonstrate fair outcomes on every customer interaction. How are you doing that if you're only reviewing a fraction of calls?'",
-      "deal_stage": "Discovery",
-      "key_quote": "\"Simply Business\" \u2014 Northampton onsite being confirmed with Jen (per pod meeting May 18 '26)",
+      "deal_stage": "Commercial",
+      "key_quote": "\"We remain very impressed with Cresta, particularly how your technology supports both customers and consultant performance.\" \u2014 Beatriz Montoya, May 19 '26",
       "glean_query": "Simply Business",
       "content": [
         {
@@ -3739,7 +3828,17 @@
       ],
       "open_actions": [
         {
-          "action": "Confirm Simply Business Northampton onsite date with Jen \u2014 flagged as Marcus action in pod meeting May 18",
+          "action": "CALL TODAY June 1 at 4pm with Bea Montoya + Alex Cramer \u2014 booked via Jen Smith",
+          "owner": "Marcus + Alex Cramer",
+          "priority": "URGENT"
+        },
+        {
+          "action": "Agree Northampton onsite date \u2014 Bea confirmed she will be there",
+          "owner": "Marcus",
+          "priority": "HIGH"
+        },
+        {
+          "action": "Frame Cresta as complementary to Ada, not competitive \u2014 agent assist layer for conversations Ada can't automate",
           "owner": "Marcus",
           "priority": "HIGH"
         }
@@ -3750,8 +3849,12 @@
           "role": "AE"
         },
         {
-          "name": "Harold (Haroldas Muralis)",
-          "role": "SDR"
+          "name": "Mark Meghezzi",
+          "role": "Head of EMEA (CC'd on thread)"
+        },
+        {
+          "name": "Alex Cramer",
+          "role": "Cresta (CC'd on thread, joining June 1 call)"
         }
       ],
       "sdr_playbook": {
