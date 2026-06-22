@@ -1,1783 +1,643 @@
-{
-  "meta": {
-    "owner": "Marcus Nolan",
-    "title": "EMEA Territory Intelligence",
-    "last_updated": "2026-06-08",
-    "total_accounts": 23,
-    "note_accounts": "21 core target accounts + JLR (now closed) + Fractalia (partner channel) = 23 total",
-    "priority_counts": {
-      "A": 6,
-      "B": 11,
-      "C": 4
-    },
-    "update_notes": "8 June 2026: Full intelligence refresh ALL accounts. Sources: Salesforce, Gmail, Gong, web news, ZoomInfo. Gong pipeline risk alert: 47% of $1.75M pipeline at risk (8 deals). CLOSURES: Carwow (Alex Foster confirmed no POC 2 June), JLR (Pav Bharath confirmed not moving forward 1 June), Mercedes UK (wrong use case — not CC AI). CANCELLATION: UKPN June 3 demo cancelled by storm — rescheduling to Thursday. NEW INTEL: HL new CEO Matt Benchener joining Jul 2026. UKPN Alex Williams confirmed rescheduling. FBD Paul Murphy still silent (3 emails). Fractalia demo attempted May 26 in Spanish. Sainsbury's CA sent today. Hyperoptic Colin Miles sent CC data to Mark. Simply Business onsite postponed Sep/Oct. Utilita ghosting 14+ days.",
-    "how_to_apply": "Replace matching account objects in accounts.json by 'id' field. Apply account_patches to update specific fields on existing accounts. JLR and Fractalia are new account records to add. Commit: '8 Jun 2026 — full territory intelligence refresh'"
-  },
-  "updated_accounts": [
-    {
-      "id": "sainsburys",
-      "name": "Sainsbury's Group",
-      "parent": "J Sainsbury plc (LSE: SBRY)",
-      "domain": "sainsburys.co.uk",
-      "sfdc": "https://cresta.lightning.force.com/lightning/r/001Uy00000RRpLkIAL/view",
-      "priority": "A",
-      "vertical": "Retail",
-      "status": "Active Opp — S2 Discovery → CA",
-      "hq": "London, UK",
-      "employees": "~150,000",
-      "revenue": "£33.3bn (FY25)",
-      "risk_level": "LOW",
-      "last_activity": "2026-06-08",
-      "quick_context": "UK's second-largest grocer. 12M CC interactions annually across all brands. CA email sent to Kieran McLoughlin and Viswa Settipalli today (8 June 2026) — proceeding to CA ahead of potential POC per in-person meeting 3 June. Mark Meghezzi exec intro to Rob Barnes (CTO) + James Leech completed May 13. Andy Sykes (Dir of CS & Contact, joined Mar 2025) = operational decision-maker not yet properly engaged by AE — visited Concentrix Kolkata. Mark Given (CTMDO) confirmed leaving July 1 — 3-year plans being finalised NOW. Accenture (Ashish Sharma, Sanjay) involved — softer dependency than originally thought. NDA: Cresta will provide. Genesys + Salesforce stack confirmed. 100% QM is #1 pain ('200 of 10,000 calls — drop in the ocean').",
-      "next_step": "CA process live — Kieran and Viswa received CA email today. Before 12 June: (1) agree CA scope and timeline with Kieran/Viswa, (2) confirm who owns CA during Marcus holiday 12–21 June, (3) direct outreach to Andy Sykes — Concentrix BPO angle: 'agent quality decline as tenured in-house agents replaced by BPO is exactly what Cresta closes', (4) consider Mark Meghezzi exec note to Rob Barnes this week.",
-      "group_structure": "J Sainsbury plc (LSE: SBRY) → Sainsbury's Grocery (1,107+ stores, 461 Argos concessions) → Argos (664 locations) → Sainsbury's Bank (exiting core banking) → Nectar (loyalty, 5M+ active users) → Tu Clothing → Habitat. 12 million interactions annually across multiple brands and channels.",
-      "financials": "FY2024/25: Revenue £33.3bn (+1.5% YoY) · Operating Profit £1,036m (+7.2%) · EBITDA £2,192m · 'Next Level Sainsbury's' 3-year strategy being finalised now. 12M CC interactions annually.",
-      "tech_stack": {
-        "confirmed": [
-          "Genesys (CCaaS — confirmed Apr '26 demo by Viswa Settipalli)",
-          "Salesforce Service Cloud (CRM — confirmed demo)",
-          "Microsoft Azure (5-year strategic AI partnership, May 2024)",
-          "Snowflake (data platform)",
-          "Tealium CDP",
-          "Adobe Target",
-          "Power BI / Tableau"
-        ],
-        "inferred": [
-          "Concentrix (BPO partner, Kolkata — confirmed Andy Sykes visited site)",
-          "Amazon Connect (Argos may use separate stack — unconfirmed)",
-          "Medallia or Qualtrics (CX measurement — unconfirmed)",
-          "Manual QA only — no AI coaching layer in CC",
-          "NCR Voyix (checkout partnership — inferred from LeadIQ)"
-        ]
-      },
-      "ai_initiatives": [
-        {
-          "title": "5-Year Microsoft Azure AI Partnership (May 2024)",
-          "detail": "Sainsbury's and Microsoft announced a 5-year strategic AI partnership. Scope: AI-guided colleague tools, personalised promotions via Nectar, enhanced online search, AI-powered forecasting. CTO Clodagh Moriarty (now Rob Barnes): 'accelerate our ambition to become the UK's leading AI-enabled grocer.'",
-          "source": "J Sainsbury plc press release, May 16 2024",
-          "cresta_angle": "Azure AI partnership = senior exec mandate. Cresta runs on Azure. Frame as: 'Extending the Microsoft AI partnership into the contact centre — the one area Azure hasn't yet touched.'"
-        },
-        {
-          "title": "No CC AI initiative — complete whitespace",
-          "detail": "Despite the Microsoft partnership, no AI agent coaching, real-time assist, or automated QM in the Sainsbury's CC. Kieran confirmed manual QA only (200 of 10,000 calls reviewed). The Microsoft investment has not reached the contact centre.",
-          "source": "Apr 2026 Cresta demo (Kieran McLoughlin)",
-          "cresta_angle": "'You've invested in Microsoft AI across your business — here is what it looks like in the contact centre.'"
-        }
-      ],
-      "recent_news": [
-        {
-          "date": "2026-06-08",
-          "headline": "CA scoping email sent to Kieran McLoughlin and Viswa Settipalli",
-          "detail": "Marcus sent the Conversational Assessment email to Kieran and Viswa. Mark Meghezzi amended wording and added that Cresta will provide NDA rather than asking Sainsbury's to choose. Internal thread: Amy Koh, Hala Agha, James Russell, Anna Hettwer.",
-          "cresta_relevance": "CA is live. Most advanced commercial commitment on the account. Manage continuity during Marcus holiday carefully — agree handover before 12 June."
-        },
-        {
-          "date": "2026-06-03",
-          "headline": "In-person product meeting — proceeding to CA",
-          "detail": "Josh Levin and Antony Passemard (Cresta) met Viswa and Kieran in person. SFDC: 'Great meeting with Josh and Antony. Proceeding to CA with Sainsbury's ahead of potential POC.' Viswa sent meeting room QR codes beforehand.",
-          "cresta_relevance": "Strongest commercial signal to date. CA is the agreed next step."
-        },
-        {
-          "date": "2026-05-28",
-          "headline": "3-year plans finalising end of Q2 — Viswa update",
-          "detail": "SFDC: 'Viswa updated that they are looking at end of Q2 for when their 3-year plans will be finalised.' This is now.",
-          "cresta_relevance": "Decision window is open right now. CA timing is ideal."
-        },
-        {
-          "date": "2026-05-13",
-          "headline": "Mark Meghezzi exec escalation to Rob Barnes (CTO) + James Leech",
-          "detail": "Mark emailed Rob.Barnes1@sainsburys.co.uk and James.Leech1@sainsburys.co.uk. '12M interactions annually across multiple brands.' Offered Woolworths, Ralph Lauren, CVS references. Marcus forwarded to Kieran + Viswa same day.",
-          "cresta_relevance": "Exec escalation to CTO level complete. Rob Barnes now aware."
-        },
-        {
-          "date": "2026-05-07",
-          "headline": "Marcus engaging Accenture (Ashish Sharma) — Sainsbury's relationship active",
-          "detail": "Marcus asked Ashish Sharma about other Accenture contacts 'particularly involved with Sainsbury's.' Ashish mentioned Sanjay. Accenture = Sainsbury's tech partner — softer dependency than originally thought.",
-          "cresta_relevance": "Accenture involvement is a potential influencer route to Rob Barnes if needed."
-        },
-        {
-          "date": "2026-04-17",
-          "headline": "Brilliant demo — clear path forward with Insights",
-          "detail": "SFDC: 'Brilliant demo with Sainsburys yesterday. There is a very clear path forward with insights to start which is a burning need.' Viswa and Kieran both attended. Ops team deeper dive agreed.",
-          "cresta_relevance": "Insights/CI is the primary use case — this is what resonated most strongly."
-        },
-        {
-          "date": "May 2024",
-          "headline": "Sainsbury's announces 5-year Microsoft Azure AI strategic partnership",
-          "detail": "Named 'ambition to become the UK's leading AI-enabled grocer.' Covers stores, online, colleague tools.",
-          "cresta_relevance": "AI mandate at CTO level. Cresta extends this into the CC."
-        }
-      ],
-      "key_execs": [
-        {
-          "name": "Simon Roberts",
-          "title": "CEO",
-          "sdr_note": "Do not cold outreach",
-          "status": "Cold"
-        },
-        {
-          "name": "Robert Barnes",
-          "title": "CTO (joined Oct 2025, ex-Asda CIO, M&S CTO)",
-          "sdr_note": "Mark Meghezzi emailed May 13 '26 via James Leech intro. Awaiting response. Reports to Mark Given (leaving Jul 1).",
-          "status": "Cold",
-          "email": "rob.barnes1@sainsburys.co.uk"
-        },
-        {
-          "name": "James Leech",
-          "title": "Unknown — made original intro to Kieran and Viswa",
-          "sdr_note": "Made original intro + CC'd on exec email May 13. ZoomInfo scoop May 14: speaking about SmartShop innovation — still active. Good sign.",
-          "status": "Engaged",
-          "email": "james.leech1@sainsburys.co.uk"
-        },
-        {
-          "name": "Mark Given",
-          "title": "Chief Technology, Marketing & Data Officer — LEAVING Jul 1 '26 — joining ISBA as President",
-          "sdr_note": "CONFIRMED departure July 1 (ISBA press release May 7). DO NOT contact. Transition risk — lock in CA before his replacement resets priorities.",
-          "status": "Cold"
-        },
-        {
-          "name": "Andy Sykes",
-          "title": "Director of Customer Service & Contact (joined Mar 2025)",
-          "sdr_note": "KEY DECISION-MAKER — not yet properly engaged by AE. Visited Concentrix Kolkata in early tenure. Hands-on, operational background. SDR outreach only. Direct Marcus outreach needed before 12 June.",
-          "status": "Cold",
-          "email": "andy.sykes@sainsburys.co.uk"
-        },
-        {
-          "name": "Kieran McLoughlin",
-          "title": "Head of Contact Centre Operations",
-          "sdr_note": "PRIMARY CHAMPION ★★. CA email sent 8 June. Confirmed 100% QM as #1 pain ('200 of 10,000 calls — drop in the ocean'). Demo Apr 16 + in-person Jun 3.",
-          "status": "Champion",
-          "email": "kieran.mcloughlin@sainsburys.co.uk"
-        },
-        {
-          "name": "Viswa Settipalli",
-          "title": "Senior Technology Lead",
-          "sdr_note": "TECHNICAL CHAMPION ★. CA email sent 8 June. Confirmed Genesys + SF stack. Rescheduled demo due to internal leadership meeting — signals genuine priority. Sent QR codes for Jun 3 meeting.",
-          "status": "Champion",
-          "email": "viswa.settipalli@sainsburys.co.uk"
-        },
-        {
-          "name": "Nicola Abbot",
-          "title": "Customer Contact Intelligence Lead (since Oct 2021)",
-          "sdr_note": "Outreached by Wes Zekari. Natural user and advocate for Cresta CI. Data/analytics background.",
-          "status": "Engaged",
-          "email": "nicola.abbot@sainsburys.co.uk"
-        }
-      ],
-      "champions": "Kieran McLoughlin ★★★ — confirmed 100% QM as #1 pain, demo + in-person + CA. Viswa Settipalli ★★ — technical champion, confirmed Genesys + SF stack, CA. Rob Barnes (CTO) — now aware via exec email May 13. James Leech — original intro + exec CC. Andy Sykes (Dir CS & Contact) — operational decision-maker NOT YET ENGAGED by AE.",
-      "blockers": "CA ownership during Marcus holiday 12–21 June. Andy Sykes not yet engaged by AE. Mark Given leaving Jul 1 — new CTMDO will reset priorities. Concentrix BPO relationship = potential competitive influence but also a pain angle. SF/Genesys investments in-flight. Accenture procurement layer (softer than first thought).",
-      "cc_footprint": "Multi-brand CC: grocery, Argos, Nectar, Tu, Habitat. Thousands of agents. Offshore (Philippines) + Concentrix BPO (Kolkata). Manual QA: 200 of every 10,000 calls (2% sample). Genesys = routing only, no AI layer. Agent desktop: 3+ systems causing high cognitive load. ~12M interactions annually.",
-      "regulatory_signals": "Sainsbury's Bank exiting FCA-regulated core banking. Consumer Duty applies to remaining FS interactions. Annual Report FY25 explicitly states 'automating contact centre processes' as strategic priority.",
-      "competitors": "Salesforce Agentforce (Azure partnership may push this). Microsoft Copilot for CC (via Azure). NICE CXone (if Argos uses separate stack). Concentrix BPO potentially influencing away from Cresta.",
-      "why_cresta_wins": "Integrates natively on Genesys + Salesforce — no rip-and-replace. Woolworths AU ran identical stack with measurable results. AI-native for CC vs Agentforce (CRM extended). Forrester Wave Leader. 100% QM = the one thing Agentforce can't deliver. Agent quality decline as Concentrix replaces tenured agents = testable pain Cresta solves.",
-      "gong_history": [
-        {
-          "date": "2026-06-08",
-          "type": "Email — CA Sent",
-          "contact": "Kieran McLoughlin + Viswa Settipalli",
-          "owner": "Marcus Nolan (internal review: Mark Meghezzi, Amy Koh, Hala Agha, James Russell, Anna Hettwer)",
-          "summary": "Conversational Assessment scoping email sent to Kieran and Viswa. Mark Meghezzi amended wording and added that Cresta will provide NDA rather than asking Sainsbury's to choose. Challenger framing: agent quality decline as Concentrix replaces tenured agents is a testable pain.",
-          "url": "https://mail.google.com/mail/u/#inbox/19ea6790247c3da5"
-        },
-        {
-          "date": "2026-06-03",
-          "type": "In-person Product Meeting",
-          "contact": "Viswa Settipalli + Kieran McLoughlin (Sainsbury's) | Josh Levin + Antony Passemard (Cresta)",
-          "owner": "Marcus Nolan",
-          "summary": "SFDC: 'Great meeting with Josh and Antony. Proceeding to CA with Sainsbury's ahead of potential POC.' Viswa sent meeting room access + QR codes beforehand. Unanimous progression to CA.",
-          "url": ""
-        },
-        {
-          "date": "2026-05-28",
-          "type": "SFDC Update",
-          "contact": "Internal",
-          "owner": "Marcus Nolan",
-          "summary": "'Josh Levin and Antony Passemard meeting with Viswa and Kieran next week. Viswa updated that they are looking at end of Q2 for when their 3-year plans will be finalised.'",
-          "url": ""
-        },
-        {
-          "date": "2026-05-13",
-          "type": "Email — Exec Escalation",
-          "contact": "Rob Barnes (CTO) + James Leech via Mark Meghezzi",
-          "owner": "Mark Meghezzi + Marcus Nolan (CC'd)",
-          "summary": "Mark emailed Rob Barnes and James Leech. '12M interactions annually across multiple brands.' Offered Woolworths/Ralph Lauren/CVS reference calls. Offered deep-dive demo as Sainsbury's finalises 3-year plan. Marcus forwarded to Kieran + Viswa same day.",
-          "url": "https://mail.google.com/mail/u/#inbox/19e20e6d094053cc"
-        },
-        {
-          "date": "2026-05-07",
-          "type": "Email — Partner Intelligence",
-          "contact": "Ashish Sharma (Accenture) + Marcus",
-          "owner": "Marcus Nolan",
-          "summary": "Marcus asked Ashish Sharma about Accenture contacts 'particularly involved with Sainsbury's.' Ashish mentioned Sanjay. Warm route to Rob Barnes if needed.",
-          "url": ""
-        },
-        {
-          "date": "2026-04-17",
-          "type": "SFDC Update — Post Demo",
-          "contact": "Internal",
-          "owner": "Marcus Nolan",
-          "summary": "'Brilliant demo with Sainsburys yesterday. There is a very clear path forward with insights to start which is a burning need. Going to do a more technical and deeper insights demo.'",
-          "url": ""
-        },
-        {
-          "date": "2026-04-16",
-          "type": "Demo",
-          "contact": "Kieran McLoughlin + Viswa Settipalli + Chris Tomlinson (all remote)",
-          "owner": "Marcus Nolan + Hala Agha (SE)",
-          "summary": "Demo rescheduled from Apr 14 to Apr 16 due to 'unplanned leadership meeting' (Viswa Apr 10). Kieran confirmed 100% QM as #1 pain. Viswa confirmed Genesys + SF stack. Ops team demo agreed as next step.",
-          "url": ""
-        },
-        {
-          "date": "2026-03-19",
-          "type": "Intro Call",
-          "contact": "Kieran McLoughlin + Viswa Settipalli",
-          "owner": "Marcus Nolan",
-          "summary": "SFDC: 'Great intro call with them yesterday. Tech session the week after next to dive deeper. Genesys replacement.' Deal created March 2026.",
-          "url": ""
-        },
-        {
-          "date": "2026-01-27",
-          "type": "Cold Call VM",
-          "contact": "Mark Given (CTMDO)",
-          "owner": "Wes Zekari (SDR)",
-          "summary": "VM: 'Wes from Cresta — free lunch and learn on AI in the contact centre'",
-          "url": "https://us-15661.app.gong.io/call?id=1353260783911085172"
-        }
-      ],
-      "use_cases": [
-        "100% Auto-QA — multi-brand scorecards (grocery, Argos, Nectar). Replaces 2% manual sampling.",
-        "Real-time Agent Assist — consolidates Sterling OMS + Salesforce + Genesys on one agent screen.",
-        "Conversation Intelligence — call deflection analysis, FCR root cause, topic discovery.",
-        "AI Agent — WISMO and account queries. Immediate measurable containment."
-      ],
-      "best_case_study": "★★★ Woolworths AU — Genesys + Salesforce + Cresta (IDENTICAL stack). QA automation + agent assist.\n★★ Cox Communications — 20% revenue increase, 28.5% AHT reduction, 50% ramp reduction.\n★★ JD Sports — retail multi-brand CC.",
-      "narrative": "Sainsbury's signed a 5-year Microsoft Azure AI deal in May 2024 — but that investment hasn't yet touched the contact centre. Kieran confirmed they're reviewing 200 of every 10,000 calls. That's not QA — that's a sample. Cresta sits on top of the Genesys + Salesforce stack they already own, adds the AI intelligence layer Microsoft's partnership promised, and delivers 100% QM from day one. The CA is live. Woolworths AU ran this exact stack.",
-      "outreach_angle": "Andy Sykes direct outreach: 'The agent quality gap between your tenured in-house team and the Concentrix BPO team in Kolkata is probably costing you service consistency you can't currently measure — because you're reviewing 200 calls in 10,000. Cresta closes that gap. Worth 20 minutes?'",
-      "deal_stage": "CA In Progress",
-      "key_quote": "\"Proceeding to CA with Sainsbury's ahead of potential POC\" — SFDC note, 3 June 2026",
-      "glean_query": "Sainsburys",
-      "open_actions": [
-        {
-          "action": "⚡ URGENT — CA ownership before 12 June holiday. Agree who owns the CA process 12–21 June. Likely: Hala Agha (SE) or James Russell. Brief them this week.",
-          "owner": "Marcus + Mark Meghezzi",
-          "priority": "URGENT"
-        },
-        {
-          "action": "Email Andy Sykes (Director of Customer Service & Contact) before 12 June. Concentrix angle: 'The agent quality gap between tenured in-house agents and new BPO staff is exactly what Cresta was built to close.'",
-          "owner": "Marcus",
-          "priority": "URGENT"
-        },
-        {
-          "action": "Mark Meghezzi → Rob Barnes exec check-in note this week. Rob Barnes had exec intro May 13 — brief 'here's where things stand' before Marcus holiday.",
-          "owner": "Mark Meghezzi",
-          "priority": "HIGH"
-        },
-        {
-          "action": "Woolworths AU case study sign-off — Alan Ranger chasing. Critical for Sainsbury's Genesys + Salesforce narrative.",
-          "owner": "Alan Ranger",
-          "priority": "HIGH"
-        }
-      ],
-      "cresta_team": [
-        {
-          "name": "Marcus Nolan",
-          "role": "AE"
-        },
-        {
-          "name": "Mark Meghezzi",
-          "role": "Head of EMEA"
-        },
-        {
-          "name": "Hala Agha",
-          "role": "SE"
-        },
-        {
-          "name": "Amy Koh",
-          "role": "SE"
-        },
-        {
-          "name": "Wes Zekari",
-          "role": "SDR"
-        },
-        {
-          "name": "Josh Levin",
-          "role": "Head of Product (attended Jun 3 in-person)"
-        },
-        {
-          "name": "Antony Passemard",
-          "role": "Cresta (attended Jun 3 in-person)"
-        },
-        {
-          "name": "Joe Widing",
-          "role": "Discovery doc author"
-        },
-        {
-          "name": "James Russell",
-          "role": "CS (CA team)"
-        },
-        {
-          "name": "Anna Hettwer",
-          "role": "CA team"
-        }
-      ],
-      "content": [
-        {
-          "title": "Sainsbury's Drive Folder",
-          "url": "https://drive.google.com/drive/folders/1cJXOtJGytz0qUNfGfvqnaQ7ozHXlYUvp",
-          "type": "folder",
-          "date": "2026-03-19",
-          "owner": "Chris Hudson"
-        },
-        {
-          "title": "Cresta | Sainsbury's — Demo Deck 16/04/2026",
-          "url": "https://docs.google.com/presentation/d/1qf3cWomVjXXAhGQaiBpDR-c7f5FdKrR9QlGfJdlnBHo",
-          "type": "slides",
-          "date": "2026-04-16",
-          "owner": "Marcus Nolan"
-        },
-        {
-          "title": "Sainsbury's Discovery — Lessons from Woolworths",
-          "url": "https://docs.google.com/document/d/1SbwI2TpVnEKx8NfFHUesox-nQFIdyFcuVgRX2niEsiA",
-          "type": "doc",
-          "date": "2026-04-14",
-          "owner": "Joe Widing"
-        },
-        {
-          "title": "DRAFT — Cresta | Sainsburys — Conversational Assessment",
-          "url": "https://mail.google.com/mail/u/#inbox/19e8d2cbff244b86",
-          "type": "doc",
-          "date": "2026-06-05",
-          "owner": "Marcus Nolan / Mark Meghezzi"
-        },
-        {
-          "title": "Marcus EMEA Territory DeepDive May 2026",
-          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
-          "type": "sheet",
-          "date": "2026-05-19",
-          "owner": "Marcus Nolan"
-        }
-      ],
-      "sdr_playbook": {
-        "hypothesis": "Sainsbury's is in active CA motion. Demo done, in-person done, CA email sent today. The key missing piece is Andy Sykes (Dir of CS & Contact) — the operational decision-maker who has visited Concentrix Kolkata and understands the BPO quality gap. Book ops team demo before Mark Given leaves July 1.",
-        "buying_signals": [
-          "CA sent today — active commercial progression",
-          "3-year plan being finalised now — decision window open",
-          "Kieran: '200 of 10,000 calls — drop in the ocean' — pain explicitly confirmed",
-          "Viswa: interested in 3-year strategy discussion",
-          "Mark Given leaving July 1 — urgency to lock in before new CTMDO resets",
-          "Concentrix BPO replacing tenured agents = testable, growing quality gap"
-        ],
-        "target_contacts": [
-          {
-            "name": "Kieran McLoughlin",
-            "title": "Head of Contact Centre Operations",
-            "priority": "Primary",
-            "why": "CA champion. Confirmed pain. Decision-influencer for CC technology.",
-            "approach": "CA scoping call this week. Book scope and timeline before 12 June.",
-            "linkedin_search": "Kieran McLoughlin Sainsbury's contact centre"
-          },
-          {
-            "name": "Andy Sykes",
-            "title": "Director of Customer Service & Contact",
-            "priority": "Primary",
-            "why": "Operational decision-maker. Not yet engaged by AE. Visited Concentrix Kolkata — understands BPO quality challenge.",
-            "approach": "Direct email from Marcus before 12 June. Concentrix angle: agent quality consistency across in-house + BPO is the business case.",
-            "linkedin_search": "Andy Sykes Sainsbury's Director Customer Service"
-          },
-          {
-            "name": "Robert Barnes",
-            "title": "CTO",
-            "priority": "Secondary",
-            "why": "Ultimate tech decision-maker. Now aware via exec email May 13.",
-            "approach": "Mark Meghezzi exec check-in note this week.",
-            "linkedin_search": "Robert Barnes Sainsbury's CTO"
-          }
-        ]
-      }
-    },
-    {
-      "id": "hyperoptic",
-      "name": "Hyperoptic",
-      "parent": "KKR & Co. (75% equity since 2019)",
-      "domain": "hyperoptic.com",
-      "sfdc": "https://cresta.lightning.force.com/lightning/r/Account/0013i00000tKH23AAG/view",
-      "priority": "A",
-      "vertical": "Telecom",
-      "status": "AE Engagement — No open opp yet",
-      "hq": "London, UK",
-      "employees": "1,724 (FY24)",
-      "revenue": "£114m (FY24, +22% YoY)",
-      "risk_level": "LOW",
-      "last_activity": "2026-06-05",
-      "quick_context": "UK's #1 alt-net full-fibre ISP. 400K+ subscribers. Openreach wholesale live Q1 2026. Jan 2026: Emma Dark (CX & Service Director) + Nemanja Zec (Head of CS Ops) hired with explicit mandate to introduce generative AI for CC agents alongside Amazon Connect + ServiceNow replacement. CRITICAL: Colin Miles sent Care agent call/message volume data to Mark Meghezzi 5 June 2026 for Cresta business case — strongest inbound signal to date. Amazon Connect live — native Cresta integration. Emma Dark + Nemanja Zec NOT YET CONTACTED by AE.",
-      "next_step": "Before 12 June: (1) complete business case using Colin Miles data, (2) email Emma Dark — explicit AI mandate, not yet contacted, CC Nemanja Zec, (3) loop Amy Koh for Duncan Macdonald Amazon Connect technical conversation.",
-      "group_structure": "Hyperoptic Ltd (UK). KKR & Co. (75%). 64 UK towns/cities. Openreach FTTP wholesale Q1 2026.",
-      "financials": "FY2024: Revenue £114m (+22%) · Net Income -£144m · 400K+ subscribers · 70 redundancies Dec '25 · £1bn+ funding milestone Feb 2026.",
-      "tech_stack": {
-        "confirmed": [
-          "Amazon Connect (CCaaS — going live per Jan 2026)",
-          "ServiceNow (replacing legacy)",
-          "Five9 (legacy, being replaced)",
-          "Zendesk (Helpdesk — legacy)",
-          "Tableau (BI)",
-          "Google Workspace"
-        ],
-        "inferred": [
-          "Hybrid UK + Serbian CC",
-          "No AI coaching layer — complete whitespace"
-        ]
-      },
-      "ai_initiatives": [
-        {
-          "title": "Generative AI for CC Agents — Live Mandate (Jan 2026)",
-          "detail": "CCO Lutfu Kitapci publicly stated Jan 2026: 'introducing generative AI to support contact centre agents' alongside Amazon Connect + ServiceNow. LinkedIn post from Robert Osborne: 'We've launched generative AI' in CC. Emma Dark appointed CX Director to lead this.",
-          "source": "Advanced Television Jan 2026 + LinkedIn",
-          "cresta_angle": "Hyperoptic has decided to invest in gen AI for agents. Emma Dark is defining what that looks like from scratch. Cresta should be co-designing this — not arriving after the decision is made. Amazon Connect live = native integration immediate."
-        },
-        {
-          "title": "Amazon Connect + ServiceNow Replacement",
-          "detail": "Legacy Five9/Zendesk stack being replaced. Amazon Connect (CCaaS) and ServiceNow (ITSM) live.",
-          "source": "Hyperoptic / Advanced Television Jan 2026",
-          "cresta_angle": "Amazon Connect is a native Cresta integration. Ideal timing during migration."
-        },
-        {
-          "title": "Openreach FTTP Wholesale — Scaling 2026",
-          "detail": "Openreach wholesale live Q1 2026 — 1M+ new homes. 70 redundancies Dec 2025 (5% workforce) alongside expansion.",
-          "source": "ISPreview / Hyperoptic Dec 2025",
-          "cresta_angle": "More subscribers + fewer CC staff = efficiency imperative."
-        }
-      ],
-      "recent_news": [
-        {
-          "date": "2026-06-05",
-          "headline": "Colin Miles sent Care agent call/message data to Mark Meghezzi",
-          "detail": "Colin Miles emailed Mark Meghezzi attaching Care agent calls and messages data for Cresta business case. Mark forwarded to Marcus, Amy Koh, Ping Wu: 'For your deck and business case.'",
-          "cresta_relevance": "Internal champion actively building the Cresta business case. Strongest inbound signal. Act before 12 June."
-        },
-        {
-          "date": "2026-01-15",
-          "headline": "Emma Dark appointed CX & Service Director; Nemanja Zec appointed Head of CS Operations",
-          "detail": "Both 2025/2026 hires. CCO Lutfu Kitapci: 'introducing generative AI to support contact centre agents.' Emma Dark: CXA Top 50 Women Shaping CX 2024, CXFO Power 100.",
-          "cresta_relevance": "Emma Dark = highest priority uncontacted executive. Explicit gen AI mandate, no legacy vendor."
-        },
-        {
-          "date": "2026-02-19",
-          "headline": "Hyperoptic crosses £1bn funding milestone",
-          "detail": "Growth mandate confirmed. Expanding via Openreach FTTP.",
-          "cresta_relevance": "Investment + growth = budget for technology. Scaling = CC efficiency imperative."
-        }
-      ],
-      "key_execs": [
-        {
-          "name": "Dana Tobak CBE",
-          "title": "CEO & Co-founder",
-          "sdr_note": "Do not cold outreach.",
-          "status": "Cold"
-        },
-        {
-          "name": "Colin Miles",
-          "title": "Unknown title (likely Head of CC Ops)",
-          "sdr_note": "PRIMARY CHAMPION ★★★. Sent internal CC data to Mark Meghezzi 5 June 2026 to support Cresta business case unprompted.",
-          "status": "Champion",
-          "email": "colin.miles@hyperoptic.com"
-        },
-        {
-          "name": "Emma Dark",
-          "title": "Customer Experience & Service Director (Jan 2026)",
-          "sdr_note": "HIGH PRIORITY — NOT YET CONTACTED. New role, blank-sheet AI mandate. CXA Top 50. Primary target.",
-          "status": "Cold"
-        },
-        {
-          "name": "Nemanja Zec",
-          "title": "Head of Customer Service Operations (Jan 2026)",
-          "sdr_note": "NOT YET CONTACTED. CC on every email to Emma Dark.",
-          "status": "Cold"
-        },
-        {
-          "name": "Duncan Macdonald",
-          "title": "Chief Technology Innovation Officer (CTIO, May 2023)",
-          "sdr_note": "Outreached May 2026 via Labour Day flow — paused at step 3. Leading 3-year digital transformation. Ex-CIO Virgin Media, UPC, Sunrise.",
-          "status": "Cold"
-        },
-        {
-          "name": "Oliver Grant",
-          "title": "Head of Customer Onboarding (Apr 2023)",
-          "sdr_note": "Outreached May 2026 via Labour Day flow. Ex-Vodafone Smart Tech, Verizon.",
-          "status": "Cold"
-        },
-        {
-          "name": "Nadezda Radojcic",
-          "title": "Head of CS Strategy, Planning & Initiatives (Nov 2024)",
-          "sdr_note": "Previously rejected SDR — 'I'm not interested.' Do not re-approach without warm intro.",
-          "status": "Cold"
-        },
-        {
-          "name": "Gordon Duguid",
-          "title": "Director of Technical Operations (Jun 2023)",
-          "sdr_note": "Sequence finished. Strong CX/ops background from Sky UK.",
-          "status": "Engaged"
-        }
-      ],
-      "champions": "Colin Miles ★★★ — sent internal CC data 5 June, active business case sponsorship. Emma Dark ★★ (not yet contacted) — new CX Director, explicit gen AI mandate. Duncan Macdonald ★ (outreached) — CTIO leading transformation.",
-      "blockers": "Emma Dark and Nemanja Zec not yet contacted. No open opp in SFDC. Data sensitivity for sharing call data externally. Net income -£144m = budget discipline.",
-      "cc_footprint": "Hybrid UK + Serbian CC. Amazon Connect (replacing Five9). ~400K+ subscribers → 60K+ contacts/year. Openreach = potentially 3x subscriber base.",
-      "regulatory_signals": "Ofcom-regulated. Voluntary auto-compensation code. Ofcom shortened complaint escalation to 6 weeks Apr 2026.",
-      "competitors": "Amazon Connect native AI (risk if bundled). Generic tools Emma may self-build.",
-      "why_cresta_wins": "Amazon Connect live — native integration, no CCaaS change. Colin Miles building business case from inside. Emma Dark has gen AI mandate and no legacy vendor. Cox Communications = near-perfect telecom analogue. 70 redundancies = Cresta efficiency gains necessary.",
-      "gong_history": [
-        {
-          "date": "2026-06-05",
-          "type": "Email — Inbound (via Mark Meghezzi)",
-          "contact": "Colin Miles → Mark Meghezzi, forwarded to Marcus + Amy Koh + Ping Wu",
-          "owner": "Mark Meghezzi",
-          "summary": "Colin Miles emailed Care agent calls and messages data. 'For your deck and business case.' Active internal sponsorship.",
-          "url": "https://mail.google.com/mail/u/#inbox/19e96aa288e1de49"
-        },
-        {
-          "date": "2026-05-01",
-          "type": "Email — SDR sequence",
-          "contact": "Duncan Macdonald + Oliver Grant",
-          "owner": "Haroldas Muralis (SDR)",
-          "summary": "Labour Day Flow. Both at step 3 (call, paused). Neither progressed to meeting.",
-          "url": ""
-        },
-        {
-          "date": "2026-01-26",
-          "type": "Cold Call Connected",
-          "contact": "Oliver Grant",
-          "owner": "Haroldas Muralis (SDR)",
-          "summary": "Brief exchange. No progression. Wrong contact.",
-          "url": "https://us-15661.app.gong.io/call?id=2114637008660839443"
-        },
-        {
-          "date": "2026-01-20",
-          "type": "Cold Call — Rejected",
-          "contact": "Nadezda Radojcic",
-          "owner": "Haroldas Muralis (SDR)",
-          "summary": "'I'm not interested.' Direct rejection. Do not re-approach.",
-          "url": "https://us-15661.app.gong.io/call?id=8926372953746629081"
-        }
-      ],
-      "use_cases": [
-        "Real-time Agent Assist — retention save conversations (Openreach scaling + Amazon Connect).",
-        "100% Auto-QA — UK + Serbia coaching consistency.",
-        "Coaching Hub — data-driven coaching for Emma Dark to prove impact to KKR.",
-        "Agent Onboarding Acceleration — 70 redundancies means ramp speed critical."
-      ],
-      "best_case_study": "★★★ Cox Communications — Telecom, 20% revenue increase, 28.5% AHT reduction, 50% ramp reduction.\n★★ Brinks Home — multi-platform integration, NPS +30pts.",
-      "narrative": "Emma Dark has a blank-sheet AI mandate at the exact moment Hyperoptic scales via Openreach with fewer people. Colin Miles is already building the Cresta business case from inside. Amazon Connect is live. Act before 12 June.",
-      "deal_stage": "AE Engagement",
-      "key_quote": "\"For your deck and business case\" — Mark Meghezzi forwarding Colin Miles's CC data, 5 June 2026",
-      "glean_query": "Hyperoptic",
-      "open_actions": [
-        {
-          "action": "⚡ URGENT (before 12 June): build business case using Colin Miles's CC data. Send to Mark Meghezzi.",
-          "owner": "Marcus + Mark Meghezzi",
-          "priority": "URGENT"
-        },
-        {
-          "action": "Email Emma Dark — Challenger opener on Amazon Connect + gen AI mandate. Not yet contacted. CC Nemanja Zec.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        },
-        {
-          "action": "Loop Amy Koh for technical conversation with Duncan Macdonald — Amazon Connect integration story.",
-          "owner": "Marcus + Amy Koh",
-          "priority": "HIGH"
-        },
-        {
-          "action": "Confirm Colin Miles's title from email signature in forwarded chain.",
-          "owner": "Marcus",
-          "priority": "MEDIUM"
-        }
-      ],
-      "cresta_team": [
-        {
-          "name": "Marcus Nolan",
-          "role": "AE"
-        },
-        {
-          "name": "Mark Meghezzi",
-          "role": "Head of EMEA"
-        },
-        {
-          "name": "Amy Koh",
-          "role": "SE"
-        },
-        {
-          "name": "Ping Wu",
-          "role": "CC'd on Colin Miles data"
-        },
-        {
-          "name": "Haroldas Muralis",
-          "role": "SDR"
-        }
-      ],
-      "content": [
-        {
-          "title": "Marcus EMEA Territory DeepDive May 2026",
-          "url": "https://docs.google.com/spreadsheets/d/1pjG5anDjzhb-FwBDTL9dJePcJolRPiZaE05n869PYFQ",
-          "type": "sheet",
-          "date": "2026-05-19",
-          "owner": "Marcus Nolan"
-        }
-      ],
-      "sdr_playbook": {
-        "hypothesis": "SDR went to wrong contacts. Marcus needs to email Emma Dark with a Challenger question. Colin Miles is already sponsoring the business case from inside. Amazon Connect live = integration story is immediate.",
-        "buying_signals": [
-          "Colin Miles sent CC data to Mark Meghezzi 5 June — active internal sponsorship",
-          "Emma Dark + Nemanja Zec joined 2025/2026 — no legacy vendor",
-          "Amazon Connect live — native Cresta integration",
-          "Openreach live — 3x subscriber scaling urgency",
-          "70 redundancies = must do more with fewer",
-          "CCO publicly committed to gen AI for CC agents Jan 2026"
-        ],
-        "target_contacts": [
-          {
-            "name": "Emma Dark",
-            "title": "CX & Service Director",
-            "priority": "Primary",
-            "why": "Blank-sheet AI mandate. No legacy vendor. Owns CC budget.",
-            "approach": "Challenger email — not a deck. Amazon Connect + gen AI mandate. Cox case study.",
-            "linkedin_search": "Emma Dark Hyperoptic CX Director"
-          },
-          {
-            "name": "Colin Miles",
-            "title": "Unknown (likely CC Ops lead)",
-            "priority": "Primary",
-            "why": "Active internal sponsor. Already sent data for business case.",
-            "approach": "Via Mark Meghezzi — thank Colin, ask what he needs to move forward.",
-            "linkedin_search": "Colin Miles Hyperoptic"
-          }
-        ]
-      }
-    },
-    {
-      "id": "simply-business",
-      "name": "Simply Business",
-      "parent": "Travelers Companies Inc. (NYSE: TRV)",
-      "domain": "simplybusiness.co.uk",
-      "sfdc": "https://cresta.lightning.force.com/lightning/r/0013i00000tKH24AAG/view",
-      "priority": "A",
-      "vertical": "Financial Services",
-      "status": "Active Opp — Delayed (Sep/Oct Target)",
-      "hq": "London, UK (4th Floor, Hylo, 103–105 Bunhill Row, EC1Y 8LZ)",
-      "employees": "~800",
-      "revenue": "Private (Travelers: $46bn+)",
-      "risk_level": "MEDIUM",
-      "last_activity": "2026-06-02",
-      "quick_context": "DELAYED BUT ALIVE. Bea Montoya (COO) confirmed CC strategy approved + budget secured. Chose RPA/agentic flows vendor + renewed Ada for Phase 1 (lower entry point). Bea: 'we remain very impressed with Cresta.' Onsite postponed to Sep/Oct (2 June: team flat out with other supplier launch, data sensitivity on 50k calls). CA started 3 June. NDA being progressed. CRO Alex Cramer engaged. Northampton onsite agreed for Sep/Oct. GONG ALERT 8 June: 'Prospect sent red flag email last 7 days' — $350k at risk.",
-      "next_step": "Before 12 June: send Bea warm holding note acknowledging postponement and proposing September reconnect. Don't push. Explore lighter-touch CA using anonymised/sample data to keep CA alive through summer. Keep Alex Cramer looped.",
-      "group_structure": "Travelers Companies (NYSE: TRV) → Simply Business UK (wholly owned). Digital-first SME insurance broker.",
-      "financials": "Not reported separately. Travelers: $46bn+ global revenue.",
-      "tech_stack": {
-        "confirmed": [
-          "Ada (chatbot/automation — renewed 12 months)",
-          "RPA/agentic flows vendor (new, in POC — vendor unnamed)",
-          "Microsoft 365",
-          "Google Workspace"
-        ],
-        "inferred": [
-          "Unknown CCaaS",
-          "No AI coaching confirmed"
-        ]
-      },
-      "ai_initiatives": [
-        {
-          "title": "RPA/Agentic Flows Vendor — Phase 1 (May 2026)",
-          "detail": "Bea confirmed: chose RPA/agentic flows vendor for Phase 1 (lower entry point, faster ROI for manual task automation). Ada renewed 12 months.",
-          "source": "Bea Montoya email May 19 2026",
-          "cresta_angle": "Phase 1 = RPA for manual tasks. Phase 2 = agent performance layer for conversations needing humans. That's Cresta. Timeline: September/October."
-        }
-      ],
-      "recent_news": [
-        {
-          "date": "2026-06-02",
-          "headline": "Bea asks to postpone Northampton onsite to September/October",
-          "detail": "Data sensitivity of 50k call share requires extensive due diligence. Team flat out with other supplier launch. 'An MVP would be a distraction. We need to postpone until September/October.' Apologetic in tone.",
-          "cresta_relevance": "Deal alive but on long fuse. Relationship warm. September is the target. Explore lighter-touch CA."
-        },
-        {
-          "date": "2026-06-03",
-          "headline": "CA started — good partnership call",
-          "detail": "SFDC: 'Good call to discuss partnership. CA being started and onsite on June 23rd.' (Onsite subsequently postponed.)",
-          "cresta_relevance": "CA is started. NDA in progress."
-        },
-        {
-          "date": "2026-05-21",
-          "headline": "Bea confirms contact centre is a brand differentiator",
-          "detail": "'We are 100% aligned — we will automate the work that adds no value but we will still need conversations. For us the contact center is a brand differentiator and if anything, we expect it to be more so in an AI world (one of our agents today was asked if she was human or a robot!)'",
-          "cresta_relevance": "Bea philosophically aligned with Cresta's proposition. Delay is tactical, not strategic."
-        },
-        {
-          "date": "2026-05-19",
-          "headline": "Bea confirms CC strategy approved + budget — chose RPA vendor for Phase 1",
-          "detail": "Budget secured. Internal tech resources confirmed. Chose RPA vendor (lower entry point). Ada renewed. 'We remain very impressed with Cresta — yet the high price and higher integration effort means it's not going to be a quick set up.'",
-          "cresta_relevance": "Budget IS there. Phase 1 lost. Phase 2 (Cresta) = September."
-        }
-      ],
-      "key_execs": [
-        {
-          "name": "Beatriz (Bea) Montoya",
-          "title": "COO (She/Her)",
-          "sdr_note": "PRIMARY CHAMPION ★★★. Budget approved. Impressed with Cresta. CA started. Onsite postponed to Sep/Oct. EA: Jen Smith (jen.smith@simplybusiness.co.uk). Handle with care.",
-          "status": "Champion",
-          "email": "beatriz.montoya@simplybusiness.co.uk"
-        },
-        {
-          "name": "Jen Smith",
-          "title": "Executive Assistant to Bea Montoya",
-          "sdr_note": "Diary gatekeeper. Responsive. Use for September scheduling.",
-          "status": "Engaged",
-          "email": "jen.smith@simplybusiness.co.uk"
-        },
-        {
-          "name": "Sai",
-          "title": "CC operations (first name only)",
-          "sdr_note": "Met during onsites Mar/Apr 2026.",
-          "status": "Engaged"
-        },
-        {
-          "name": "Teegen",
-          "title": "CC/tech lead (first name only)",
-          "sdr_note": "Met during onsites Mar/Apr 2026.",
-          "status": "Engaged"
-        },
-        {
-          "name": "Dan",
-          "title": "Commercials/volumes contact (first name only)",
-          "sdr_note": "Met Apr 2026 for commercial verification.",
-          "status": "Engaged"
-        }
-      ],
-      "champions": "Beatriz (Bea) Montoya ★★★ (COO) — budget approved, CA started, impressed with Cresta, onsite agreed for Sep/Oct. Alex Cramer (CRO, Cresta) engaged.",
-      "blockers": "Ada renewed 12 months. RPA vendor in flight as Phase 1 priority. Data sensitivity blocking CA data share (50k calls). Team resource constrained. High integration effort perception. Onsite pushed to Sep/Oct.",
-      "cc_footprint": "~800 CC agents. ~800k UK service contacts/year. 80% digital-first. Landlord segment renewal sentiment declining. Cost-to-serve reduction is strategic priority.",
-      "regulatory_signals": "FCA Consumer Duty applies to all insurance interactions.",
-      "competitors": "Internal/Build-over-Buy (CTO). MaestroQA (Gong mention). Ada (renewed). RPA/agentic vendor (Phase 1 priority).",
-      "why_cresta_wins": "Ada + RPA handle automation. When automation reaches its ceiling — complex queries, empathy, coaching — that's Cresta. Bea explicitly said 'contact centre is a brand differentiator in an AI world.' The problems (agent variability, conversation visibility) won't be solved by Ada or RPA — they'll still be there in September.",
-      "gong_history": [
-        {
-          "date": "2026-06-02",
-          "type": "Email — Inbound (SETBACK #2)",
-          "contact": "Bea Montoya → Marcus + Alex Cramer + Mark Meghezzi",
-          "owner": "Bea Montoya",
-          "summary": "Bea asked to postpone Northampton to Sep/Oct. Data sensitivity of 50k calls + team flat out with other supplier. 'An MVP would be a distraction. I am very sorry to ask this.'",
-          "url": "https://mail.google.com/mail/u/#inbox/19e88f957c36d5a2"
-        },
-        {
-          "date": "2026-06-03",
-          "type": "SFDC — CA Started",
-          "contact": "Internal",
-          "owner": "Marcus Nolan",
-          "summary": "SFDC: 'Good call to discuss partnership. CA being started and onsite on June 23rd.' (Onsite subsequently postponed.)",
-          "url": ""
-        },
-        {
-          "date": "2026-05-27",
-          "type": "Meeting Booked",
-          "contact": "Bea Montoya via Jen Smith",
-          "owner": "Marcus Nolan",
-          "summary": "Jen confirmed Bea free Mon June 1 at 4pm. Alex Cramer joining. Northampton onsite agreed in principle.",
-          "url": ""
-        },
-        {
-          "date": "2026-05-21",
-          "type": "Email — Inbound (POSITIVE)",
-          "contact": "Bea Montoya → Marcus",
-          "owner": "Bea Montoya",
-          "summary": "'We are 100% aligned... the contact center is a brand differentiator in an AI world (one of our agents today was asked if she was human or a robot!)' Confirmed Northampton onsite. Looped Jen Smith.",
-          "url": ""
-        },
-        {
-          "date": "2026-05-20",
-          "type": "Email — Outbound (Recovery)",
-          "contact": "Bea Montoya",
-          "owner": "Marcus Nolan",
-          "summary": "'I understand the decision completely... the problems we were discussing won't disappear with this. They'll still be there in six months.' Requested call + Northampton onsite. Alex Cramer CC'd.",
-          "url": ""
-        },
-        {
-          "date": "2026-05-19",
-          "type": "Email — Inbound (MAJOR UPDATE)",
-          "contact": "Bea Montoya → Marcus",
-          "owner": "Bea Montoya",
-          "summary": "CC strategy approved + budget secured. Chose RPA vendor for Phase 1. Renewing Ada 1 year. 'We remain very impressed with Cresta — yet the high price and higher integration effort means it's not going to be a quick set up.'",
-          "url": ""
-        },
-        {
-          "date": "2026-05-19",
-          "type": "CRO Engagement",
-          "contact": "Alex Cramer (CRO) + Marcus",
-          "owner": "Marcus + Alex Cramer",
-          "summary": "CRO engaged. Alex: 'Maybe I could join that call and help understand why she believes RPA is faster savings.'",
-          "url": "https://mail.google.com/mail/u/#inbox/19e41f63a5d4e093"
-        },
-        {
-          "date": "2026-04-17",
-          "type": "Commercial Proposal",
-          "contact": "Bea + team",
-          "owner": "Marcus + Mark Meghezzi",
-          "summary": "SFDC: 'Presented commercials to Bea and team which went very well. Looking at insights across 100% and a pilot for QA, Coaching and AA to start.'",
-          "url": ""
-        },
-        {
-          "date": "2026-04-02",
-          "type": "Onsite",
-          "contact": "Sai + Teegen",
-          "owner": "Marcus Nolan",
-          "summary": "SFDC: 'Great onsite with Sai and Teegen this week.'",
-          "url": ""
-        },
-        {
-          "date": "2026-03-19",
-          "type": "NDA + In-person",
-          "contact": "Sai + Teegen",
-          "owner": "Marcus Nolan",
-          "summary": "SFDC: 'Brilliant onsite yesterday. NDA signed this week.'",
-          "url": ""
-        }
-      ],
-      "use_cases": [
-        "Real-time Agent Assist (complex SME policy queries — when Ada can't resolve)",
-        "100% Auto-QA (FCA Consumer Duty — all insurance interactions)",
-        "QM & Coaching (agent variability, landlord segment consistency)",
-        "Conversation Intelligence (contact driver analysis, avoidable demand)"
-      ],
-      "best_case_study": "★★★ Propel Holdings — FS automation, regulated CC.\n★★ AAA Life Insurance — regulated insurance CC.\n★★ Mutual of Omaha — insurance CC, 33% uplift, QA -50%.",
-      "narrative": "Bea confirmed the contact centre is a brand differentiator in an AI world. Budget confirmed. Intent confirmed. Phase 1 = RPA. Phase 2 = Cresta. September is the window. Maintain the warm relationship without pressure.",
-      "deal_stage": "Commercial — Stalled (Sep/Oct Target)",
-      "key_quote": "\"For us the contact center is a brand differentiator and if anything, we expect it to be more so in an AI world.\" — Bea Montoya, May 21 '26",
-      "glean_query": "Simply Business",
-      "open_actions": [
-        {
-          "action": "Before 12 June: send Bea warm holding note. Acknowledge postponement, confirm Sep reconnect, no pressure. Keep Alex Cramer CC'd.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        },
-        {
-          "action": "Explore lighter-touch CA: can we proceed with anonymised/sample data rather than full 50k calls? Raises with Hala/Amy.",
-          "owner": "Marcus + Hala Agha",
-          "priority": "MEDIUM"
-        },
-        {
-          "action": "Keep Alex Cramer (CRO) looped on all future comms.",
-          "owner": "Marcus",
-          "priority": "MEDIUM"
-        },
-        {
-          "action": "Set calendar reminder for August — reach out to Bea in August to confirm September date.",
-          "owner": "Marcus",
-          "priority": "LOW"
-        }
-      ],
-      "cresta_team": [
-        {
-          "name": "Marcus Nolan",
-          "role": "AE"
-        },
-        {
-          "name": "Mark Meghezzi",
-          "role": "Head of EMEA"
-        },
-        {
-          "name": "Alex Cramer",
-          "role": "CRO (joining calls)"
-        },
-        {
-          "name": "Emily Kessel",
-          "role": "SE"
-        }
-      ],
-      "content": [
-        {
-          "title": "Simply Business Drive Folder",
-          "url": "https://drive.google.com/drive/folders/1DBiWGEMUal-Y4QRL-Br5_JbFF2pi4TbJ",
-          "type": "folder",
-          "date": "2026-02-10",
-          "owner": "Marcus Nolan"
-        },
-        {
-          "title": "Marcus EMEA Pipeline May 2026",
-          "url": "https://docs.google.com/presentation/d/1ww4ZxldWZm9POfvNdvXO4ddOgciOzmq9rlLqH39NhJg",
-          "type": "slides",
-          "date": "2026-05-18",
-          "owner": "Marcus Nolan"
-        }
-      ],
-      "sdr_playbook": {
-        "hypothesis": "Post-demo, post-commercial, CA started. Bea confirmed budget and strategic intent. Phase 1 = RPA. Phase 2 = Cresta, September. Reduce friction in CA (lighter data share) to maintain momentum through summer.",
-        "buying_signals": [
-          "Budget confirmed + CC strategy approved",
-          "CA started June 3",
-          "Bea: 'we remain very impressed with Cresta'",
-          "Bea: 'contact centre is a brand differentiator in an AI world'",
-          "CRO Alex Cramer engaged",
-          "Northampton onsite agreed for Sep/Oct"
-        ],
-        "target_contacts": [
-          {
-            "name": "Beatriz (Bea) Montoya",
-            "title": "COO",
-            "priority": "Primary",
-            "why": "Economic buyer + champion. Warm relationship despite delays.",
-            "approach": "Warm holding note before 12 June. No pressure. September reconnect.",
-            "linkedin_search": "Beatriz Montoya Simply Business COO"
-          }
-        ]
-      }
-    },
-    {
-      "id": "utilita",
-      "name": "Utilita Energy",
-      "parent": "Utilita Group Ltd (private)",
-      "domain": "utilita.co.uk",
-      "sfdc": "https://cresta.lightning.force.com/lightning/r/001Uy00000nlR8eIAE/view",
-      "priority": "A",
-      "vertical": "Energy",
-      "status": "Active Opp — Ghosting Risk",
-      "hq": "Eastleigh, Hampshire, UK",
-      "employees": "~1,500",
-      "revenue": "Private",
-      "risk_level": "HIGH",
-      "last_activity": "2026-05-28",
-      "quick_context": "UK's largest prepayment energy supplier. ~300 agents (UK + South Africa BPO). FULL DEMO Apr 29 (Louise Walsh CCO + 4 others). Post-demo: 'shared view that Cresta offers significant benefits.' May 12: Lenard Smith 'too busy, not uninterested' — capacity objection, NOT rejection. Marcus sent Challenger reply May 13 citing £830K Ofgem fine (2022). 14+ days silence. GONG ALERT 8 June: 'Prospect ghosting 14+ days' — $200k at risk. Verint renewal this year = displacement window closing.",
-      "next_step": "URGENT before 12 June: email Lenard AND Louise framing around Verint renewal timing. 'When does your Verint contract renew? If Cresta isn't scoped before that decision, the window closes.' Get Louise Walsh's correct mobile (Marcus had wrong number May 19). Brief holiday cover if no response before 12 June.",
-      "group_structure": "Utilita Group Ltd (private) → Utilita Energy Ltd (prepayment retail) → Utilita Business Energy. Smart metering pioneer.",
-      "financials": "Private. Ofgem-regulated. Prepayment model. Ofgem CRM system renewal at year-end.",
-      "tech_stack": {
-        "confirmed": [
-          "Verint (Call Recording + QM — incumbent, renewal this year)",
-          "8x8 Contact Center (CCaaS)",
-          "Microsoft Dynamics 365 (ERP)",
-          "Workday",
-          "Power BI / Tableau"
-        ],
-        "inferred": [
-          "No AI coaching layer — complete whitespace",
-          "Cisco, NICE CXone possible (OOB Cresta integrations confirmed)"
-        ]
-      },
-      "ai_initiatives": [
-        {
-          "title": "No CC AI — vulnerability and collections gap",
-          "detail": "Collections, debt management, vulnerable customer conversations handled with no real-time guidance. Ofgem fined Utilita £830K in 2022 for failures in handling vulnerable customers.",
-          "source": "Ofgem enforcement notice 2022",
-          "cresta_angle": "The £830K fine is the business case denominator. Every vulnerable customer interaction is a regulatory moment. Cresta ensures agents respond with the right empathy every time."
-        }
-      ],
-      "recent_news": [
-        {
-          "date": "2026-06-08",
-          "headline": "GONG RISK ALERT: Prospect ghosting 14+ days — $200k at risk",
-          "detail": "Gong risk email 8 June 2026: 'Utilita Energy — Prospect ghosting over 14 days — $200,000.' Last activity: Marcus letting Challenger email sit (28 May).",
-          "cresta_relevance": "Critical window. Positive demo + confirmed internal value = timing stall, not rejection. Verint renewal is the urgency lever."
-        },
-        {
-          "date": "2026-05-13",
-          "headline": "Marcus sent Challenger reply citing £830K Ofgem fine",
-          "detail": "Cited: (1) £4.43bn Ofgem energy debt; (2) Utilita's £830K Ofgem fine 2022 for vulnerable customer failures; (3) statutory executive accountability. 'You have told me two things. You understand the value and you are too busy to act on it.' Hala: 'Love the approach!' No reply.",
-          "cresta_relevance": "Strong play. No response. Verint renewal is the new urgency lever."
-        },
-        {
-          "date": "2026-05-06",
-          "headline": "Post-demo: strong internal consensus",
-          "detail": "Lenard Smith: 'Thanks for such a great demo. We've had some internal discussions and there's a shared view that Cresta offers significant benefits and is clearly a very strong proposition.'",
-          "cresta_relevance": "Value case confirmed internally. Timing/bandwidth stall. Verint renewal = urgency driver."
-        },
-        {
-          "date": "2026-04-29",
-          "headline": "Full demo — 5 stakeholders including CCO",
-          "detail": "Louise Walsh (CCO), Lenard Smith, Martin Filler, Ian Warner, Russell Lane. OOB integrations confirmed: Cisco, Verint, NICE CXone — low integration risk. Southampton onsite planned.",
-          "cresta_relevance": "5-person demo with CCO = genuine commercial intent."
-        }
-      ],
-      "key_execs": [
-        {
-          "name": "Louise Walsh",
-          "title": "Chief Customer Contact Officer",
-          "sdr_note": "PRIMARY CHAMPION ★★. 'Keen to keep the momentum' (March '26). Attended Apr 29 demo. Marcus had wrong phone number May 19 — get correct mobile from Lenard. Email today.",
-          "status": "Champion",
-          "email": "louisewalsh@utilita.co.uk"
-        },
-        {
-          "name": "Lenard Smith",
-          "title": "Operations (organised demo, main contact)",
-          "sdr_note": "SECONDARY CHAMPION ★. 'Not uninterested' May 12. Awaiting reply to Challenger email May 13 — 3+ weeks silence. Call directly now.",
-          "status": "Champion",
-          "email": "lenardsmith@utilita.co.uk"
-        },
-        {
-          "name": "Jessica",
-          "title": "CCW backchannel contact",
-          "sdr_note": "Being worked as backchannel via CCW. Push for Verint renewal intel.",
-          "status": "Engaged"
-        },
-        {
-          "name": "Kim Brosnan",
-          "title": "CPO (ex-Thames Water, ex-Which?)",
-          "sdr_note": "Thames Water background = vulnerable customer experience relevant. Use if Louise + Lenard continue to stall.",
-          "status": "Cold"
-        },
-        {
-          "name": "Martin Filler",
-          "title": "Utilita (attended Apr 29 demo)",
-          "status": "Engaged",
-          "email": "martinfiller@utilita.co.uk"
-        },
-        {
-          "name": "Ian Warner",
-          "title": "Utilita (attended Apr 29 demo)",
-          "status": "Engaged",
-          "email": "ianwarner@utilita.co.uk"
-        },
-        {
-          "name": "Russell Lane",
-          "title": "Utilita (attended Apr 29 demo)",
-          "status": "Engaged",
-          "email": "russelllane@utilita.co.uk"
-        }
-      ],
-      "champions": "Louise Walsh ★★★ (CCO) — 'keen to keep momentum', attended demo. Lenard Smith ★★ (operations) — 'not uninterested', confirmed internal value.",
-      "blockers": "Resource bandwidth. Verint renewal timing unknown — both risk and opportunity. 14+ days silence. Louise Walsh's correct phone unknown.",
-      "cc_footprint": "Prepayment energy CC. 8x8. ~300 agents UK + South Africa BPO. Collections-heavy. Financially vulnerable customers. Ofgem Consumer Vulnerability obligations. Verint renewal = displacement window.",
-      "regulatory_signals": "Ofgem Consumer Vulnerability Strategy. Smart meter rollout compliance. CRITICAL: Utilita fined £830,000 by Ofgem 2022 for failing vulnerable customers. Ofgem CRM renewal at year-end. £4.43bn Ofgem energy debt across UK market.",
-      "competitors": "Verint (incumbent — risk: Verint embeds Agent Assist natively at renewal). 8x8 native AI.",
-      "why_cresta_wins": "Financially vulnerable customers need right empathy on every call. OOB integrations with Cisco, Verint, NICE CXone = low integration risk. £830K Ofgem fine = business case denominator. Brinks Home (vulnerability handling, NPS +30pts) = closest analogue.",
-      "gong_history": [
-        {
-          "date": "2026-05-28",
-          "type": "SFDC Update",
-          "contact": "Internal",
-          "owner": "Marcus Nolan",
-          "summary": "'Letting Challenger email sit. Backchannel via Jessica from CCW.'",
-          "url": ""
-        },
-        {
-          "date": "2026-05-21",
-          "type": "Email — Outbound",
-          "contact": "Lenard + Louise + team",
-          "owner": "Marcus Nolan",
-          "summary": "Strong response to 'too busy' email. No response yet. Tried to reach Louise directly.",
-          "url": ""
-        },
-        {
-          "date": "2026-05-19",
-          "type": "Email — Outbound to Louise",
-          "contact": "Louise Walsh",
-          "owner": "Marcus Nolan",
-          "summary": "'Hi Louise. Hope you are well. Worth 30 minutes of your time?' Subject: 'Cresta | June — worth 30 minutes?' Marcus had wrong phone number.",
-          "url": ""
-        },
-        {
-          "date": "2026-05-13",
-          "type": "Email — Outbound (Challenger)",
-          "contact": "Lenard + Louise + team",
-          "owner": "Marcus Nolan",
-          "summary": "Hard-hitting Challenger email. Cited Ofgem fine £830K, £4.43bn energy debt, statutory accountability. 'You have told me two things. You understand the value and you are too busy to act on it.' Hala: 'Love the approach!'",
-          "url": ""
-        },
-        {
-          "date": "2026-05-12",
-          "type": "Email — Inbound",
-          "contact": "Lenard Smith → Marcus",
-          "owner": "Lenard Smith",
-          "summary": "'It's that latter [too busy]. We have a number of projects that require our full attention.' NOT uninterested — capacity objection.",
-          "url": ""
-        },
-        {
-          "date": "2026-05-06",
-          "type": "Email — Inbound (POST-DEMO POSITIVE)",
-          "contact": "Lenard Smith → Marcus",
-          "owner": "Lenard Smith",
-          "summary": "'Thanks for such a great demo. It was really engaging. We've had some internal discussions and there's a shared view that Cresta offers significant benefits and is clearly a very strong proposition.'",
-          "url": ""
-        },
-        {
-          "date": "2026-04-30",
-          "type": "Email — Follow Up",
-          "contact": "Louise + Lenard + Martin + Ian + Russell",
-          "owner": "Marcus + Hala + Amy + James Russell + Mark Meghezzi",
-          "summary": "Post-demo follow-up. OOB integrations: Cisco, Verint, NICE CXone. Phased approach outlined.",
-          "url": "https://mail.google.com/mail/u/#inbox/19dde3a409f7260b"
-        },
-        {
-          "date": "2026-04-29",
-          "type": "Demo",
-          "contact": "Louise Walsh (CCO) + Lenard + Martin + Ian + Russell",
-          "owner": "Marcus + Hala + Amy + James Russell + Mark Meghezzi",
-          "summary": "Full demo to 5 stakeholders. 'Demo went very well and some great questions asked around integration and timelines.'",
-          "url": ""
-        },
-        {
-          "date": "2026-04-15",
-          "type": "Email — Exec Escalation",
-          "contact": "Louise Walsh",
-          "owner": "Mark Meghezzi",
-          "summary": "Mark introduced himself to Louise: 'Marcus has shared really positive feedback and it sounds like there's strong alignment.'",
-          "url": ""
-        },
-        {
-          "date": "2026-03-26",
-          "type": "Email — Inbound",
-          "contact": "Louise Walsh → Marcus",
-          "owner": "Louise Walsh",
-          "summary": "Declined demo due to trees down ('connection issues'). 'Keen to keep the momentum!' Looped in Lenard Smith.",
-          "url": ""
-        }
-      ],
-      "use_cases": [
-        "Real-time Agent Assist (debt/vulnerability conversations — Ofgem fine precedent)",
-        "AI Agent (routine prepayment FAQs)",
-        "100% Auto-QA (Ofgem Consumer Vulnerability — replaces Verint sampling)",
-        "Coaching Hub (UK + South Africa BPO consistency)"
-      ],
-      "best_case_study": "★★★ Brinks Home — vulnerability handling, NPS +30pts, transfer rate 30%→8%.\n★★ Cox Communications — high-volume CC operational complexity.",
-      "narrative": "Utilita serves the UK's most financially vulnerable energy customers. Every debt conversation is high-stakes. The £830K Ofgem fine is the business case denominator. Demo landed and internal consensus is strong. The stall is bandwidth. Verint renewal is the urgency lever not yet deployed — use it now.",
-      "deal_stage": "Stalled — Urgent Re-engagement",
-      "key_quote": "\"There's a shared view that Cresta offers significant benefits and is clearly a very strong proposition.\" — Lenard Smith, May 6 '26",
-      "glean_query": "Utilita",
-      "open_actions": [
-        {
-          "action": "⚡ URGENT before 12 June: email Lenard AND Louise re Verint renewal. 'When does Verint renew? If Cresta isn't scoped before that, the window closes.'",
-          "owner": "Marcus",
-          "priority": "URGENT"
-        },
-        {
-          "action": "Get Louise Walsh's correct mobile — ask Lenard. Phone her directly.",
-          "owner": "Marcus",
-          "priority": "URGENT"
-        },
-        {
-          "action": "Push Jessica (CCW backchannel) for Verint renewal timeline intel.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        },
-        {
-          "action": "If no response by 12 June: explicit holiday cover brief. Mark Meghezzi or Jay Sheikh to follow up w/c 15 June.",
-          "owner": "Marcus + Mark Meghezzi",
-          "priority": "HIGH"
-        },
-        {
-          "action": "Propose Q3 deferred start — commercial intent now, implementation begins Q3.",
-          "owner": "Marcus",
-          "priority": "MEDIUM"
-        }
-      ],
-      "cresta_team": [
-        {
-          "name": "Marcus Nolan",
-          "role": "AE"
-        },
-        {
-          "name": "Mark Meghezzi",
-          "role": "Head of EMEA"
-        },
-        {
-          "name": "Hala Agha",
-          "role": "SE"
-        },
-        {
-          "name": "Amy Koh",
-          "role": "SE"
-        },
-        {
-          "name": "James Russell",
-          "role": "CS"
-        }
-      ],
-      "content": [
-        {
-          "title": "Utilita Drive Folder",
-          "url": "https://drive.google.com/drive/folders/1Scltd7Lrv97te9H0o4pIKVXpculP5sz6",
-          "type": "folder",
-          "date": "2026-03-26",
-          "owner": "Marcus Nolan"
-        }
-      ],
-      "sdr_playbook": {
-        "hypothesis": "Post-demo, confirmed value, capacity objection. Verint renewal = urgency lever not yet deployed. Louise Walsh (CCO) is primary buyer. 14+ days silence. Time to move to Verint renewal angle.",
-        "buying_signals": [
-          "Full demo April 29 — 5 stakeholders including CCO",
-          "Lenard May 6: 'shared view Cresta offers significant benefits'",
-          "'Too busy, not uninterested' — capacity stall not rejection",
-          "Utilita fined £830K by Ofgem 2022 for vulnerable customer failures",
-          "Verint renewal this year — displacement window",
-          "Louise Walsh (CCO): 'keen to keep momentum'"
-        ],
-        "target_contacts": [
-          {
-            "name": "Louise Walsh",
-            "title": "Chief Customer Contact Officer",
-            "priority": "Primary",
-            "why": "CCO = economic buyer. 'Keen to keep momentum.' Wrong phone number — email directly.",
-            "approach": "Email today. Short. Verint renewal angle + correct phone request.",
-            "linkedin_search": "Louise Walsh Utilita Chief Customer Contact Officer"
-          },
-          {
-            "name": "Lenard Smith",
-            "title": "Operations",
-            "priority": "Primary",
-            "why": "'Not uninterested' — awaiting reply to Challenger email.",
-            "approach": "Verint renewal angle. Different from Challenger email.",
-            "linkedin_search": "Lenard Smith Utilita Energy"
-          }
-        ]
-      }
-    }
-  ],
-  "account_patches": {
-    "hargreaves-lansdown": {
-      "last_activity": "2026-05-22",
-      "risk_level": "MEDIUM",
-      "quick_context": "UK's largest investment platform. Taken private by CVC Mar '25. 2M+ clients, £172bn AUM. MAJOR NEWS: New CEO Matt Benchener appointed, joining July 2026 (subject to FCA approval). Ioan Macrae (Sabio) call confirmed w/c May 22 — Sabio has existing HL history + CVC connection. Charlie Peters = Head of Helpdesk Development (Amazon Connect + SF roadmap) — NOT YET CONTACTED BY AE. HL app/website outage April 8 (hundreds of DownDetector complaints) = CX pressure on CC. Matthew Streatfield (Retention) meeting booked w/c Apr 21 — status unconfirmed. CFO Declan Hourican from TSB = Cresta customer reference.",
-      "next_step": "Confirm Ioan Macrae (Sabio) call outcome — use HL contact intel to approach Charlie Peters. New CEO Matt Benchener joining July 2026 = new exec sponsor opportunity — approach Simon Belsham (CCO) before he arrives.",
-      "open_actions_patch": [
-        {
-          "action": "Confirm Ioan Macrae (Sabio) call outcome (w/c May 22). Use HL contact intel to email Charlie Peters immediately.",
-          "owner": "Marcus + Ashley Williamson",
-          "priority": "URGENT"
-        },
-        {
-          "action": "New CEO Matt Benchener joining July 2026 — approach Simon Belsham (CCO) and Charlie Peters before he arrives and resets priorities.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        },
-        {
-          "action": "Matthew Streatfield (Retention) meeting w/c Apr 21 — confirm whether this happened. Follow up if needed.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        }
-      ],
-      "recent_news_patch": [
-        {
-          "date": "2026-06-01",
-          "headline": "New CEO Matt Benchener appointed — joining July 2026 subject to FCA approval",
-          "detail": "ZoomInfo: 'Hargreaves Lansdown has appointed Matt Benchener as Chief Executive Officer, starting in July 2026 subject to regulatory approval.'",
-          "cresta_relevance": "New CEO = new exec agenda being set. Window to establish Cresta with CCO Simon Belsham and Charlie Peters before Benchener arrives and locks in priorities."
-        },
-        {
-          "date": "2026-05-22",
-          "headline": "Ioan Macrae (Sabio) call confirmed — Sabio has existing HL history + CVC connection",
-          "detail": "Ioan replied: 'It would be great to have a call and discuss HL, as there is some history between Sabio and HL.' Marcus proposed Tuesday 30 minutes.",
-          "cresta_relevance": "Sabio warm intro is highest-quality path into HL. Ioan can map right contacts and use CVC relationship as door opener."
-        },
-        {
-          "date": "2026-04-08",
-          "headline": "HL app and website outage — hundreds of complaints on DownDetector",
-          "detail": "Hargreaves Lansdown app and website down for hundreds of investors 8 April 2026. Complaints began ~9:06am BST.",
-          "cresta_relevance": "CX under pressure from digital platform outages. CC spikes when self-service fails — exactly the environment where Cresta's real-time guidance matters most."
-        }
-      ]
-    },
-    "hastings-direct": {
-      "last_activity": "2026-04-16",
-      "risk_level": "HIGH",
-      "quick_context": "UK P&C digital insurer. 4.4M policies (+15% YoY). Sampo Group. Genesys + Verint confirmed. No AI coaching. COO not identified. 5+ SDR touches below Director level. No engagement since April 2026. GONG ALERT 8 June: 'Prospect ghosting 14+ days — $100k at risk.'",
-      "next_step": "LinkedIn research to identify COO or Head of Customer Operations before 12 June. AE cold email — FCA Consumer Duty + historical FSA fine framing. Skip SDR contacts.",
-      "open_actions_patch": [
-        {
-          "action": "LinkedIn research — identify COO or Head of Customer Operations before 12 June holiday. Search: 'Hastings Direct COO' or 'Head of Customer Operations Hastings Direct'.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        },
-        {
-          "action": "GONG ALERT 8 June: 'Prospect ghosting 14+ days — $100k at risk.' Re-engage with FSA fine precedent + Consumer Duty angle.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        }
-      ]
-    },
-    "aib": {
-      "last_activity": "2026-04-23",
-      "risk_level": "MEDIUM",
-      "quick_context": "Ireland's largest bank. €2.35bn PAT FY24. 3.35M customers. 'Abi' AI digital assistant in CC — 130,000+ customers self-served. Cisco UCCE legacy CC. CBI + FCA regulated. Bobby Bergen (warm SDR contact) departed Apr '26. No AE engagement yet. Marcus's Irish background = peer advantage with Niamh Phillips (COO).",
-      "next_step": "Email Niamh Phillips (COO) — Irish peer tone, Abi handoff question, CBI Consumer Protection, TSB reference. 'Happy to come to Molesworth Street.'",
-      "open_actions_patch": [
-        {
-          "action": "Email Niamh Phillips (COO) — Irish peer tone. 'Abi handles self-service. When Abi hands off to a human, what guides that agent? And how do you evidence CBI-compliant outcomes on 100% of those handoffs?' TSB reference. Happy to come to Dublin.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        },
-        {
-          "action": "Bobby Bergen departed Apr '26 — warm SDR contact gone. No more SDR sequences on this account. AE takes over directly.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        }
-      ]
-    },
-    "n-brown": {
-      "last_activity": "2026-04-15",
-      "risk_level": "MEDIUM",
-      "quick_context": "UK online fashion retailer — JD Williams, Simply Be, Jacamo. Demo done Apr 1 '26 (Chris Byron, Simon Seddon, Thomas Shorrock). WISMO + FS Consumer Duty identified as top use cases. Marcus chased Apr 15 — no response. Pod meeting May 18 flagged: 'Wrong team — web/digital, not CC.' CONSIDER CLOSING.",
-      "next_step": "DECISION POINT: Pod meeting May 18 flagged 'wrong team — web/digital, not CC.' Confirm with Mark Meghezzi before 12 June whether to close or invest further. If closing, mark Salesforce Closed Lost.",
-      "open_actions_patch": [
-        {
-          "action": "DECISION before 12 June: Pod meeting May 18 — 'wrong team, web/digital, not CC.' Confirm with Mark Meghezzi whether to close this opp. If yes, mark Salesforce Closed Lost.",
-          "owner": "Marcus + Mark Meghezzi",
-          "priority": "URGENT"
-        },
-        {
-          "action": "If NOT closing: send JD Sports + Cox case studies to Chris Byron TODAY — weeks overdue. Ask which brand first.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        }
-      ]
-    },
-    "fbd-insurance": {
-      "last_activity": "2026-06-01",
-      "risk_level": "LOW",
-      "quick_context": "Irish insurer (farm/rural/motor/home). FULL DEMO completed May 6 — Brian Goddard, Deborah McCormack, Linda Heduvan, Paula Maguire attended. Deborah: 'That's very impressive' on auto-summarisation. Brian asked sharp questions on Cisco WebEx, call routing by line type, vulnerable customer detection, go-live timelines. Paul Murphy (economic buyer) missed demo and has not replied to 3 emails (May 7 group, May 7 personal, May 21 personal). Marcus emailed Linda directly 1 June. 2-minute post-call wrap time = confirmed operational pain.",
-      "next_step": "CALL Paul Murphy — not email. 3 emails, zero response. 'Paul — Marcus from Cresta. 5 minutes. Just one honest question about FBD's H2 priorities.' Then book technical scoping call with Brian Goddard on Cisco WebEx integration.",
-      "open_actions_patch": [
-        {
-          "action": "CALL Paul Murphy — 3 emails sent, zero response. 'Paul — Marcus from Cresta. I've sent you three notes since the demo. 5 minutes — just one honest question about FBD's H2 priorities.' Do this before 12 June.",
-          "owner": "Marcus",
-          "priority": "URGENT"
-        },
-        {
-          "action": "Book technical scoping call with Brian Goddard on Cisco WebEx integration. Moving the technical track forward while Paul Murphy is unreachable.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        },
-        {
-          "action": "Follow up with Linda Heduvan on June 1 check-in email — confirm whether she responded and use it to re-engage the group.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        }
-      ],
-      "recent_news_patch": [
-        {
-          "date": "2026-06-01",
-          "headline": "Marcus emailed Linda Heduvan directly — checking in after Paul Murphy silence",
-          "detail": "After 3 emails to Paul Murphy with zero response, Marcus pivoted to email Linda Heduvan on 1 June to check in on the group's thinking.",
-          "cresta_relevance": "Pivoting to Linda as alternative route to re-engage group. Brian Goddard (telephony) remains the most technically engaged contact."
-        },
-        {
-          "date": "2026-05-07",
-          "headline": "Full group follow-up and personal catchup to Paul Murphy sent",
-          "detail": "Marcus sent group follow-up with recording + case studies (Brinks, Oportun, Mutual of Omaha). Separately emailed Paul Murphy personally: 'The shift from 1-2% QA to 100% coverage, contact driver analysis, automated note-taking, vulnerable customer detection' resonated most.",
-          "cresta_relevance": "Demo landed well with attendees. Paul Murphy (economic buyer) is the only blocker — capacity/competing priorities, not disinterest."
-        }
-      ]
-    },
-    "saga": {
-      "last_activity": "2026-05-20",
-      "risk_level": "MEDIUM",
-      "quick_context": "Over-50s insurance/travel/FS. Marcus cold emailed Nigel Blanks twice (Apr 29 + May 20) — Middle East disruption + NPS as board KPI. Kate Taphouse gave Marcus candid CC intel. No reply from Nigel. OpenText Qfiniti = post-call analytics only. Sacha Puffett (COO, Lean Six Sigma) = primary buyer target.",
-      "next_step": "Phone call to Nigel Blanks — two emails, no response. Cold email Sacha Puffett (COO) with Lean Six Sigma framing. Ask Kate Taphouse for warm intro to Sacha.",
-      "open_actions_patch": [
-        {
-          "action": "Phone Nigel Blanks — two Challenger emails sent, no reply. Short call: 'Nigel — Marcus from Cresta. I sent two notes referencing Kate Taphouse and your CC disruption response gap. 2 minutes?'",
-          "owner": "Marcus",
-          "priority": "MEDIUM"
-        },
-        {
-          "action": "Ask Kate Taphouse directly for warm intro to Sacha Puffett (COO, Lean Six Sigma). 'Kate — would you be comfortable introducing me to Sacha?'",
-          "owner": "Marcus",
-          "priority": "MEDIUM"
-        }
-      ]
-    },
-    "uk-power-networks": {
-      "last_activity": "2026-06-04",
-      "risk_level": "MEDIUM",
-      "quick_context": "DNO for London, South East, East England. DEMO CANCELLED by Alex Williams June 2 — rain/storm caused operational chaos. Marcus rescheduled for Thursday June 4/5 (offered 9am or 11am). Alex confirmed via email: really looking forward to rescheduling. Three case studies sent pre-demo: United Airlines (misdirected contacts), Alaska Airlines (storm-day surge), Brinks Home (on-premise). Pain confirmed: misdirected contacts. Amy Koh briefed as SE. GONG ALERT 8 June: 'Prospect ghosting 14+ days' — $100k at risk (pre-dates the cancelled demo). Joe Widing owns rest of UKPN hierarchy.",
-      "next_step": "Confirm Thursday reschedule with Alex — did he respond? Follow up today if not. Reference the storm-day Alaska Airlines case study: 'Yesterday's events are exactly the scenario we showed in the Alaska Airlines case study.' Brief Amy Koh before the rescheduled demo.",
-      "open_actions_patch": [
-        {
-          "action": "Confirm Thursday reschedule with Alex Williams — offer 9am or 11am. If no response, follow up today. Reference storm-day Alaska Airlines case study as connection to their real-world experience.",
-          "owner": "Marcus + Amy Koh",
-          "priority": "URGENT"
-        },
-        {
-          "action": "Brief Amy Koh on UKPN context before rescheduled demo: utility/energy CC, misdirected contacts as #1 pain, Alex Williams (Head of CC, Tel: 07812 262321).",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        },
-        {
-          "action": "GONG ALERT 8 June: 'Prospect ghosting 14+ days — $100k at risk.' The June 3 storm cancellation explains the gap — reschedule confirmation clears this. Do not let this slip past 12 June.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        }
-      ],
-      "recent_news_patch": [
-        {
-          "date": "2026-06-02",
-          "headline": "Alex Williams cancelled June 3 demo — storm/rain operational chaos",
-          "detail": "Alex: 'Hi Marcus, I'm so sorry I need to cancel today. Yesterday's weather has caused significant damage and I cannot spare the time today. Really looking forward to rescheduling.' Marcus replied empathetically and offered Thursday 9am or 11am.",
-          "cresta_relevance": "Natural cancellation, not cold feet. The storm-day Alaska Airlines case study Marcus sent pre-demo is now even more directly relevant — UKPN literally experienced a weather emergency. Use this in the reschedule note."
-        }
-      ]
-    },
-    "asda": {
-      "last_activity": "2026-02-24",
-      "risk_level": "MEDIUM",
-      "quick_context": "UK's third-largest supermarket. Cathal Corcoran (CIO, Jan 2026, ex-Microsoft VP Banking + Barclays CIO) = primary trigger. Oracle + Salesforce CC stack. Rachel Eyre (CCO, ex-Morrisons CMO) = secondary target. Jay Sheikh SDR actively running outreach. No confirmed engagement. Ikoyi dinner invite sent to Rachel Eyre + Adrian Berry Feb 24 — no response confirmed.",
-      "next_step": "Marcus to email Cathal Corcoran directly: 'You've seen CC AI at scale at Microsoft and Barclays. 20 minutes?' Jay Sheikh to continue SDR outreach with refined talk track.",
-      "open_actions_patch": [
-        {
-          "action": "Marcus email Cathal Corcoran (CIO, Jan 2026) — ex-Microsoft VP Banking, Barclays CIO. 'You've seen CC AI done at scale. Here's what the top 10% of CCs are doing with Cresta on Oracle and Salesforce. 20 minutes?'",
-          "owner": "Marcus",
-          "priority": "MEDIUM"
-        },
-        {
-          "action": "Jay Sheikh: continue Asda SDR outreach — refine talk track around Asda Money FCA Consumer Duty + Cathal Corcoran's Microsoft/Barclays background.",
-          "owner": "Jay Sheikh",
-          "priority": "MEDIUM"
-        }
-      ]
-    },
-    "john-lewis": {
-      "last_activity": "2026-03-17",
-      "risk_level": "MEDIUM",
-      "quick_context": "John Lewis + Waitrose. Employee-owned partnership. ~£12.4bn revenue. Jason Tarry (Exec Chair, Waitrose) = warm intro route in Jan '26 EMEA Accounts doc. Pam Coppock (Social & Community) also flagged. No outbound activity yet. JL Finance = FCA regulated Consumer Duty obligation. Low priority.",
-      "next_step": "Activate Jason Tarry warm intro via Advisor network — check with Mark Meghezzi / Ben Ball for the specific connection. LinkedIn research to identify Head of CC/CX. Post-holiday.",
-      "open_actions_patch": [
-        {
-          "action": "POST-HOLIDAY: Activate Jason Tarry (Waitrose Exec Chair) warm intro via Advisor network. Ask Mark Meghezzi or Ben Ball for the specific connection.",
-          "owner": "Marcus + Mark Meghezzi",
-          "priority": "LOW"
-        },
-        {
-          "action": "LinkedIn research — identify Head of Customer Operations or CX Director for JL.com and Waitrose.",
-          "owner": "Marcus",
-          "priority": "LOW"
-        }
-      ]
-    },
-    "mercedes-uk": {
-      "last_activity": "2026-02-06",
-      "risk_level": "LOW",
-      "status": "Closing Out — Not a Fit",
-      "quick_context": "CLOSED — Pod meeting May 18: 'No real project. Chatbot for car configurator — not a fit.' Thomas Bell (Insights & Data) and Daniel McAleese engaged Jan/Feb '26 but use case was car configurator chatbot, not CC AI. Close in Salesforce. Leave door open for Q4 EV customer support CC conversation.",
-      "next_step": "Close in Salesforce. Send polite close email to Thomas Bell leaving door open for Q4 2026 EV customer support CC conversation.",
-      "open_actions_patch": [
-        {
-          "action": "CLOSE in Salesforce — Pod meeting May 18: 'No real project. Chatbot for car configurator — not a fit.' Mark as Closed Lost.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        },
-        {
-          "action": "Send polite close email to Thomas Bell. Leave door open for Q4 EV customer support CC conversation.",
-          "owner": "Marcus",
-          "priority": "MEDIUM"
-        }
-      ]
-    },
-    "trailfinders": {
-      "last_activity": "2026-03-17",
-      "risk_level": "LOW",
-      "quick_context": "UK's largest independent travel agency. 39 travel centres. 8x8 CCaaS confirmed — native Cresta integration. Ross Simpson (COO, ex-Director of Technology Development 2020-23) = best first contact. Complex itinerary booking = high knowledge burden. No outbound activity confirmed yet.",
-      "next_step": "Post-holiday action: email Ross Simpson (COO) — destination knowledge surfacing angle. Xanterra case study (74% containment, travel/hospitality). Short Challenger question.",
-      "open_actions_patch": [
-        {
-          "action": "POST-HOLIDAY (w/c 22 June): Email Ross Simpson (COO) — destination knowledge framing. Attach Xanterra case study. Short Challenger: 'Your agents need to be destination experts across the entire world. How much of that knowledge is instantly accessible when a customer asks about specialist medical requirements for the Galapagos?'",
-          "owner": "Marcus",
-          "priority": "LOW"
-        }
-      ]
-    },
-    "informa": {
-      "last_activity": "2026-05-07",
-      "risk_level": "LOW",
-      "quick_context": "FTSE 100 B2B events and information. Michelle Bradshaw (icmiexporeg@informa.com) self-selected via content engagement twice (Oct '25 + Apr '26) — CSAT and conversion confirmed as pain points. Inbound signal — must not be ignored. Marcus emailed IQPC (CCW organisers) May 7 requesting table placement near Informa. Alan Ranger speaking at CCW = event warm route.",
-      "next_step": "Reply to Michelle Bradshaw immediately — single Challenger question: 'Which of CSAT or conversion is costing you more right now?' No more content. Discovery only.",
-      "open_actions_patch": [
-        {
-          "action": "Reply to Michelle Bradshaw immediately — 'Which of CSAT or conversion is costing you more right now?' One question. No deck. No content. Move to discovery conversation.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        },
-        {
-          "action": "Check CCW table placement (Marcus emailed IQPC May 7) — did Cresta get placed near Informa at the event? If so, warm event intro via Alan Ranger.",
-          "owner": "Marcus + Jessie Morkel",
-          "priority": "MEDIUM"
-        }
-      ]
-    },
-    "ikea": {
-      "last_activity": "2026-03-25",
-      "risk_level": "MEDIUM",
-      "quick_context": "World's largest furniture retailer. Global revenue €47.6bn. No confirmed CC platform. No engagement. Cold. WISMO + omnichannel + assembly complexity angle. TaskRabbit and Dolly are IKEA subsidiaries also in SFDC territory. Low priority.",
-      "next_step": "Post-holiday: LinkedIn research to identify IKEA UK/EMEA Head of Customer Operations. Then cold email with WISMO + assembly complexity angle.",
-      "open_actions_patch": [
-        {
-          "action": "POST-HOLIDAY: LinkedIn research to identify IKEA UK/EMEA Head of Customer Operations or CX Director. Then cold email with WISMO + assembly query complexity angle.",
-          "owner": "Marcus",
-          "priority": "LOW"
-        }
-      ]
-    },
-    "pentland": {
-      "last_activity": "2026-03-16",
-      "risk_level": "LOW",
-      "quick_context": "Private sports/lifestyle brand portfolio (Speedo, Berghaus, Canterbury). ~57% stake in JD Sports. No warm intro. Route through JD Sports relationship only. No standalone cold outreach.",
-      "next_step": "Route any Pentland approach through JD Sports relationship only. No standalone cold outreach. Low priority.",
-      "open_actions_patch": [
-        {
-          "action": "Route Pentland approach through JD Sports relationship only. No standalone cold outreach without warm intro from JD Sports engagement.",
-          "owner": "Marcus",
-          "priority": "LOW"
-        }
-      ]
-    },
-    "energia": {
-      "last_activity": "2026-03-23",
-      "risk_level": "LOW",
-      "quick_context": "Irish dual-brand energy (Energia ROI + Power NI). Salesforce CRM confirmed — immediate integration story. iCON Infrastructure (PE-backed). Phillip Paterson (Group CIO) = primary target. Marcus's Irish background = peer advantage. Open opportunity in SFDC. CC footprint unknown — qualifying call needed.",
-      "next_step": "Post-holiday: email Phillip Paterson (Group CIO) — Salesforce integration angle + Irish peer tone. 'You already have Salesforce — Cresta is the intelligence layer that makes every customer conversation visible, scoreable, and improvable.'",
-      "open_actions_patch": [
-        {
-          "action": "POST-HOLIDAY: Email Phillip Paterson (Group CIO) — Salesforce integration angle + Irish peer tone. Short and direct. Qualify CC footprint in the first call.",
-          "owner": "Marcus",
-          "priority": "LOW"
-        }
-      ]
-    },
-    "staysure": {
-      "last_activity": "2026-03-18",
-      "risk_level": "LOW",
-      "quick_context": "Over-50s travel insurance specialist (Northampton). 8x8 + Zendesk + Salesforce + Freespee (call analytics) confirmed. No executive identified. FCA Consumer Duty applies. Pre-existing medical conditions = very high specialist knowledge burden per agent. Freespee in stack = they already care about call quality data. Low priority.",
-      "next_step": "LinkedIn research to identify CEO/COO/Head of Operations. Then cold email with over-50s pre-existing conditions + FCA Consumer Duty framing. Post-holiday.",
-      "open_actions_patch": [
-        {
-          "action": "POST-HOLIDAY: LinkedIn research to identify Staysure CEO/COO. Then cold email: over-50s + pre-existing conditions + FCA Consumer Duty. Reference Freespee in stack as evidence they care about call quality.",
-          "owner": "Marcus",
-          "priority": "LOW"
-        }
-      ]
-    },
-    "manchester-united": {
-      "last_activity": "2026-03-20",
-      "risk_level": "LOW",
-      "quick_context": "Sports/entertainment. 8x8 + Salesforce + Qualtrics. INEOS ownership (Berrada CEO, Roche COO). Collette Roche (COO, ex-Manchester Airport MD) = best entry — airport CC experience directly transferable. Non-traditional account — lower ACV. C priority. No outbound activity yet.",
-      "next_step": "Post-holiday: cold email Collette Roche (COO) — fan services + premium hospitality angle. Reference Manchester Airport background. Very short.",
-      "open_actions_patch": [
-        {
-          "action": "POST-HOLIDAY: Cold email Collette Roche (COO) — Manchester Airport reference + fan services premium hospitality angle. Very short: 'You turned Manchester Airport into a best-in-class service operation. MUFC has a similar challenge. Worth 20 minutes?'",
-          "owner": "Marcus",
-          "priority": "LOW"
-        }
-      ]
-    }
-  },
-  "new_accounts": [
-    {
-      "id": "jaguar-land-rover",
-      "name": "Jaguar Land Rover",
-      "parent": "Tata Motors (India)",
-      "domain": "jaguarlandrover.com",
-      "priority": "B",
-      "vertical": "Automotive",
-      "status": "CLOSED — Not Moving Forward (Jun 1 '26)",
-      "hq": "Whitley, Coventry, UK",
-      "risk_level": "LOW",
-      "last_activity": "2026-06-01",
-      "quick_context": "CLOSED — Pav Bharath (Modern Luxury Experience Manager) emailed 1 June 2026: 'We have carefully reviewed our current priorities... we have decided not to move forward and will place any further discussions on hold for now.' Demo June 1 (remote) with Anna Kemp, Pav Bharath, Costa Delis went well — Anna: 'the AI Analyst section clearly resonated.' JLR citing existing technology transformation + similar tools already signed up. Marcus proposed follow-up (Jun 11) + onsite at Whitley (Jun 24/25) immediately after demo — all declined.",
-      "next_step": "CLOSED. Close in Salesforce as Closed Lost. Set calendar reminder Oct 2026 for light-touch reconnect with Costa Delis once JLR's technology transformation settles.",
-      "deal_stage": "Closed Lost",
-      "key_quote": "'We have decided not to move forward and will place any further discussions on hold for now.' — Pav Bharath, Jun 1 '26",
-      "gong_history": [
-        {
-          "date": "2026-06-01",
-          "type": "Email — Inbound (CLOSED)",
-          "contact": "Pav Bharath → Marcus + team",
-          "owner": "Pav Bharath",
-          "summary": "JLR formally declined to move forward. 'We have carefully reviewed our current priorities. We have decided not to move forward and will place any further discussions on hold for now.' Marcus had proposed Jun 11 follow-up session + Jun 24/25 onsite at Whitley immediately after the demo.",
-          "url": "https://mail.google.com/mail/u/#inbox/19e84692cf8c50cf"
-        },
-        {
-          "date": "2026-06-01",
-          "type": "Demo",
-          "contact": "Anna Kemp + Pav Bharath + Costa Delis (remote)",
-          "owner": "Marcus Nolan + Amy Koh + Josh Levin + Jay Sheikh + James Russell + Mark Meghezzi",
-          "summary": "Full demo run June 1. Anna: AI Analyst section 'clearly resonated' — reacted when she thought the Porsche demo agent was human. Pav asked detailed questions. Costa Delis described as 'central to this from the beginning.' Marcus proposed proactive outbound, coaching/QM, AI agents as three follow-up workstreams.",
-          "url": "https://mail.google.com/mail/u/#inbox/19e84692cf8c50cf"
-        }
-      ],
-      "open_actions": [
-        {
-          "action": "CLOSE in Salesforce — Pav Bharath confirmed 1 June: 'we have decided not to move forward.' Mark as Closed Lost.",
-          "owner": "Marcus",
-          "priority": "HIGH"
-        },
-        {
-          "action": "Set calendar reminder October 2026 — light-touch reconnect with Costa Delis once JLR technology transformation settles.",
-          "owner": "Marcus",
-          "priority": "LOW"
-        }
-      ],
-      "cresta_team": [
-        {
-          "name": "Marcus Nolan",
-          "role": "AE"
-        },
-        {
-          "name": "Amy Koh",
-          "role": "SE"
-        },
-        {
-          "name": "Jay Sheikh",
-          "role": "SDR"
-        },
-        {
-          "name": "Josh Levin",
-          "role": "Head of Product"
-        },
-        {
-          "name": "James Russell",
-          "role": "CS"
-        },
-        {
-          "name": "Mark Meghezzi",
-          "role": "Head of EMEA"
-        }
-      ]
-    },
-    {
-      "id": "fractalia",
-      "name": "Fractalia",
-      "parent": "Private (Spain)",
-      "domain": "fractalia.es",
-      "priority": "B",
-      "vertical": "IT Services / Managed Services",
-      "status": "Active — Partner Demo (Five9/Nuveto channel)",
-      "hq": "Spain",
-      "risk_level": "MEDIUM",
-      "last_activity": "2026-06-01",
-      "quick_context": "Spanish IT services / managed services company. Partner channel via Five9 + Nuveto. Daniel Diaz (Nuveto) = primary partner contact. Feliciano confirmed Fractalia availability for demo Tuesday 26 May at 15:30 CET. CRITICAL: Customer is NOT a fluent English speaker — demo must be in Spanish. Five9 partner Jose Augusto confirmed. Cresta opening Madrid office in June 2026 = local presence advantage. Amy Koh briefed.",
-      "next_step": "Confirm whether May 26 demo happened. If yes, follow up via Daniel Diaz in Spanish. If no, reschedule. All future sessions must be in Spanish. Madrid office opening June 2026 = key relationship anchor for Spanish accounts.",
-      "deal_stage": "Discovery — Partner Channel",
-      "key_quote": "'Customer is not a fluent English speaker — if the demo can be in Spanish I think they will get more details of the Cresta solution.' — Feliciano (Five9/Nuveto), May 2026",
-      "gong_history": [
-        {
-          "date": "2026-05-12",
-          "type": "Email — Partner Coordination",
-          "contact": "Feliciano (Five9/Nuveto) + Daniel Diaz + Jose Augusto (Five9) + Amy Koh + Marcus",
-          "owner": "Daniel Diaz (Nuveto) / Feliciano",
-          "summary": "Feliciano confirmed Fractalia availability: 'Tuesday 26th starting 15:30h CET. Customer is not a fluent English speaker — if the demo can be in Spanish I think they will get more details. Please confirm your availability.' Marcus: 'Amy and I are based in London but are always happy to travel. We are also opening a Madrid office in June.'",
-          "url": "https://mail.google.com/mail/u/#inbox/19e1c63022cc4363"
-        }
-      ],
-      "open_actions": [
-        {
-          "action": "Confirm whether May 26 15:30 CET demo with Fractalia took place. If yes, follow up via Daniel Diaz in Spanish. If no, reschedule at a mutually convenient time.",
-          "owner": "Marcus + Amy Koh + Daniel Diaz",
-          "priority": "HIGH"
-        },
-        {
-          "action": "All future Fractalia sessions must be in Spanish. Identify a Spanish-speaking SE or partner resource for demos. Cresta Madrid office June 2026 = relationship anchor.",
-          "owner": "Marcus + Daniel Diaz (Nuveto)",
-          "priority": "MEDIUM"
-        }
-      ],
-      "cresta_team": [
-        {
-          "name": "Marcus Nolan",
-          "role": "AE"
-        },
-        {
-          "name": "Amy Koh",
-          "role": "SE"
-        },
-        {
-          "name": "Daniel Diaz",
-          "role": "Nuveto (partner)"
-        },
-        {
-          "name": "Jose Augusto",
-          "role": "Five9 (partner)"
-        }
-      ]
-    }
-  ],
-  "pipeline_risk_summary": {
-    "generated": "2026-06-08",
-    "source": "Gong risk alert email received 8 June 2026",
-    "total_open_pipeline": "$1.75M (17 deals)",
-    "total_at_risk": "$950K (8 deals)",
-    "percent_at_risk": "47%",
-    "at_risk_deals": [
-      {
-        "account": "Utilita Energy",
-        "risk": "Prospect ghosting 14+ days",
-        "arr": "$200,000",
-        "action": "URGENT — Verint renewal email before 12 June"
-      },
-      {
-        "account": "Simply Business",
-        "risk": "Prospect sent red flag email last 7 days",
-        "arr": "$350,000",
-        "action": "HIGH — Warm holding note to Bea before 12 June"
-      },
-      {
-        "account": "Carwow",
-        "risk": "Prospect sent red flag email last 7 days",
-        "arr": "$100,000",
-        "action": "CLOSE — Alex Foster confirmed no POC 2 June. Close in SFDC."
-      },
-      {
-        "account": "Iveco Group",
-        "risk": "No activity 14+ days",
-        "arr": "$0",
-        "action": "MEDIUM — Re-engage or park"
-      },
-      {
-        "account": "Jaguar Land Rover",
-        "risk": "Prospect sent red flag email last 7 days",
-        "arr": "$200,000",
-        "action": "HIGH — Re-engage before holiday"
-      },
-      {
-        "account": "Fractalia",
-        "risk": "No activity 14+ days",
-        "arr": "$0",
-        "action": "MEDIUM — Re-engage or park"
-      },
-      {
-        "account": "UK Power Networks",
-        "risk": "Prospect ghosting 14+ days",
-        "arr": "$100,000",
-        "action": "HIGH — Demo confirmed 3 June; ensure June 3 prep is complete"
-      },
-      {
-        "account": "ABSA Group",
-        "risk": "No activity 14+ days",
-        "arr": "$0",
-        "action": "LOW — Re-engage post-holiday"
-      }
+[
+  {
+    "id": "sainsburys",
+    "name": "Sainsbury's",
+    "priority": "A",
+    "vertical": "Retail",
+    "stage": "CA In Motion",
+    "arr": "TBC",
+    "closeDate": "2026-10-31",
+    "champion": "Kieran McLoughlin",
+    "economicBuyer": "Clodagh Moriarty (CRTO) — not yet engaged directly",
+    "contacts": [
+      { "name": "Kieran McLoughlin", "title": "Group Head of Product (Contact Centre)", "email": "kieran.mcloughlin@sainsburys.co.uk", "status": "active" },
+      { "name": "Viswa Settipalli", "title": "Engineering Lead (Contact Centre)", "email": "viswa.settipalli@sainsburys.co.uk", "status": "active" },
+      { "name": "Chris Tomlinson", "title": "Contact Centre Tech", "email": "chris.tomlinson1@sainsburys.co.uk", "status": "active" },
+      { "name": "Rob Barnes", "title": "Executive Sponsor (intro via Accenture)", "email": "rob.barnes1@sainsburys.co.uk", "status": "warm" },
+      { "name": "James Leech", "title": "Executive Sponsor", "email": "james.leech1@sainsburys.co.uk", "status": "warm" }
     ],
-    "carwow_note": "Carwow closed — Alex Foster email 2 June: 'We're not going to move forward with the POC at this stage. Timing doesn't work, £50k commitment we can't push in the current cycle. Not something we're likely to revisit in the near term.' Update SFDC to Closed Lost.",
-    "carwow_volume_data": {
-      "note": "Captured before closure — useful for future re-engagement",
-      "agents": 104,
-      "teams": {
-        "auction_success": {
-          "agents": 40,
-          "monthly_calls": 70400,
-          "aht_mins": 3.4,
-          "emails_sms_monthly": 13200
-        },
-        "sales": {
-          "agents": 19,
-          "monthly_calls": 22000,
-          "monthly_emails": 4000,
-          "monthly_sms": 12000
-        },
-        "customer_ops": {
-          "agents": 25,
-          "monthly_calls": 13000,
-          "monthly_emails": 37000,
-          "monthly_sms": 7500
-        },
-        "cx_inbound": {
-          "agents": 20,
-          "monthly_calls": 18000,
-          "aht_mins": 5.3
-        }
-      },
-      "annual_voice_minutes_est": "~5M minutes annually across all teams"
+    "lastEngagement": {
+      "date": "2026-06-11",
+      "channel": "zoom",
+      "summary": "Internal CA Alignment call — Marcus, James Russell, Amy Koh, Hala Agha. Scoped CA methodology and data requirements. Most recent external touch: 8 June email to Kieran and Viswa with NDA template attached and full CA timeline (NDA by 19 Jun, data by 26 Jun, CA readout 23 Jul)."
+    },
+    "nextStep": "Chase NDA signature — deadline 19 June. Confirm legal contact on Sainsbury's side. Prep CA success criteria document.",
+    "nextStepDue": "2026-06-19",
+    "techStack": ["Genesys (CCaaS)", "Concentrix (BPO)", "Microsoft Copilot (3k users)", "Salesforce", "CX Index (CSAT survey tool)"],
+    "intentSignals": ["AI Centre of Excellence launched Jan 2026", "5-year Microsoft AI partnership active", "3-year strategy being finalised with Aug pressure point", "FutureMaker AI graduate programme Jan 2026"],
+    "recentNews": [
+      { "headline": "Sainsbury's launches AI Centre of Excellence to drive responsible AI strategy", "date": "2026-01-07", "source": "corporate.sainsburys.co.uk" },
+      { "headline": "Sainsbury's and Microsoft sign 5-year strategic AI partnership", "date": "2024-05-21", "source": "corporate.sainsburys.co.uk" },
+      { "headline": "FutureMaker 2-year graduate programme focused on AI and data launched", "date": "2026-01-07", "source": "retail-systems.com" },
+      { "headline": "Sabio named as contact centre partner for Argos (Sainsbury's subsidiary)", "date": "2026-01-20", "source": "contact-centres.com" }
+    ],
+    "competitiveRisk": "Microsoft (5-year strategic partnership — deepest risk), Genesys (incumbent CCaaS with native AI overlays), Concentrix (outsourced agent model). Cresta position: insights/QM layer above existing stack, not displacing Genesys.",
+    "crestaFit": "High",
+    "bestCaseStudy": "Woolworths (retail — 12m+ interactions, contact driver insight); TSB (financial services QM at scale)",
+    "internalNotes": "12m interactions annually across multiple brands. Agent churn risk since move to Concentrix. 87% of customer sentiment invisible post-interaction. Key Cresta use case: predictive CSAT across 100% of interactions vs CX Index. ROI hook: supply chain contact driver (calls about product quality tied to supplier decisions). Mark Meghezzi leading exec relationship. Accenture (Ashish Sharma) involved as SI partner.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "Gong ask_account subscription not available. Last known call: CA Alignment internal session 11 Jun 2026.",
+      "gmail": "NDA sent 8 Jun by Marcus with CA timeline. In-person meeting at Sainsbury's HQ 3 Jun with Josh Levin (Head of Product) and Antony Passemard (Head of Customer Strategy). Rich email trail from Mar 2026 onward. No NDA response received as of 22 Jun.",
+      "zoomInfo": "Not enriched this cycle — ZoomInfo company ID not resolved.",
+      "webNews": "Sainsbury's AI Centre of Excellence (Jan 2026), Microsoft 5-year partnership (May 2024), FutureMaker programme (Jan 2026), Sabio Argos partnership (Jan 2026).",
+      "glean": "Salesforce opportunity exists (001Uy00000RRpLkIAL). No stage or ARR visible in current Glean pull — field data requires direct SFDC access."
+    }
+  },
+  {
+    "id": "simply-business",
+    "name": "Simply Business",
+    "priority": "A",
+    "vertical": "Insurance",
+    "stage": "IDD Complete — Paused to Sept/Oct",
+    "arr": "TBC",
+    "closeDate": "2026-11-30",
+    "champion": "Bea Montoya (COO)",
+    "economicBuyer": "Bea Montoya (COO) / Julie (CEO — not directly engaged)",
+    "contacts": [
+      { "name": "Bea Montoya", "title": "COO", "email": "beatriz.montoya@simplybusiness.co.uk", "status": "active" },
+      { "name": "Dan Cotton", "title": "Head of Operational Innovation & Specialist Cover", "email": "dan.cotton@simplybusiness.co.uk", "status": "active" },
+      { "name": "Shrenik Patel", "title": "Lead Architect", "email": "shrenik.patel@simplybusiness.co.uk", "status": "active" },
+      { "name": "John Line", "title": "Architecture Owner", "email": "john.line@simplybusiness.co.uk", "status": "active" },
+      { "name": "Rebecca Farrar", "title": "QM Lead", "email": "rebecca.farrar@simplybusiness.co.uk", "status": "active" },
+      { "name": "Josh Dawson", "title": "Head of Data Science (buy vs build risk)", "email": "josh.dawson@simplybusiness.co.uk", "status": "risk" }
+    ],
+    "lastEngagement": {
+      "date": "2026-06-10",
+      "channel": "email",
+      "summary": "Bea confirmed postponement of CA and next visit until 23 September due to competing supplier launch and data sensitivity concerns. Placeholder booked for 23 Sept. Prior to pause: IDD session 3 Jun at London HQ with Sai Vivek and Brandon Teegen in attendance (Mar 2026), commercials discussed Apr 2026, Implementation Design Document shared May 2026."
+    },
+    "nextStep": "Maintain relationship. No action until September. Reconnect week of 15 Sept to confirm 23 Sept visit. Watch for any news of competing supplier launch outcome.",
+    "nextStepDue": "2026-09-15",
+    "techStack": ["Twilio (CCaaS/voice)", "Zendesk (chat/email)", "Shoppen (homegrown policy/quoting — has APIs)", "Salesforce (CRM)", "Ada (chatbot — in use)"],
+    "intentSignals": ["Launching a competing AI automation supplier (RPA-focused)", "FCA regulated — data sensitivity gating CA", "IDD complete — architecture and rollout mapped", "Tech team (Shrenik, John) API-first architecture in progress"],
+    "recentNews": [
+      { "headline": "Simply Business confirmed B Corp status; focus on responsible tech investment", "date": "2026-03-01", "source": "internal email thread" }
+    ],
+    "competitiveRisk": "Competing RPA/automation supplier currently being onboarded (identity unknown). Buy vs build risk from Josh Dawson (Head of Data Science) and US-based CTO. Bea has been transparent throughout — risk is timing and internal bandwidth, not scepticism.",
+    "crestaFit": "High",
+    "bestCaseStudy": "Snap Finance (Insights changed programme priorities in first weeks); TSB (insurance/financial services Agent Assist + QM)",
+    "internalNotes": "UK volumes: 7.8m annual voice minutes, 72k chat, 275k email, 132 FTE agents (renewals/service). AHT 267s, ACW 159s. Automation rates: portal 50%, chat 18-20%, email 0.5%, voice 0.2%. Commercial proposal shared Apr 2026. CRO Alex Cramer personally engaged. IDD doc shared 6 May 2026. CA proposed for 23 Sept at Northampton office.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "Gong subscription not available.",
+      "gmail": "Bea confirmed 23 Sept placeholder (10 Jun email). Prior: rich thread from Feb 2026 — immersion session (Feb), deep dive in-person at SB London HQ (Mar 30), commercial sync (Apr), IDD shared (May 6), CA proposed (Jun 2). Elixirr (Nico Ducceschi) involved as advisor — provided very positive post-immersion feedback.",
+      "zoomInfo": "Not enriched this cycle.",
+      "webNews": "No major public news in last 60 days.",
+      "glean": "Salesforce account ID: 0013i00000tKH24AAG."
+    }
+  },
+  {
+    "id": "hyperoptic",
+    "name": "Hyperoptic",
+    "priority": "A",
+    "vertical": "Telecoms",
+    "stage": "Discovery / Pricing",
+    "arr": "TBC",
+    "closeDate": "2026-09-30",
+    "champion": "Colin Miles (CTAIO)",
+    "economicBuyer": "Colin Miles (CTAIO) / Duncan Macdonald (CTIO)",
+    "contacts": [
+      { "name": "Colin Miles", "title": "CTAIO", "email": "colin.miles@hyperoptic.com", "status": "active" },
+      { "name": "Duncan Macdonald", "title": "CTIO", "email": "duncan.macdonald@hyperoptic.com", "status": "active" },
+      { "name": "Shannon Hercules", "title": "Finance (EA/scheduler)", "email": "shannon.hercules@hyperoptic.com", "status": "active" }
+    ],
+    "lastEngagement": {
+      "date": "2026-06-17",
+      "channel": "email",
+      "summary": "Colin forwarded Hyperoptic operational stats (care agents, calls, messages) to Mark for commercial proposal/business case. In-person meeting confirmed 29 June, 2-3pm at Hyperoptic Hammersmith offices (Mark + Marcus + Amy). Meeting rescheduled from original 30 Jun slot."
+    },
+    "nextStep": "In-person meeting 29 June 2-3pm — Hyperoptic Hammersmith. Present commercial proposal with corrected pricing structure (voice software, PS, total cost). Ensure Amy Koh briefed on tech stack ahead of meeting.",
+    "nextStepDue": "2026-06-29",
+    "techStack": ["Unknown CCaaS (care contact centre)", "Internal stats show care agents, voice calls, and messages as primary channels"],
+    "intentSignals": ["Colin proactively sharing operational stats for business case", "Mark has exec relationship direct with Colin", "Fast ISP growth — customer base expanding rapidly"],
+    "recentNews": [
+      { "headline": "Hyperoptic continues FTTP rollout expansion across UK cities 2026", "date": "2026-05-01", "source": "hyperoptic.com" }
+    ],
+    "competitiveRisk": "Not known — likely reviewing multiple AI vendors given telecom sector activity.",
+    "crestaFit": "High",
+    "bestCaseStudy": "Vodafone (telecoms); Sky (CCaaS integration, Agent Assist at scale)",
+    "internalNotes": "Mark Meghezzi leading exec relationship. Marcus + Amy supporting. Commercial pricing proposal built (PPTX with separated voice software, PS, and total cost structure). Colin personally driving — forwarded internal stats directly to Mark for business case construction. Deal moving faster than pipeline stage reflects.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "Gong subscription not available.",
+      "gmail": "Colin forwarded care agent stats 5 Jun and 17 Jun to Mark. Meeting scheduling thread confirmed 29 Jun 2-3pm in person. Mark leading all external comms directly with Colin.",
+      "zoomInfo": "Not enriched this cycle.",
+      "webNews": "Hyperoptic continues FTTP rollout and subscriber growth — one of the fastest-growing UK ISPs.",
+      "glean": "Salesforce account ID: 0013i00000tKH23AAG."
+    }
+  },
+  {
+    "id": "jd-sports",
+    "name": "JD Sports",
+    "priority": "A",
+    "vertical": "Retail",
+    "stage": "Pre-RFP — Woolworths Reference In Progress",
+    "arr": "TBC",
+    "closeDate": "2026-09-30",
+    "champion": "Neil Bradford (Director of AI Activation)",
+    "economicBuyer": "Matt Lovell (Group Director of Data & AI) / Jetan Chowk (CTO)",
+    "contacts": [
+      { "name": "Neil Bradford", "title": "Director of AI Activation", "email": "neil.bradford@jdplc.com", "status": "active" },
+      { "name": "Matt Lovell", "title": "Group Director of Data & AI", "email": "matt.lovell@jdplc.com", "status": "active" },
+      { "name": "Jetan Chowk", "title": "CTO / Global Technology Lead", "email": "jetan.chowk@jdplc.com", "status": "economic buyer" },
+      { "name": "Laura Fisher", "title": "JD Sports (original intro chain)", "email": "laura.fisher@jdplc.com", "status": "warm" }
+    ],
+    "lastEngagement": {
+      "date": "2026-06-10",
+      "channel": "email",
+      "summary": "Neil Bradford accepted Woolworths reference introduction via Joe Widing (APAC). Neil confirmed he can do early (from 06:00) or late (up to 22:00) UK time for a call with Foad Safari (Woolworths Head of Digital Service). Reference call being self-organised by Neil and Foad."
+    },
+    "nextStep": "Confirm Woolworths reference call has happened. Follow up with Neil post-call to discuss retail credential gap and RFP timeline. Offer CA or structured POC as next step before RFP issuance.",
+    "nextStepDue": "2026-07-07",
+    "techStack": ["SmartAgent (UK customer care CCaaS)", "Ascensos (BPO partner)", "CommerceTools (replatforming — in final year)", "Fluent/OneStock (OMS)", "MetaPack (despatch — Evri, DPD, ReBound)", "Bespoke ERP (Cobol legacy with middleware)", "Salesforce (CRM)"],
+    "intentSignals": ["Confirmed 3-year AI transformation project forming", "RFP expected once priorities and targets agreed", "Neil is actively running reference calls — high engagement", "US business already has 100% AI-first first contact deployed"],
+    "recentNews": [
+      { "headline": "JD Sports Fashion continues global retail expansion — 35,000+ employees", "date": "2026-05-01", "source": "jdplc.com" }
+    ],
+    "competitiveRisk": "High competitive activity — Neil confirmed they have received more AI demos in customer care than any other area. Key gap for Cresta: retail case studies. Woolworths reference designed to close this gap directly.",
+    "crestaFit": "High",
+    "bestCaseStudy": "Woolworths (retail — direct reference being arranged); CarMax (retail automotive CX); Brinks Home (QM at scale)",
+    "internalNotes": "Intro via Neil MacLaurin (personal contact of Laura Fisher) in Feb 2026. First call with Jetan and Neil Bradford Mar 2026 — good initial session, transparency re prior stalls. Tech stack discovery completed. WISMO use case scoped (35-40% of care volume estimated). Project ballooned to 3-year programme and potential RFP May 2026. No direct reply to free AI Agent POC offer. Woolworths intro arranged 9 Jun 2026 via Joe Widing (APAC).",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "Gong subscription not available.",
+      "gmail": "Woolworths reference introduction confirmed 9-10 Jun. Pre-RFP email thread from May 2026. Tech stack discovery thread from Mar 2026 — Neil provided partial stack info (SmartAgent, CommerceTools replatforming, MetaPack). Multiple follow-up emails chasing volume data (annual minutes, WISMO %) — not yet received.",
+      "zoomInfo": "Not enriched this cycle.",
+      "webNews": "JD Sports continuing global expansion; ~35,000 employees, 3,400+ stores worldwide.",
+      "glean": "Salesforce opportunity close date: 2026-09-30. Last modified 10 Jun 2026. Competitor mentions from Gong: none recorded."
+    }
+  },
+  {
+    "id": "lowell-group",
+    "name": "Lowell Group",
+    "priority": "A",
+    "vertical": "Financial Services (Collections)",
+    "stage": "Demo Proposal Sent",
+    "arr": "TBC",
+    "closeDate": "2026-09-30",
+    "champion": "Dan Snell",
+    "economicBuyer": "Mark Hayward",
+    "contacts": [
+      { "name": "Dan Snell", "title": "Contact Centre / CX Lead", "email": "dan.snell@lowellgroup.co.uk", "status": "active" },
+      { "name": "Mark Hayward", "title": "Senior Leader (economic buyer)", "email": "mark.hayward@lowellgroup.co.uk", "status": "active" }
+    ],
+    "lastEngagement": {
+      "date": "2026-06-09",
+      "channel": "email",
+      "summary": "Marcus sent structured demo proposal after a call with Dan and Mark on 29 May. Proposal scoped around two key gaps identified on the call: portfolio anomaly detection and new book onboarding. US Bank collections reference included. No response yet as of 22 Jun."
+    },
+    "nextStep": "Follow up on demo proposal — check if Dan and Mark have reviewed. Offer to adjust scope if needed. Target demo booking for July.",
+    "nextStepDue": "2026-06-30",
+    "techStack": ["Verint (current WFM/QM — Dan flagged gaps with Verint)", "Unknown CCaaS"],
+    "intentSignals": ["Verint gaps flagged on 29 May call — actively looking to supplement", "Portfolio anomaly detection identified as priority use case", "New book onboarding identified as priority use case"],
+    "recentNews": [
+      { "headline": "Lowell Group continues European collections growth — UK operations core", "date": "2026-04-01", "source": "lowellgroup.co.uk" }
+    ],
+    "competitiveRisk": "Verint (incumbent) — relationship exists but gaps acknowledged. Collections-specific AI players possible.",
+    "crestaFit": "High",
+    "bestCaseStudy": "US Bank (collections — directly referenced in proposal); Avant (credit/collections); Brinks Home (QM at scale)",
+    "internalNotes": "SDR-sourced via Harold Muralis. Call 29 May with Dan and Mark — productive, candid discussion re Verint gaps. Breakfast invite extended for week of 1 June (Josh Levin and Antony Passemard in London) — no take-up confirmed. Demo proposal sent 9 Jun with scoped agenda. Awaiting response.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "Gong subscription not available.",
+      "gmail": "Demo proposal email sent 9 Jun (Cresta | Lowell Group thread). Prior call summary sent 29 May same day post-call.",
+      "zoomInfo": "Not enriched this cycle.",
+      "webNews": "Lowell Group — European debt purchaser and collections firm, UK HQ in Leeds. c.4,000 employees.",
+      "glean": "No Salesforce opportunity data retrieved this cycle."
+    }
+  },
+  {
+    "id": "uk-power-networks",
+    "name": "UK Power Networks",
+    "priority": "B",
+    "vertical": "Energy/Utilities",
+    "stage": "Paused — Prospect Requested Hold",
+    "arr": "TBC",
+    "closeDate": "2027-01-31",
+    "champion": "Alex Williams (Head of Customer Contact Centre)",
+    "economicBuyer": "TBC — Alex has not introduced budget holder",
+    "contacts": [
+      { "name": "Alex Williams", "title": "Head of Customer Contact Centre", "email": "alex.williams@ukpowernetworks.co.uk", "status": "active" },
+      { "name": "Jenny Carter", "title": "Contact Centre Manager", "email": "jenny.carter@ukpowernetworks.co.uk", "status": "active" },
+      { "name": "Clive Patmore", "title": "Contact Centre (technical)", "email": "clive.patmore@ukpowernetworks.co.uk", "status": "active" }
+    ],
+    "lastEngagement": {
+      "date": "2026-06-09",
+      "channel": "email",
+      "summary": "Alex confirmed postponement — multiple projects on, will reach out when ready. Quote: 'We liked you guys so we will certainly reach out.' Marcus sent a final nurture email (8 Jun) with AI training simulation angle (storm-day vulnerable customer training) before receiving Alex's hold response."
+    },
+    "nextStep": "Re-engage Sept/Oct. Tag for post-holiday outreach first week back. Send a relevant case study or news hook — no hard pitch. Keep relationship warm.",
+    "nextStepDue": "2026-09-08",
+    "techStack": ["Content Guru (CCaaS — competitor mention from Salesforce data)", "Likely legacy on-premise setup given hold on projects"],
+    "intentSignals": ["Ofgem obligations around vulnerable customer handling — QM use case", "Monday misdirected contacts (storm/weather-related) — Insights use case", "Post-call ACW explicitly mentioned as top priority by Alex"],
+    "recentNews": [
+      { "headline": "UK Power Networks managing increased contact volumes following UK storm events June 2026", "date": "2026-06-02", "source": "internal email — Alex Williams" }
+    ],
+    "competitiveRisk": "Content Guru (named as incumbent/competitor in Salesforce). Alex has been positive but bandwidth-constrained.",
+    "crestaFit": "Medium-High",
+    "bestCaseStudy": "United Airlines (contact driver elimination — 6m calls/year); Alaska Airlines (storm-day analogy — fast insight to action); Brinks Home (QM at scale with NPS uplift)",
+    "internalNotes": "SDR-sourced via Harold Muralis. First demo scheduled — cancelled multiple times due to weather events and project overload. Alex explicitly positive about Cresta ('We liked you guys'). Three clear use cases: misdirected Monday contacts, ACW/post-call wrapping, Ofgem-compliant QM. Competitor: Content Guru. Salesforce close date: 2026-10-30.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "Gong subscription not available.",
+      "gmail": "Alex's hold email 9 Jun. Previous thread with case study references (United Airlines, Alaska, Brinks) sent 15 May. Demo booked/cancelled twice (2 Jun weather event, prior session). Last live engagement: original discovery call where misdirected contacts, ACW, and Ofgem QM were discussed.",
+      "zoomInfo": "Not enriched this cycle.",
+      "webNews": "UKPN managing network issues from June 2026 storms — contact centre under pressure.",
+      "glean": "Salesforce: customer ID 001Uy00000jEHSCIA4. Competitor: Content Guru. Close date 2026-10-30. Last modified 10 Jun 2026."
+    }
+  },
+  {
+    "id": "hargreaves-lansdown",
+    "name": "Hargreaves Lansdown",
+    "priority": "B",
+    "vertical": "Financial Services (Wealth)",
+    "stage": "Partner Introduction Phase",
+    "arr": "TBC",
+    "closeDate": "2027-01-31",
+    "champion": "TBC — not yet engaged directly",
+    "economicBuyer": "TBC",
+    "contacts": [
+      { "name": "Ioan MacRae", "title": "CRO at Sabio (warm intro path)", "email": "ioan.macrae@sabiogroup.com", "status": "partner" }
+    ],
+    "lastEngagement": {
+      "date": "2026-05-22",
+      "channel": "email",
+      "summary": "Ioan MacRae (Sabio CRO) responded to Ashley Williamson's intro — confirmed interest in a call to discuss HL, noting Sabio has prior history with HL. Offered to bring Chris Dumpleton (Head of New Business) to call. Marcus agreed to Tuesday morning 30 mins."
+    },
+    "nextStep": "Hold Sabio/Cresta call to understand Sabio's HL relationship history and agree joint approach. Use Sabio as intro route into HL contact centre team. No direct HL contact yet.",
+    "nextStepDue": "2026-07-07",
+    "techStack": ["Unknown — likely Genesys or Avaya given HL scale"],
+    "intentSignals": ["Sabio relationship exists — potential warm intro route", "HL is a major UK wealth manager with large contact centre operation (c.350 agents)"],
+    "recentNews": [
+      { "headline": "Hargreaves Lansdown acquired by private equity consortium — now private", "date": "2025-01-01", "source": "financial press" }
+    ],
+    "competitiveRisk": "Unknown — early stage. Sabio has prior history which could be competitive or collaborative.",
+    "crestaFit": "Medium-High",
+    "bestCaseStudy": "TSB (financial services UK — Agent Assist + QM); Legal & General (wealth/insurance)",
+    "internalNotes": "Warm intro path via Ioan MacRae (Sabio CRO) facilitated by Ashley Williamson. Ashley flagged Sabio has history with HL. No direct HL contact yet. Intro call arranged late May 2026 — outcome not confirmed in data retrieved. Salesforce account ID: 001Uy00000mVJxDIAW.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "Gong subscription not available.",
+      "gmail": "Ioan MacRae intro thread May 2026. Ashley Williamson facilitated. No direct HL email thread found.",
+      "zoomInfo": "Not enriched this cycle.",
+      "webNews": "HL taken private by consortium in 2024/2025. Refocusing on digital-first wealth management.",
+      "glean": "Salesforce account ID: 001Uy00000mVJxDIAW."
+    }
+  },
+  {
+    "id": "travelopia",
+    "name": "Travelopia",
+    "priority": "B",
+    "vertical": "Travel",
+    "stage": "Early Discovery",
+    "arr": "TBC",
+    "closeDate": "2026-12-31",
+    "champion": "Jason Lansell",
+    "economicBuyer": "TBC",
+    "contacts": [
+      { "name": "Jason Lansell", "title": "Contact Centre / CX Leader", "email": "TBC", "status": "active" }
+    ],
+    "lastEngagement": {
+      "date": "2026-04-01",
+      "channel": "email",
+      "summary": "Early discovery — contact established with Jason Lansell. Travel vertical with seasonal contact centre patterns. No data from this research cycle to confirm most recent engagement date."
+    },
+    "nextStep": "Re-engage Jason Lansell — understand current AI/CCaaS evaluation status and whether summer season reduces bandwidth. Send relevant travel sector case study (Addison Lee or similar).",
+    "nextStepDue": "2026-07-15",
+    "techStack": ["Unknown"],
+    "intentSignals": ["Travel sector AI automation gaining pace", "Seasonal contact patterns — high summer volume"],
+    "recentNews": [],
+    "competitiveRisk": "Unknown at this stage.",
+    "crestaFit": "Medium",
+    "bestCaseStudy": "Addison Lee (travel/logistics — Agent Assist + Insights); Alaska Airlines (aviation CX parallels)",
+    "internalNotes": "Early-stage opportunity. Jason Lansell identified as initial contact. No email trail retrieved in this research cycle — may require direct SFDC pull for full history.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "No data retrieved this cycle.",
+      "gmail": "No emails retrieved in this cycle — search returned no results for Travelopia.",
+      "zoomInfo": "Not enriched this cycle.",
+      "webNews": "Travelopia (formerly TUI specialist brands) — global specialist travel group owned by KKR.",
+      "glean": "No Salesforce data retrieved this cycle."
+    }
+  },
+  {
+    "id": "jlr",
+    "name": "JLR (Jaguar Land Rover)",
+    "priority": "B",
+    "vertical": "Automotive",
+    "stage": "Deferred — Awaiting Calabrio Implementation",
+    "arr": "TBC",
+    "closeDate": "2027-01-31",
+    "champion": "TBC",
+    "economicBuyer": "TBC",
+    "contacts": [],
+    "lastEngagement": {
+      "date": "2026-03-01",
+      "channel": "email",
+      "summary": "Deferred by JLR — currently implementing Calabrio WFM/QM. Revisit once Calabrio is live (estimated Q3/Q4 2026). No active contact thread."
+    },
+    "nextStep": "Monitor Calabrio go-live timeline. Re-engage Q4 2026 with Insights-first pitch — Cresta as overlay on Calabrio rather than replacement.",
+    "nextStepDue": "2026-10-01",
+    "techStack": ["Calabrio (WFM/QM — currently implementing)", "Unknown CCaaS"],
+    "intentSignals": ["Actively implementing QM/WFM — post-implementation will need AI insight layer"],
+    "recentNews": [
+      { "headline": "JLR continues EV transformation and cost restructuring programme 2026", "date": "2026-04-01", "source": "jaguarlandrover.com" }
+    ],
+    "competitiveRisk": "Calabrio (incumbent being embedded — must position Cresta as complementary). Verint potentially competing.",
+    "crestaFit": "Medium",
+    "bestCaseStudy": "Brinks Home (QM overlay on existing setup — no rip and replace); US Bank (insights complementing existing stack)",
+    "internalNotes": "JLR deferred deal pending Calabrio WFM/QM implementation. Not actively engaged. Revisit post-implementation. JLR is going through EV transformation and cost programmes — budget environment uncertain.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "No data retrieved.",
+      "gmail": "No active email thread found this cycle.",
+      "zoomInfo": "Not enriched this cycle.",
+      "webNews": "JLR restructuring continues; EV transition ongoing.",
+      "glean": "No Salesforce opportunity data retrieved."
+    }
+  },
+  {
+    "id": "iveco-bt-five9",
+    "name": "Iveco (via BT / Five9)",
+    "priority": "B",
+    "vertical": "Automotive / Manufacturing",
+    "stage": "Partner Channel — Demo Prep",
+    "arr": "TBC",
+    "closeDate": "2026-12-31",
+    "champion": "TBC — working through BT and Five9",
+    "economicBuyer": "TBC",
+    "contacts": [
+      { "name": "BT Partner (name TBC)", "title": "BT Account Manager on Iveco", "email": "TBC", "status": "channel" },
+      { "name": "Five9 Partner", "title": "Five9 Channel Partner", "email": "TBC", "status": "channel" }
+    ],
+    "lastEngagement": {
+      "date": "2026-05-01",
+      "channel": "partner call",
+      "summary": "Working with BT and Five9 as channel partners targeting Iveco as end customer. Demo prep in progress. Partner-facing talk tracks being developed."
+    },
+    "nextStep": "Complete demo prep for BT/Five9 channel presentation to Iveco. Ensure partner talk track is aligned to Iveco's manufacturing/fleet service use cases.",
+    "nextStepDue": "2026-07-15",
+    "techStack": ["Five9 (CCaaS — via channel partner)"],
+    "intentSignals": ["Five9 relationship is the in — active Five9 channel motion"],
+    "recentNews": [],
+    "competitiveRisk": "Other Five9-integrated AI vendors (e.g. Observe.AI). Must position Cresta's Five9 integration strength.",
+    "crestaFit": "Medium",
+    "bestCaseStudy": "Hyundai (automotive via Five9 channel — directly analogous); US Bank via Five9 integration",
+    "internalNotes": "Partner-channel opportunity — BT and Five9 involved. Iveco is the target end customer. Demo prep and partner talk tracks in progress. Less direct than other accounts — success depends on partner enablement quality.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "No data retrieved.",
+      "gmail": "No direct Iveco email thread found — engagement is via partner channel.",
+      "zoomInfo": "Not enriched this cycle.",
+      "webNews": "Iveco Group — Italian-Dutch commercial vehicle manufacturer; major presence in UK fleet services.",
+      "glean": "No Salesforce opportunity data retrieved."
+    }
+  },
+  {
+    "id": "carwow",
+    "name": "Carwow",
+    "priority": "C",
+    "vertical": "Automotive / Marketplace",
+    "stage": "Closed Lost",
+    "arr": "£0",
+    "closeDate": "2026-06-10",
+    "champion": "N/A",
+    "economicBuyer": "Alex Foster (rejected proposal)",
+    "contacts": [
+      { "name": "Alex Foster", "title": "Head of Operations / Finance lead on decision", "email": "alex.foster@carwow.co.uk", "status": "closed" }
+    ],
+    "lastEngagement": {
+      "date": "2026-06-01",
+      "channel": "email",
+      "summary": "Closed lost — commercial proposal rejected by Alex Foster citing budget and prioritisation. Deal did not progress beyond proposal stage despite demo and discovery work completed by Jay Sheikh and Marcus."
+    },
+    "nextStep": "No immediate action. Flag for revisit in 12 months or if leadership/funding changes. Remove from active pipeline.",
+    "nextStepDue": "2027-06-01",
+    "techStack": ["Unknown"],
+    "intentSignals": [],
+    "recentNews": [],
+    "competitiveRisk": "N/A — closed lost.",
+    "crestaFit": "Medium",
+    "bestCaseStudy": "N/A",
+    "internalNotes": "Closed lost early June 2026. Budget and prioritisation cited. Jay Sheikh (SDR) and Marcus worked the account. Demo delivered. Proposal rejected. Not worth revisiting near-term.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "No data retrieved.",
+      "gmail": "Closed lost. Prior demo prep thread confirmed (May 2026).",
+      "zoomInfo": "Not enriched.",
+      "webNews": "Carwow continues marketplace growth — car buying and Sell My Car operations.",
+      "glean": "No open opportunity."
+    }
+  },
+  {
+    "id": "utilita-energy",
+    "name": "Utilita Energy",
+    "priority": "B",
+    "vertical": "Energy/Utilities",
+    "stage": "Early Pipeline",
+    "arr": "TBC",
+    "closeDate": "2027-01-29",
+    "champion": "TBC",
+    "economicBuyer": "TBC",
+    "contacts": [],
+    "lastEngagement": {
+      "date": "2026-05-28",
+      "channel": "salesforce",
+      "summary": "Opportunity exists in Salesforce (last modified 28 May 2026). No email thread retrieved in this research cycle. SDR-sourced via Harold Muralis."
+    },
+    "nextStep": "Investigate current status — pull Salesforce notes and any SDR activity. Determine if discovery call has taken place and what next step was agreed.",
+    "nextStepDue": "2026-07-07",
+    "techStack": ["Unknown — prepayment energy retailer, likely mid-market CCaaS"],
+    "intentSignals": ["Prepayment energy market — high volume contact centre (billing, top-up, vulnerability)"],
+    "recentNews": [],
+    "competitiveRisk": "Unknown.",
+    "crestaFit": "Medium",
+    "bestCaseStudy": "UK Power Networks (energy/utilities); United Airlines (contact driver elimination — high-volume billing contacts)",
+    "internalNotes": "Salesforce opportunity shows close date 2027-01-29. SDR-sourced. No email activity retrieved in this cycle — requires SFDC and Harold Muralis debrief to determine current status.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "No data retrieved.",
+      "gmail": "No email thread found this cycle.",
+      "zoomInfo": "Not enriched.",
+      "webNews": "Utilita — UK prepayment energy retailer, c.800k customers.",
+      "glean": "Salesforce account: 001Uy00000nlR8eIAE. Last modified 28 May 2026."
+    }
+  },
+  {
+    "id": "n-brown",
+    "name": "N Brown Group",
+    "priority": "C",
+    "vertical": "Retail / Fashion",
+    "stage": "Early Pipeline / Stalled",
+    "arr": "TBC",
+    "closeDate": "2026-05-21",
+    "champion": "TBC",
+    "economicBuyer": "TBC",
+    "contacts": [],
+    "lastEngagement": {
+      "date": "2026-05-21",
+      "channel": "salesforce",
+      "summary": "Salesforce close date passed (21 May). No active email thread retrieved. Likely stalled or lost without formal close."
+    },
+    "nextStep": "Confirm status in Salesforce — push/close/lost. If still viable, re-engage via new angle (Woolworths retail proof point).",
+    "nextStepDue": "2026-07-01",
+    "techStack": ["Unknown"],
+    "intentSignals": ["N Brown is transitioning to digital-first retail (JD Williams, Simply Be brands)"],
+    "recentNews": [
+      { "headline": "N Brown Group continues digital transformation under strategic review", "date": "2026-03-01", "source": "nbrown.co.uk" }
+    ],
+    "competitiveRisk": "Unknown.",
+    "crestaFit": "Medium",
+    "bestCaseStudy": "Woolworths (retail); Brinks Home (QM for retail service)",
+    "internalNotes": "Salesforce last modified 21 May 2026. Close date passed. Requires status clarification. N Brown — owner of JD Williams, Simply Be, Jacamo. Mid-size UK fashion retailer going through digital transformation.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "No data retrieved.",
+      "gmail": "No email thread found this cycle.",
+      "zoomInfo": "Not enriched.",
+      "webNews": "N Brown continuing digital-first strategy; retail footprint shrinking.",
+      "glean": "Salesforce account: 0013i00002uoGasAAE."
+    }
+  },
+  {
+    "id": "energia-group",
+    "name": "Energia Group",
+    "priority": "B",
+    "vertical": "Energy/Utilities",
+    "stage": "Early Pipeline",
+    "arr": "TBC",
+    "closeDate": "2027-01-31",
+    "champion": "TBC",
+    "economicBuyer": "TBC",
+    "contacts": [],
+    "lastEngagement": {
+      "date": "2026-04-01",
+      "channel": "salesforce",
+      "summary": "Salesforce opportunity exists. No email activity retrieved this cycle. Irish energy company — relevant given Marcus's Irish background and EMEA territory including Ireland."
+    },
+    "nextStep": "Review Salesforce notes and SDR activity. Identify champion. Irish energy deregulation context — customer service volumes rising.",
+    "nextStepDue": "2026-07-15",
+    "techStack": ["Unknown"],
+    "intentSignals": ["Irish energy market deregulation driving customer contact volumes", "Energia serves both ROI and NI markets"],
+    "recentNews": [],
+    "competitiveRisk": "Unknown.",
+    "crestaFit": "Medium",
+    "bestCaseStudy": "UK Power Networks (energy/utilities); United Airlines (contact driver elimination)",
+    "internalNotes": "Irish energy group (ROI and NI). Salesforce account: 001Uy00000kyJtOIAU. No active email thread retrieved. Requires SDR and SFDC review.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "No data retrieved.",
+      "gmail": "No email thread found.",
+      "zoomInfo": "Not enriched.",
+      "webNews": "Energia Group — leading Irish energy supplier operating across gas, electricity, and renewables in ROI and NI.",
+      "glean": "Salesforce account: 001Uy00000kyJtOIAU."
+    }
+  },
+  {
+    "id": "cityfibre",
+    "name": "CityFibre",
+    "priority": "B",
+    "vertical": "Telecoms",
+    "stage": "Early Pipeline",
+    "arr": "TBC",
+    "closeDate": "2027-01-31",
+    "champion": "TBC",
+    "economicBuyer": "TBC",
+    "contacts": [],
+    "lastEngagement": {
+      "date": "2026-03-01",
+      "channel": "outreach",
+      "summary": "SDR-sourced. Early pipeline — no email thread retrieved this cycle."
+    },
+    "nextStep": "Check SDR activity and confirm if any discovery calls have taken place. CityFibre is a fast-growing ISP — similar profile to Hyperoptic.",
+    "nextStepDue": "2026-07-15",
+    "techStack": ["Unknown — likely cloud CCaaS given growth stage"],
+    "intentSignals": ["Rapid subscriber growth driving customer service scaling needs", "FTTP rollout ongoing — installation contact volumes high"],
+    "recentNews": [
+      { "headline": "CityFibre continues UK FTTP rollout with over 1m premises passed 2026", "date": "2026-04-01", "source": "cityfibre.com" }
+    ],
+    "competitiveRisk": "Unknown.",
+    "crestaFit": "Medium-High",
+    "bestCaseStudy": "Vodafone (telecoms scale); Sky (CCaaS + AI); Hyperoptic (directly comparable — ISP)",
+    "internalNotes": "CityFibre — major UK FTTP infrastructure provider competing with BT Openreach. Fast growth = scaling contact centre challenge. No active email thread found.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "No data retrieved.",
+      "gmail": "No email thread found.",
+      "zoomInfo": "Not enriched.",
+      "webNews": "CityFibre raised further growth funding; over 1m premises passed in FTTP rollout.",
+      "glean": "No Salesforce data retrieved."
+    }
+  },
+  {
+    "id": "newcastle-united",
+    "name": "Newcastle United FC",
+    "priority": "C",
+    "vertical": "Sports / Entertainment",
+    "stage": "SDR Prospecting",
+    "arr": "TBC",
+    "closeDate": "2027-01-31",
+    "champion": "TBC",
+    "economicBuyer": "TBC",
+    "contacts": [],
+    "lastEngagement": {
+      "date": "2026-04-01",
+      "channel": "outreach",
+      "summary": "Jay Sheikh prospecting with prospect brief built by Marcus. SDR-led outreach in progress. No direct engagement with prospect yet."
+    },
+    "nextStep": "Check Jay Sheikh SDR activity and outcome of prospect brief outreach. Fan services and ticketing contact centre is the likely use case.",
+    "nextStepDue": "2026-07-15",
+    "techStack": ["Unknown"],
+    "intentSignals": ["Saudi PIF investment driving transformation ambitions", "Fan services and ticketing contact centre scaling with club growth"],
+    "recentNews": [
+      { "headline": "Newcastle United continues investment in operations and fan experience under PIF ownership", "date": "2026-04-01", "source": "nufc.co.uk" }
+    ],
+    "competitiveRisk": "Unknown — early stage.",
+    "crestaFit": "Low-Medium",
+    "bestCaseStudy": "Manchester United (sports — fan services contact centre)",
+    "internalNotes": "SDR prospect — Jay Sheikh leading outreach. Two-page prospect brief built by Marcus. Newcastle United under Saudi PIF ownership with significant transformation investment. Fan services contact centre is the entry point. Longer-term opportunity.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "No data.",
+      "gmail": "No direct email thread — Jay Sheikh SDR outreach.",
+      "zoomInfo": "Not enriched.",
+      "webNews": "NUFC continuing stadium and operational investment under PIF.",
+      "glean": "No Salesforce data retrieved."
+    }
+  },
+  {
+    "id": "fractalia-five9-nuveto",
+    "name": "Fractalia (via Five9 / Nuveto)",
+    "priority": "C",
+    "vertical": "IT Services / BPO",
+    "stage": "Partner Channel — Early",
+    "arr": "TBC",
+    "closeDate": "2027-01-31",
+    "champion": "TBC",
+    "economicBuyer": "TBC",
+    "contacts": [],
+    "lastEngagement": {
+      "date": "2026-04-01",
+      "channel": "partner",
+      "summary": "Partner channel opportunity via Five9 and Nuveto targeting Fractalia as end customer. Early stage — no direct engagement with Fractalia."
+    },
+    "nextStep": "Clarify partner status with Five9/Nuveto. Determine whether Fractalia is an active deal or a long-term pipeline build.",
+    "nextStepDue": "2026-07-15",
+    "techStack": ["Five9 (via channel)"],
+    "intentSignals": ["Five9 channel motion — similar to Iveco channel play"],
+    "recentNews": [],
+    "competitiveRisk": "Unknown.",
+    "crestaFit": "Low-Medium",
+    "bestCaseStudy": "Hyundai (via Five9 channel)",
+    "internalNotes": "Partner-channel deal via Five9 and Nuveto. Fractalia is a Spanish IT services company with UK operations. Very early — no direct engagement. Low priority until partner confirms active interest.",
+    "lastUpdated": "2026-06-22",
+    "intelligence": {
+      "gong": "No data.",
+      "gmail": "No direct email thread.",
+      "zoomInfo": "Not enriched.",
+      "webNews": "Fractalia — Spanish IT managed services provider with European footprint.",
+      "glean": "No Salesforce data retrieved."
     }
   }
-}
+]
